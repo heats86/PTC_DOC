@@ -1,0 +1,103 @@
+<mxfile host="Electron" modified="2024-06-18T00:27:44.291Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.2 Chrome/114.0.5735.289 Electron/25.9.4 Safari/537.36" etag="Bo4szA3jDWVn8XXS2Xhi" version="22.1.2" type="device">
+  <diagram name="페이지-1" id="zLzheXXx0xL-TvJy2uC3">
+    <mxGraphModel dx="193" dy="1386" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lj89-NlOicOcMFcTgLLm-1" value="기본 로직 진입" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="-800" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lj89-NlOicOcMFcTgLLm-2" value="ADC 센싱&lt;br&gt;(HV,&amp;nbsp;IGBT Short,&lt;br&gt;Core Temp, PCB Temp)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="-641" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lj89-NlOicOcMFcTgLLm-3" value="Fault Check&lt;br&gt;(LV, HV,&amp;nbsp; HV Current,&lt;br&gt;Core Temp, PCB Temp, InterLock)&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="-561" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lj89-NlOicOcMFcTgLLm-5" value="SystemMain 수행 로직" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="-463" width="160" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="lj89-NlOicOcMFcTgLLm-14" value="로직 수행 조건&lt;br&gt;Check" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="-720" width="160" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="lj89-NlOicOcMFcTgLLm-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lj89-NlOicOcMFcTgLLm-14" target="lj89-NlOicOcMFcTgLLm-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="-580" as="sourcePoint" />
+            <mxPoint x="690" y="-630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lj89-NlOicOcMFcTgLLm-16" value="T &amp;gt;= 10ms" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="770" y="-680" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lj89-NlOicOcMFcTgLLm-17" value="T &amp;lt; 10ms" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="611" y="-720" width="69" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="lj89-NlOicOcMFcTgLLm-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="lj89-NlOicOcMFcTgLLm-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="-580" as="sourcePoint" />
+            <mxPoint x="760" y="-740" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="600" y="-700" />
+              <mxPoint x="600" y="-740" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lj89-NlOicOcMFcTgLLm-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lj89-NlOicOcMFcTgLLm-1" target="lj89-NlOicOcMFcTgLLm-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="-580" as="sourcePoint" />
+            <mxPoint x="690" y="-630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lj89-NlOicOcMFcTgLLm-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lj89-NlOicOcMFcTgLLm-2" target="lj89-NlOicOcMFcTgLLm-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="-580" as="sourcePoint" />
+            <mxPoint x="690" y="-630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lj89-NlOicOcMFcTgLLm-21" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lj89-NlOicOcMFcTgLLm-3" target="lj89-NlOicOcMFcTgLLm-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="-580" as="sourcePoint" />
+            <mxPoint x="690" y="-630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lj89-NlOicOcMFcTgLLm-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="lj89-NlOicOcMFcTgLLm-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="-580" as="sourcePoint" />
+            <mxPoint x="760" y="-670" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="600" y="-441" />
+              <mxPoint x="600" y="-670" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lj89-NlOicOcMFcTgLLm-23" value="PreCheck" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="-552.5" width="160" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="lj89-NlOicOcMFcTgLLm-25" value="Operation_Flag = 1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="730" y="-428" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lj89-NlOicOcMFcTgLLm-26" value="Operation_Flag = 0" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="-440" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lj89-NlOicOcMFcTgLLm-28" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="lj89-NlOicOcMFcTgLLm-5" target="lj89-NlOicOcMFcTgLLm-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="-370" as="sourcePoint" />
+            <mxPoint x="690" y="-420" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="880" y="-440" />
+              <mxPoint x="880" y="-531" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lj89-NlOicOcMFcTgLLm-29" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="lj89-NlOicOcMFcTgLLm-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="-370" as="sourcePoint" />
+            <mxPoint x="1000" y="-463" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lj89-NlOicOcMFcTgLLm-30" value="작동 로직 진입" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="-461.5" width="160" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

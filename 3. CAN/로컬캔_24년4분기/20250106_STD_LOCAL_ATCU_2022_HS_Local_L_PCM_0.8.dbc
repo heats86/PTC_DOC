@@ -1,0 +1,843 @@
+VERSION ""
+
+
+NS_ :
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_: L_3HKBD L_2HKBD L_ATCU L_PCM L_EVNT L_HKBD
+
+
+BO_ 275 L_ATCU_14: 8 L_ATCU
+ SG_ L_ATCU_PCMActTgtPos : 0|3@1+ (1,0) [0|0] ""  L_PCM
+ SG_ L_ATCU_VehPowerIGN2 : 10|1@1+ (1,0) [0|0] ""  L_PCM
+ SG_ L_ATCU_VehPowerISGB : 11|1@1+ (1,0) [0|0] ""  L_PCM
+ SG_ L_ATCU_CurrentDy : 12|8@1+ (1,0) [0|0] ""  L_PCM
+ SG_ L_ATCU_CurrentMon : 20|4@1+ (1,0) [0|0] ""  L_PCM
+ SG_ L_ATCU_CurrentYrPre : 24|2@1+ (1,0) [0|0] ""  L_PCM
+ SG_ L_ATCU_CurrentYrPost : 26|8@1+ (1,0) [0|0] ""  L_PCM
+ SG_ L_ATCU_BlwrTgtOnOff : 3|2@1+ (0.5,0) [0|0] "RPM"  L_PCM
+ SG_ L_ATCU_VehPowerBatt : 8|1@1+ (1,0) [0|0] ""  L_PCM
+ SG_ L_ATCU_VehPowerIGN1_3 : 9|1@1+ (1,0) [0|0] ""  L_PCM
+
+BO_ 626 L_PCM_03: 8 L_PCM
+ SG_ PCM_Cart2VectorX : 0|8@1+ (1,0) [0|0] ""  L_ATCU
+ SG_ PCM_Cart2RmnPer : 16|16@1+ (0.01,0) [0|0] "%"  L_ATCU
+ SG_ PCM_Cart2ExpSta : 32|2@1+ (1,0) [0|0] ""  L_ATCU
+ SG_ PCM_Cart2RmnDisp : 34|3@1+ (1,0) [0|0] ""  L_ATCU
+ SG_ PCM_Cart2VectorY : 8|8@1+ (1,0) [0|0] ""  L_ATCU
+
+BO_ 625 L_PCM_02: 8 L_PCM
+ SG_ PCM_Cart1VectorX : 0|8@1+ (1,0) [0|0] ""  L_ATCU
+ SG_ PCM_Cart1RmnPer : 16|16@1+ (0.01,0) [0|0] "%"  L_ATCU
+ SG_ PCM_Cart1ExpSta : 32|2@1+ (1,0) [0|0] ""  L_ATCU
+ SG_ PCM_Cart1RmnDisp : 34|3@1+ (1,0) [0|0] ""  L_ATCU
+ SG_ PCM_Cart1VectorY : 8|8@1+ (1,0) [0|0] ""  L_ATCU
+
+BO_ 49 L_ATCU_11: 8 L_ATCU
+ SG_ L_ATCU_ResetPreWrngForOthers : 0|2@1+ (1,0) [0|0] ""  L_2HKBD,L_3HKBD,L_EVNT,L_HKBD,L_PCM
+ SG_ L_ATCU_ResetReqForOthers : 2|2@1+ (1,0) [0|0] ""  L_2HKBD,L_3HKBD,L_EVNT,L_HKBD,L_PCM
+
+BO_ 624 L_PCM_01: 8 L_PCM
+ SG_ PCM_ActPosFB : 0|4@1+ (1,0) [0|0] ""  L_ATCU
+ SG_ PCM_Blwr1Sta : 11|2@1+ (1,0) [0|0] ""  L_ATCU
+ SG_ PCM_Blwr2Sta : 13|2@1+ (1,0) [0|0] ""  L_ATCU
+ SG_ PCM_Blwr1Fail : 16|3@1+ (1,0) [0|0] ""  L_ATCU
+ SG_ PCM_Blwr2Fail : 19|3@1+ (1,0) [0|0] ""  L_ATCU
+ SG_ PCM_MainCtrlSta : 22|2@1+ (1,0) [0|0] ""  L_ATCU
+ SG_ PCM_Cart1Sta : 24|2@1+ (1,0) [0|0] ""  L_ATCU
+ SG_ PCM_Cart2Sta : 26|2@1+ (1,0) [0|0] ""  L_ATCU
+ SG_ PCM_Cart1Kinds : 28|4@1+ (1,0) [0|0] ""  L_ATCU
+ SG_ PCM_Cart2Kinds : 32|4@1+ (1,0) [0|0] ""  L_ATCU
+ SG_ PCM_ActSta : 4|4@1+ (1,0) [0|0] ""  L_ATCU
+ SG_ PCM_ActFail : 8|3@1+ (1,0) [0|0] ""  L_ATCU
+
+BO_ 36 L_ATCU_04: 8 L_ATCU
+ SG_ L_ATCU_ArClnIntroEvt : 0|1@1+ (1,0) [0|0] ""  L_HKBD
+ SG_ L_ATCU_ArClnSmblClr : 1|4@1+ (1,0) [0|0] ""  L_HKBD
+ SG_ L_ATCU_DustLevelDis : 19|3@1+ (1,0) [0|0] ""  L_HKBD
+ SG_ L_ATCU_DustBarDisOff : 22|1@1+ (1,0) [0|0] ""  L_HKBD
+ SG_ L_ATCU_DustSnrStepDis : 23|6@1+ (1,0) [0|0] ""  L_HKBD
+ SG_ L_ATCU_FragStrhDis : 29|2@1+ (1,0) [0|0] ""  L_HKBD,L_PCM
+ SG_ L_ATCU_FragKindDis : 31|3@1+ (1,0) [0|0] ""  L_HKBD,L_PCM
+ SG_ L_ATCU_Frag1Inform : 34|4@1+ (1,0) [0|0] ""  L_HKBD,L_PCM
+ SG_ L_ATCU_Frag2Inform : 38|4@1+ (1,0) [0|0] ""  L_HKBD,L_PCM
+ SG_ L_ATCU_Frag1RemainDisp : 42|4@1+ (1,0) [0|0] ""  L_HKBD,L_PCM
+ SG_ L_ATCU_Frag2RemainDisp : 46|4@1+ (1,0) [0|0] ""  L_2HKBD,L_HKBD
+ SG_ L_ATCU_ArClnSmblTyp : 5|4@1+ (1,0) [0|0] ""  L_HKBD
+ SG_ L_ATCU_FrtBlwMaxLvlVaild : 50|4@1+ (1,0) [0|0] ""  L_2HKBD,L_HKBD
+ SG_ L_ATCU_OpSta : 54|3@1+ (1,0) [0|0] ""  L_EVNT,L_HKBD
+ SG_ L_ATCU_TempDispUnit : 57|2@1+ (1,0) [0|0] ""  L_2HKBD,L_HKBD
+ SG_ L_ATCU_DrvAUTOStep : 59|4@1+ (1,0) [0|0] ""  L_HKBD
+ SG_ L_ATCU_DiagCodeDis : 9|10@1+ (1,-1) [0|0] ""  L_HKBD
+
+BO_ 276 L_ATCU_15: 8 L_ATCU
+ SG_ L_ATCU_Volatilization_gmin : 0|16@1+ (1.0E-6,0) [0|0] "g/min"  L_PCM
+ SG_ L_ATCU_Frag1Amount_g : 16|8@1+ (0.1,0) [0|0] "g"  L_PCM
+ SG_ L_ATCU_Frag2Amount_g : 24|8@1+ (0.1,0) [0|0] "g"  L_PCM
+ SG_ L_ATCU_Cart1ExpDate_year : 32|4@1+ (1,0) [0|0] "Year"  L_PCM
+ SG_ L_ATCU_Cart2ExpDate_year : 36|4@1+ (1,0) [0|0] "Year"  L_PCM
+
+
+
+CM_ BO_ 36 "[PE] Periodic and On Event";
+CM_ SG_ 36 L_ATCU_ArClnIntroEvt "ATCU_AirCleaningIntroEvent";
+CM_ SG_ 36 L_ATCU_ArClnSmblClr "ATCU_AirCleaningSymbolColor";
+CM_ SG_ 36 L_ATCU_DustLevelDis "ATCU_DustLevelDisplay";
+CM_ SG_ 36 L_ATCU_DustBarDisOff "ATCU_DustBarDisplayOff";
+CM_ SG_ 36 L_ATCU_DustSnrStepDis "ATCU_DustSensorStepDisplay";
+CM_ SG_ 36 L_ATCU_FragStrhDis "ATCU_FragStrengthDisplay";
+CM_ SG_ 36 L_ATCU_FragKindDis "ATCU_FragKindDisplay";
+CM_ SG_ 36 L_ATCU_Frag1Inform "ATCU_Frag1Information";
+CM_ SG_ 36 L_ATCU_Frag2Inform "ATCU_Frag2Information";
+CM_ SG_ 36 L_ATCU_Frag1RemainDisp "ATCU_Frag1RemainDisplay";
+CM_ SG_ 36 L_ATCU_Frag2RemainDisp "ATCU_Frag2RemainDisplay";
+CM_ SG_ 36 L_ATCU_ArClnSmblTyp "ATCU_AircCleaningSymbolType";
+CM_ SG_ 36 L_ATCU_FrtBlwMaxLvlVaild "ATCU_FrontBlowerMaxLevelVaild";
+CM_ SG_ 36 L_ATCU_OpSta "ATCU_OperationStatus";
+CM_ SG_ 36 L_ATCU_TempDispUnit "ATCU_TemperatureDisplayUnit";
+CM_ SG_ 36 L_ATCU_DrvAUTOStep "ATCU_DriverAutoStep";
+CM_ SG_ 36 L_ATCU_DiagCodeDis "ATCU_DiagCodeDisplay";
+CM_ BO_ 49 "[PE] Periodic and On Event";
+CM_ SG_ 49 L_ATCU_ResetPreWrngForOthers "This is a PDC routing signal for reset preparing sideeffect of reset";
+CM_ SG_ 49 L_ATCU_ResetReqForOthers "This is a PDC routing signal for SW reset except for Gateway";
+CM_ BO_ 275 "[P] Periodic";
+CM_ SG_ 275 L_ATCU_PCMActTgtPos "Position Target for Fragrance Actuator";
+CM_ SG_ 275 L_ATCU_VehPowerIGN2 "Status of Vehicle Ignition #2 Power";
+CM_ SG_ 275 L_ATCU_VehPowerISGB "Status of Vehicle ISG B+ Power";
+CM_ SG_ 275 L_ATCU_CurrentDy "Current day";
+CM_ SG_ 275 L_ATCU_CurrentMon "Current month";
+CM_ SG_ 275 L_ATCU_CurrentYrPre "Current year (Prefix 2 digits)";
+CM_ SG_ 275 L_ATCU_CurrentYrPost "Current year (Postfix 2 digits)";
+CM_ SG_ 275 L_ATCU_BlwrTgtOnOff "On/Off Target for Fragrance Blower";
+CM_ SG_ 275 L_ATCU_VehPowerBatt "Status of Vehicle Battery Power";
+CM_ SG_ 275 L_ATCU_VehPowerIGN1_3 "Status of Vehicle Ignition #1 Power";
+CM_ BO_ 276 "[P] Periodic";
+CM_ SG_ 276 L_ATCU_Volatilization_gmin "Volatilized coefficient for Current Fragrance kind and Strength";
+CM_ SG_ 276 L_ATCU_Frag1Amount_g "Total Amount of Fragrance #1";
+CM_ SG_ 276 L_ATCU_Frag2Amount_g "Total Amount of Fragrance #2";
+CM_ SG_ 276 L_ATCU_Cart1ExpDate_year "Expiration date of Fragrance #1";
+CM_ SG_ 276 L_ATCU_Cart2ExpDate_year "Expiration date of Fragrance #2";
+CM_ BO_ 624 "[P] Periodic";
+CM_ SG_ 624 PCM_ActPosFB "Actuator Position F/B of Unit-Air Aroma";
+CM_ SG_ 624 PCM_Blwr1Sta "Blower#1 Operating Status of Unit-Air Aroma";
+CM_ SG_ 624 PCM_Blwr2Sta "Blower#2 Operating Status of Unit-Air Aroma";
+CM_ SG_ 624 PCM_Blwr1Fail "Blower#1 Failure Flag";
+CM_ SG_ 624 PCM_Blwr2Fail "Blower#2 Failure Flag";
+CM_ SG_ 624 PCM_MainCtrlSta "Operation status of UAA Main Controller";
+CM_ SG_ 624 PCM_Cart1Sta "Cartridge#1 Contact Status";
+CM_ SG_ 624 PCM_Cart2Sta "Cartridge#2 Contact Status";
+CM_ SG_ 624 PCM_Cart1Kinds "Cartridge#1 Fragnance Name";
+CM_ SG_ 624 PCM_Cart2Kinds "Cartridge#2 Fragnance Name";
+CM_ SG_ 624 PCM_ActSta "Actuator Operating Status of Unit-Air Aroma";
+CM_ SG_ 624 PCM_ActFail "Actuator Failure Flag for Motor Stall";
+CM_ BO_ 625 "[PE] Periodic and On Event";
+CM_ SG_ 625 PCM_Cart1VectorX "X coordinate of Cartridge #1 for Mood Therapy";
+CM_ SG_ 625 PCM_Cart1RmnPer "Percent of remaining perfume liquid of Cartridge #1";
+CM_ SG_ 625 PCM_Cart1ExpSta "Status of Expiration Date of Cartridge #1";
+CM_ SG_ 625 PCM_Cart1RmnDisp "Display for remaining perfume liquid of Cartridge #1";
+CM_ SG_ 625 PCM_Cart1VectorY "Y coordinate of Cartridge #1 for Mood Therapy";
+CM_ BO_ 626 "[PE] Periodic and On Event";
+CM_ SG_ 626 PCM_Cart2VectorX "X coordinate of Cartridge #2 for Mood Therapy";
+CM_ SG_ 626 PCM_Cart2RmnPer "Percent of remaining perfume liquid of Cartridge #2";
+CM_ SG_ 626 PCM_Cart2ExpSta "Status of Expiration Date of Cartridge #1";
+CM_ SG_ 626 PCM_Cart2RmnDisp "Display for remaining perfume liquid of Cartridge #2";
+CM_ SG_ 626 PCM_Cart2VectorY "Y coordinate of Cartridge #2 for Mood Therapy";
+BA_DEF_ BO_ "DiagState" ENUM "No","Yes" ;
+BA_DEF_ BO_ "DiagResponse" ENUM "No","Yes" ;
+BA_DEF_ BO_ "DiagRequest" ENUM "No","Yes" ;
+BA_DEF_ BO_ "TpMessage" ENUM "No","Yes" ;
+BA_DEF_ SG_ "UsrSigIDS" ENUM "Yes","No" ;
+BA_DEF_ BO_ "UsrMsgIDSforwardDeviation" INT 0 100 ;
+BA_DEF_ BO_ "UsrMsgIDSbackwardDeviation" INT 50 1000 ;
+BA_DEF_ BO_ "UsrMsgIDS" ENUM "Yes","No" ;
+BA_DEF_ "BusType" STRING ;
+BA_DEF_ "DBName" STRING ;
+BA_DEF_ "Baudrate" INT 50000 1000000 ;
+BA_DEF_ "BRS" INT 0 1 ;
+BA_DEF_ "GenEnvVarEndingDsp" STRING ;
+BA_DEF_ "GenEnvVarEndingSnd" STRING ;
+BA_DEF_ "GenEnvVarPrefix" STRING ;
+BA_DEF_ "GenNWMApBusSleep" STRING ;
+BA_DEF_ "GenNWMApCanNormal" STRING ;
+BA_DEF_ "GenNWMApCanOff" STRING ;
+BA_DEF_ "GenNWMApCanOn" STRING ;
+BA_DEF_ "GenNWMApCanSleep" STRING ;
+BA_DEF_ "GenNWMApCanWakeUp" STRING ;
+BA_DEF_ "GenNWMGotoMode_Awake" STRING ;
+BA_DEF_ "GenNWMGotoMode_BusSleep" STRING ;
+BA_DEF_ "GenNWMSleepTime" INT 1375 1650 ;
+BA_DEF_ "GenNWMTalkNM" STRING ;
+BA_DEF_ "Manufacturer" STRING ;
+BA_DEF_ "NmBaseAddress" HEX 0 2047 ;
+BA_DEF_ "NmMessageCount" INT 0 128 ;
+BA_DEF_ "NmType" STRING ;
+BA_DEF_ "SamplePointMax" INT 50 85 ;
+BA_DEF_ "SamplePointMin" INT 55 85 ;
+BA_DEF_ "SyncJumpWidthMax" INT 1 8 ;
+BA_DEF_ "SyncJumpWidthMin" INT 1 4 ;
+BA_DEF_ "VersionDay" INT 1 31 ;
+BA_DEF_ "VersionMonth" INT 1 12 ;
+BA_DEF_ "VersionNumber" INT 0 999999 ;
+BA_DEF_ "VersionNumberInternal" INT 0 9999 ;
+BA_DEF_ "VersionWeek" INT 1 53 ;
+BA_DEF_ "VersionYear" INT 0 9999 ;
+BA_DEF_ BU_ "NmStationAddress" HEX 0 255 ;
+BA_DEF_ BU_ "NmNode" ENUM "No","Yes" ;
+BA_DEF_ BU_ "CANoeDrift" INT 0 0 ;
+BA_DEF_ BU_ "CANoeJitterMax" INT 0 0 ;
+BA_DEF_ BU_ "CANoeJitterMin" INT 0 0 ;
+BA_DEF_ BU_ "CANoeStartDelay" INT 0 0 ;
+BA_DEF_ BU_ "GenNodSleepTime" INT 1375 1650 ;
+BA_DEF_ BU_ "ILUsed" ENUM "No","Yes" ;
+BA_DEF_ BU_ "NmCAN" INT 1 2 ;
+BA_DEF_ BU_ "NodeLayerModules" STRING ;
+BA_DEF_ BU_ "NWM_Knoten" ENUM "No","Yes" ;
+BA_DEF_ BU_ "TpRxIdentifier" HEX 0 0 ;
+BA_DEF_ BU_ "TpTxIdentifier" HEX 0 0 ;
+BA_DEF_ BO_ "GenMsgCycleTime" INT 0 2000 ;
+BA_DEF_ BO_ "GenMsgStartDelayTime" INT 0 2000 ;
+BA_DEF_ BO_ "GenMsgSendType" ENUM "Cyclic","NoMsgSendType" ;
+BA_DEF_ BO_ "GenMsgCycleTimeFast" INT 0 500 ;
+BA_DEF_ BO_ "GenMsgDelayTime" INT 0 20 ;
+BA_DEF_ BO_ "GenMsgFastOnStart" INT 0 0 ;
+BA_DEF_ BO_ "GenMsgILSupport" ENUM "No","Yes" ;
+BA_DEF_ BO_ "GenMsgMinAcceptLength" INT 0 0 ;
+BA_DEF_ BO_ "GenMsgNrOfRepetition" INT 0 3 ;
+BA_DEF_ BO_ "NmMessage" ENUM "No","Yes" ;
+BA_DEF_ BO_ "NWM-Botschaft" ENUM "No","Yes" ;
+BA_DEF_ BO_ "TpTxIndex" INT 0 65535 ;
+BA_DEF_ BO_ "VFrameFormat" ENUM "StandardCAN","ExtendedCAN","reserved","reserved","reserved","reserved","reserved","reserved","reserved","reserved","reserved","reserved","reserved","reserved","StandardCAN_FD","ExtendedCAN_FD" ;
+BA_DEF_ SG_ "SignalLongName" STRING ;
+BA_DEF_ SG_ "UserSigValidity" ENUM "B+","ACC","IG","IG1","IG2","IG3","IG1 or IG2","IG1 or IG3","Undef" ;
+BA_DEF_ SG_ "TimeoutValue" STRING ;
+BA_DEF_ SG_ "UsrSigPurpose" ENUM "Undef","FN","DIAG","DIAG(Req)","DIAG(Res)","DIAG(Phy)","DEV","CCP(Req)","CCP(Res)","NM","TP" ;
+BA_DEF_ SG_ "GenSigStartValue" INT 0 1215752192 ;
+BA_DEF_ SG_ "NetworkRequest" ENUM "Yes","No" ;
+BA_DEF_ SG_ "NetworkRequestHoldingTime" INT 0 65535 ;
+BA_DEF_ SG_ "Description" STRING ;
+BA_DEF_ SG_ "Version" STRING ;
+BA_DEF_ SG_ "GenSigEnvVarType" ENUM "Int","Float","Undef" ;
+BA_DEF_ SG_ "GenSigEVName" STRING ;
+BA_DEF_ SG_ "GenSigInactiveValue" INT 0 65536 ;
+BA_DEF_ SG_ "GenSigSendType" ENUM "Cyclic","OnWrite","OnWriteWithRepetition","OnChange","OnChangeWithRepetition","IfActive","IfActiveWithRepetition","NoSigSendType","OnChangeAndIfActive","OnChangeAndIfActiveWithRepetition" ;
+BA_DEF_ SG_ "GenSigTimeoutMsg" HEX 0 2047 ;
+BA_DEF_ SG_ "GwSigLatencyTime" INT 0 65536 ;
+BA_DEF_ SG_ "GwSigMissingSourceType" ENUM "Undef","OldValue","DefaultValue","InitialValue" ;
+BA_DEF_ SG_ "NWM-WakeupAllowed" ENUM "<n.a.>" ;
+BA_DEF_ SG_ "UndefinedValueRangeBegin" INT 0 0 ;
+BA_DEF_ SG_ "RoutingFactor" INT 1 1215752192 ;
+BA_DEF_REL_ BU_SG_REL_ "GenSigTimeoutTime" INT 0 7000 ;
+BA_DEF_DEF_ "DiagState" "No" ;
+BA_DEF_DEF_ "DiagResponse" "No" ;
+BA_DEF_DEF_ "DiagRequest" "No" ;
+BA_DEF_DEF_ "TpMessage" "No" ;
+BA_DEF_DEF_ "UsrSigIDS" "No" ;
+BA_DEF_DEF_ "UsrMsgIDSforwardDeviation" 10 ;
+BA_DEF_DEF_ "UsrMsgIDSbackwardDeviation" 100 ;
+BA_DEF_DEF_ "UsrMsgIDS" "No" ;
+BA_DEF_DEF_ "BusType" "CAN" ;
+BA_DEF_DEF_ "DBName" "" ;
+BA_DEF_DEF_ "Baudrate" 500000 ;
+BA_DEF_DEF_ "BRS" 0 ;
+BA_DEF_DEF_ "GenEnvVarEndingDsp" "Dsp_" ;
+BA_DEF_DEF_ "GenEnvVarEndingSnd" "_" ;
+BA_DEF_DEF_ "GenEnvVarPrefix" "Env" ;
+BA_DEF_DEF_ "GenNWMApBusSleep" "AppNmCanBusSleep()" ;
+BA_DEF_DEF_ "GenNWMApCanNormal" "AppNmCanNormal()" ;
+BA_DEF_DEF_ "GenNWMApCanOff" "ApplCanOffline()" ;
+BA_DEF_DEF_ "GenNWMApCanOn" "ApplCanOnline()" ;
+BA_DEF_DEF_ "GenNWMApCanSleep" "ApplNmCanSleep()" ;
+BA_DEF_DEF_ "GenNWMApCanWakeUp" "ApplCanWakeUp()" ;
+BA_DEF_DEF_ "GenNWMGotoMode_Awake" "GotoMode_Awake()" ;
+BA_DEF_DEF_ "GenNWMGotoMode_BusSleep" "GotoMode_BusSleep()" ;
+BA_DEF_DEF_ "GenNWMSleepTime" 1500 ;
+BA_DEF_DEF_ "GenNWMTalkNM" "TalkNM()" ;
+BA_DEF_DEF_ "Manufacturer" "HMC" ;
+BA_DEF_DEF_ "NmBaseAddress" 1280 ;
+BA_DEF_DEF_ "NmMessageCount" 128 ;
+BA_DEF_DEF_ "NmType" "Vector" ;
+BA_DEF_DEF_ "SamplePointMax" 80 ;
+BA_DEF_DEF_ "SamplePointMin" 80 ;
+BA_DEF_DEF_ "SyncJumpWidthMax" 3 ;
+BA_DEF_DEF_ "SyncJumpWidthMin" 2 ;
+BA_DEF_DEF_ "VersionDay" 1 ;
+BA_DEF_DEF_ "VersionMonth" 1 ;
+BA_DEF_DEF_ "VersionNumber" 0 ;
+BA_DEF_DEF_ "VersionNumberInternal" 0 ;
+BA_DEF_DEF_ "VersionWeek" 1 ;
+BA_DEF_DEF_ "VersionYear" 0 ;
+BA_DEF_DEF_ "NmStationAddress" 0 ;
+BA_DEF_DEF_ "NmNode" "Yes" ;
+BA_DEF_DEF_ "CANoeDrift" 0 ;
+BA_DEF_DEF_ "CANoeJitterMax" 0 ;
+BA_DEF_DEF_ "CANoeJitterMin" 0 ;
+BA_DEF_DEF_ "CANoeStartDelay" 0 ;
+BA_DEF_DEF_ "GenNodSleepTime" 1500 ;
+BA_DEF_DEF_ "ILUsed" "Yes" ;
+BA_DEF_DEF_ "NmCAN" 1 ;
+BA_DEF_DEF_ "NodeLayerModules" "oseknm01.dll,CANoeILNLVector.dll" ;
+BA_DEF_DEF_ "NWM_Knoten" "Yes" ;
+BA_DEF_DEF_ "TpRxIdentifier" 0 ;
+BA_DEF_DEF_ "TpTxIdentifier" 0 ;
+BA_DEF_DEF_ "GenMsgCycleTime" 200 ;
+BA_DEF_DEF_ "GenMsgStartDelayTime" 0 ;
+BA_DEF_DEF_ "GenMsgSendType" "NoMsgSendType" ;
+BA_DEF_DEF_ "GenMsgCycleTimeFast" 40 ;
+BA_DEF_DEF_ "GenMsgDelayTime" 20 ;
+BA_DEF_DEF_ "GenMsgFastOnStart" 0 ;
+BA_DEF_DEF_ "GenMsgILSupport" "Yes" ;
+BA_DEF_DEF_ "GenMsgMinAcceptLength" 0 ;
+BA_DEF_DEF_ "GenMsgNrOfRepetition" 3 ;
+BA_DEF_DEF_ "NmMessage" "No" ;
+BA_DEF_DEF_ "NWM-Botschaft" "No" ;
+BA_DEF_DEF_ "TpTxIndex" 0 ;
+BA_DEF_DEF_ "VFrameFormat" "StandardCAN" ;
+BA_DEF_DEF_ "SignalLongName" "" ;
+BA_DEF_DEF_ "UserSigValidity" "IG" ;
+BA_DEF_DEF_ "TimeoutValue" "" ;
+BA_DEF_DEF_ "UsrSigPurpose" "FN" ;
+BA_DEF_DEF_ "GenSigStartValue" 0 ;
+BA_DEF_DEF_ "NetworkRequest" "No" ;
+BA_DEF_DEF_ "NetworkRequestHoldingTime" 0 ;
+BA_DEF_DEF_ "Description" "" ;
+BA_DEF_DEF_ "Version" "" ;
+BA_DEF_DEF_ "GenSigEnvVarType" "Undef" ;
+BA_DEF_DEF_ "GenSigEVName" "" ;
+BA_DEF_DEF_ "GenSigInactiveValue" 0 ;
+BA_DEF_DEF_ "GenSigSendType" "NoSigSendType" ;
+BA_DEF_DEF_ "GenSigTimeoutMsg" 0 ;
+BA_DEF_DEF_ "GwSigLatencyTime" 40 ;
+BA_DEF_DEF_ "GwSigMissingSourceType" "Undef" ;
+BA_DEF_DEF_ "NWM-WakeupAllowed" "<n.a.>" ;
+BA_DEF_DEF_ "UndefinedValueRangeBegin" 0 ;
+BA_DEF_DEF_ "RoutingFactor" 1 ;
+BA_DEF_DEF_REL_ "GenSigTimeoutTime" 500 ;
+BA_ "DBName" "Local_HS";
+BA_ "VersionDay" 1;
+BA_ "VersionMonth" 1;
+BA_ "VersionYear" 1;
+BA_ "VersionWeek" 1;
+BA_ "VersionNumber" 241101;
+BA_ "VersionNumberInternal" 0;
+BA_ "NmStationAddress" BU_ L_ATCU 0;
+BA_ "NmNode" BU_ L_ATCU 0;
+BA_ "GenMsgSendType" BO_ 36 0;
+BA_ "GenMsgCycleTime" BO_ 36 200;
+BA_ "GenMsgStartDelayTime" BO_ 36 0;
+BA_ "NmStationAddress" BU_ L_HKBD 0;
+BA_ "NmNode" BU_ L_HKBD 0;
+BA_ "GenSigSendType" SG_ 36 L_ATCU_ArClnIntroEvt 4;
+BA_ "GenSigStartValue" SG_ 36 L_ATCU_ArClnIntroEvt 0;
+BA_ "UserSigValidity" SG_ 36 L_ATCU_ArClnIntroEvt 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 36 L_ATCU_ArClnIntroEvt 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 36 L_ATCU_ArClnIntroEvt 0;
+BA_ "RoutingFactor" SG_ 36 L_ATCU_ArClnIntroEvt 1;
+BA_ "Version" SG_ 36 L_ATCU_ArClnIntroEvt "23.08.13";
+BA_ "Description" SG_ 36 L_ATCU_ArClnSmblClr "This signal indicates the information about Color of AirCleaning Symbol displaying in the AVN";
+BA_ "GenSigSendType" SG_ 36 L_ATCU_ArClnSmblClr 4;
+BA_ "GenSigStartValue" SG_ 36 L_ATCU_ArClnSmblClr 0;
+BA_ "UserSigValidity" SG_ 36 L_ATCU_ArClnSmblClr 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 36 L_ATCU_ArClnSmblClr 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 36 L_ATCU_ArClnSmblClr 0;
+BA_ "RoutingFactor" SG_ 36 L_ATCU_ArClnSmblClr 1;
+BA_ "Version" SG_ 36 L_ATCU_ArClnSmblClr "23.08.13";
+BA_ "GenSigSendType" SG_ 36 L_ATCU_DustLevelDis 4;
+BA_ "GenSigStartValue" SG_ 36 L_ATCU_DustLevelDis 0;
+BA_ "UserSigValidity" SG_ 36 L_ATCU_DustLevelDis 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 36 L_ATCU_DustLevelDis 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 36 L_ATCU_DustLevelDis 0;
+BA_ "RoutingFactor" SG_ 36 L_ATCU_DustLevelDis 1;
+BA_ "Version" SG_ 36 L_ATCU_DustLevelDis "23.08.13";
+BA_ "GenSigSendType" SG_ 36 L_ATCU_DustBarDisOff 4;
+BA_ "GenSigStartValue" SG_ 36 L_ATCU_DustBarDisOff 0;
+BA_ "UserSigValidity" SG_ 36 L_ATCU_DustBarDisOff 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 36 L_ATCU_DustBarDisOff 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 36 L_ATCU_DustBarDisOff 0;
+BA_ "RoutingFactor" SG_ 36 L_ATCU_DustBarDisOff 1;
+BA_ "Version" SG_ 36 L_ATCU_DustBarDisOff "23.08.13";
+BA_ "GenSigSendType" SG_ 36 L_ATCU_DustSnrStepDis 4;
+BA_ "GenSigStartValue" SG_ 36 L_ATCU_DustSnrStepDis 0;
+BA_ "UserSigValidity" SG_ 36 L_ATCU_DustSnrStepDis 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 36 L_ATCU_DustSnrStepDis 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 36 L_ATCU_DustSnrStepDis 0;
+BA_ "RoutingFactor" SG_ 36 L_ATCU_DustSnrStepDis 1;
+BA_ "Version" SG_ 36 L_ATCU_DustSnrStepDis "23.08.13";
+BA_ "NmStationAddress" BU_ L_PCM 0;
+BA_ "NmNode" BU_ L_PCM 0;
+BA_ "GenSigSendType" SG_ 36 L_ATCU_FragStrhDis 4;
+BA_ "GenSigStartValue" SG_ 36 L_ATCU_FragStrhDis 0;
+BA_ "UserSigValidity" SG_ 36 L_ATCU_FragStrhDis 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 36 L_ATCU_FragStrhDis 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_PCM SG_ 36 L_ATCU_FragStrhDis 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 36 L_ATCU_FragStrhDis 0;
+BA_ "RoutingFactor" SG_ 36 L_ATCU_FragStrhDis 1;
+BA_ "Version" SG_ 36 L_ATCU_FragStrhDis "23.08.13";
+BA_ "Description" SG_ 36 L_ATCU_FragKindDis "This singal indicates display value of Fragnance kind";
+BA_ "GenSigSendType" SG_ 36 L_ATCU_FragKindDis 4;
+BA_ "GenSigStartValue" SG_ 36 L_ATCU_FragKindDis 0;
+BA_ "UserSigValidity" SG_ 36 L_ATCU_FragKindDis 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 36 L_ATCU_FragKindDis 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_PCM SG_ 36 L_ATCU_FragKindDis 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 36 L_ATCU_FragKindDis 0;
+BA_ "RoutingFactor" SG_ 36 L_ATCU_FragKindDis 1;
+BA_ "Version" SG_ 36 L_ATCU_FragKindDis "24.05.08";
+BA_ "Description" SG_ 36 L_ATCU_Frag1Inform "This signal indicates Information of Fragrance 1";
+BA_ "GenSigSendType" SG_ 36 L_ATCU_Frag1Inform 4;
+BA_ "GenSigStartValue" SG_ 36 L_ATCU_Frag1Inform 0;
+BA_ "UserSigValidity" SG_ 36 L_ATCU_Frag1Inform 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 36 L_ATCU_Frag1Inform 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_PCM SG_ 36 L_ATCU_Frag1Inform 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 36 L_ATCU_Frag1Inform 0;
+BA_ "RoutingFactor" SG_ 36 L_ATCU_Frag1Inform 1;
+BA_ "Version" SG_ 36 L_ATCU_Frag1Inform "23.08.13";
+BA_ "Description" SG_ 36 L_ATCU_Frag2Inform "This signal indicates Information of Fragrance 2";
+BA_ "GenSigSendType" SG_ 36 L_ATCU_Frag2Inform 4;
+BA_ "GenSigStartValue" SG_ 36 L_ATCU_Frag2Inform 0;
+BA_ "UserSigValidity" SG_ 36 L_ATCU_Frag2Inform 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 36 L_ATCU_Frag2Inform 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_PCM SG_ 36 L_ATCU_Frag2Inform 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 36 L_ATCU_Frag2Inform 0;
+BA_ "RoutingFactor" SG_ 36 L_ATCU_Frag2Inform 1;
+BA_ "Version" SG_ 36 L_ATCU_Frag2Inform "23.08.13";
+BA_ "Description" SG_ 36 L_ATCU_Frag1RemainDisp "This signal indicates Remain Display of Ragrnace No.1";
+BA_ "GenSigSendType" SG_ 36 L_ATCU_Frag1RemainDisp 4;
+BA_ "GenSigStartValue" SG_ 36 L_ATCU_Frag1RemainDisp 0;
+BA_ "UserSigValidity" SG_ 36 L_ATCU_Frag1RemainDisp 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 36 L_ATCU_Frag1RemainDisp 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_PCM SG_ 36 L_ATCU_Frag1RemainDisp 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 36 L_ATCU_Frag1RemainDisp 0;
+BA_ "RoutingFactor" SG_ 36 L_ATCU_Frag1RemainDisp 1;
+BA_ "Version" SG_ 36 L_ATCU_Frag1RemainDisp "23.08.13";
+BA_ "NmStationAddress" BU_ L_2HKBD 0;
+BA_ "NmNode" BU_ L_2HKBD 0;
+BA_ "Description" SG_ 36 L_ATCU_Frag2RemainDisp "This signal indicates Remain Display of Ragrnace No.2";
+BA_ "GenSigSendType" SG_ 36 L_ATCU_Frag2RemainDisp 4;
+BA_ "GenSigStartValue" SG_ 36 L_ATCU_Frag2RemainDisp 0;
+BA_ "UserSigValidity" SG_ 36 L_ATCU_Frag2RemainDisp 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_2HKBD SG_ 36 L_ATCU_Frag2RemainDisp 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 36 L_ATCU_Frag2RemainDisp 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 36 L_ATCU_Frag2RemainDisp 0;
+BA_ "RoutingFactor" SG_ 36 L_ATCU_Frag2RemainDisp 1;
+BA_ "Version" SG_ 36 L_ATCU_Frag2RemainDisp "23.08.13";
+BA_ "Description" SG_ 36 L_ATCU_ArClnSmblTyp "This signal indicate the feature of Air Cleaning Symbol displaying in the AVN";
+BA_ "GenSigSendType" SG_ 36 L_ATCU_ArClnSmblTyp 4;
+BA_ "GenSigStartValue" SG_ 36 L_ATCU_ArClnSmblTyp 0;
+BA_ "UserSigValidity" SG_ 36 L_ATCU_ArClnSmblTyp 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 36 L_ATCU_ArClnSmblTyp 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 36 L_ATCU_ArClnSmblTyp 0;
+BA_ "RoutingFactor" SG_ 36 L_ATCU_ArClnSmblTyp 1;
+BA_ "Version" SG_ 36 L_ATCU_ArClnSmblTyp "23.08.13";
+BA_ "Description" SG_ 36 L_ATCU_FrtBlwMaxLvlVaild "This signal indicates the maximum step of Front Blower according to multi auto steps.";
+BA_ "GenSigSendType" SG_ 36 L_ATCU_FrtBlwMaxLvlVaild 4;
+BA_ "GenSigStartValue" SG_ 36 L_ATCU_FrtBlwMaxLvlVaild 0;
+BA_ "UserSigValidity" SG_ 36 L_ATCU_FrtBlwMaxLvlVaild 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_2HKBD SG_ 36 L_ATCU_FrtBlwMaxLvlVaild 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 36 L_ATCU_FrtBlwMaxLvlVaild 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 36 L_ATCU_FrtBlwMaxLvlVaild 0;
+BA_ "RoutingFactor" SG_ 36 L_ATCU_FrtBlwMaxLvlVaild 1;
+BA_ "Version" SG_ 36 L_ATCU_FrtBlwMaxLvlVaild "23.08.13";
+BA_ "NmStationAddress" BU_ L_EVNT 0;
+BA_ "NmNode" BU_ L_EVNT 0;
+BA_ "GenSigSendType" SG_ 36 L_ATCU_OpSta 4;
+BA_ "GenSigStartValue" SG_ 36 L_ATCU_OpSta 0;
+BA_ "UserSigValidity" SG_ 36 L_ATCU_OpSta 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_EVNT SG_ 36 L_ATCU_OpSta 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 36 L_ATCU_OpSta 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 36 L_ATCU_OpSta 0;
+BA_ "RoutingFactor" SG_ 36 L_ATCU_OpSta 1;
+BA_ "Version" SG_ 36 L_ATCU_OpSta "23.08.13";
+BA_ "Description" SG_ 36 L_ATCU_TempDispUnit "This signal is unit of Temperature display";
+BA_ "GenSigSendType" SG_ 36 L_ATCU_TempDispUnit 4;
+BA_ "GenSigStartValue" SG_ 36 L_ATCU_TempDispUnit 0;
+BA_ "UserSigValidity" SG_ 36 L_ATCU_TempDispUnit 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_2HKBD SG_ 36 L_ATCU_TempDispUnit 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 36 L_ATCU_TempDispUnit 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 36 L_ATCU_TempDispUnit 0;
+BA_ "RoutingFactor" SG_ 36 L_ATCU_TempDispUnit 1;
+BA_ "Version" SG_ 36 L_ATCU_TempDispUnit "24.05.08";
+BA_ "GenSigSendType" SG_ 36 L_ATCU_DrvAUTOStep 4;
+BA_ "GenSigStartValue" SG_ 36 L_ATCU_DrvAUTOStep 0;
+BA_ "UserSigValidity" SG_ 36 L_ATCU_DrvAUTOStep 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 36 L_ATCU_DrvAUTOStep 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 36 L_ATCU_DrvAUTOStep 0;
+BA_ "RoutingFactor" SG_ 36 L_ATCU_DrvAUTOStep 1;
+BA_ "Version" SG_ 36 L_ATCU_DrvAUTOStep "23.08.13";
+BA_ "Description" SG_ 36 L_ATCU_DiagCodeDis "0x1~0x3FE:PHY=(HEX*1.0-1.0)";
+BA_ "GenSigSendType" SG_ 36 L_ATCU_DiagCodeDis 4;
+BA_ "GenSigStartValue" SG_ 36 L_ATCU_DiagCodeDis 0;
+BA_ "UserSigValidity" SG_ 36 L_ATCU_DiagCodeDis 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 36 L_ATCU_DiagCodeDis 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 36 L_ATCU_DiagCodeDis 0;
+BA_ "RoutingFactor" SG_ 36 L_ATCU_DiagCodeDis 1;
+BA_ "Version" SG_ 36 L_ATCU_DiagCodeDis "23.08.13";
+BA_ "GenMsgSendType" BO_ 49 0;
+BA_ "GenMsgCycleTime" BO_ 49 200;
+BA_ "GenMsgStartDelayTime" BO_ 49 0;
+BA_ "NmStationAddress" BU_ L_3HKBD 0;
+BA_ "NmNode" BU_ L_3HKBD 0;
+BA_ "Description" SG_ 49 L_ATCU_ResetPreWrngForOthers "This is a PDC routing signal for reset preparing sideeffect of reset";
+BA_ "GenSigSendType" SG_ 49 L_ATCU_ResetPreWrngForOthers 4;
+BA_ "GenSigStartValue" SG_ 49 L_ATCU_ResetPreWrngForOthers 0;
+BA_ "UserSigValidity" SG_ 49 L_ATCU_ResetPreWrngForOthers 0;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_2HKBD SG_ 49 L_ATCU_ResetPreWrngForOthers 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_3HKBD SG_ 49 L_ATCU_ResetPreWrngForOthers 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_EVNT SG_ 49 L_ATCU_ResetPreWrngForOthers 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 49 L_ATCU_ResetPreWrngForOthers 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_PCM SG_ 49 L_ATCU_ResetPreWrngForOthers 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 49 L_ATCU_ResetPreWrngForOthers 0;
+BA_ "RoutingFactor" SG_ 49 L_ATCU_ResetPreWrngForOthers 1;
+BA_ "Version" SG_ 49 L_ATCU_ResetPreWrngForOthers "24.07.02";
+BA_ "Description" SG_ 49 L_ATCU_ResetReqForOthers "This is a PDC routing signal for SW reset except for Gateway";
+BA_ "GenSigSendType" SG_ 49 L_ATCU_ResetReqForOthers 4;
+BA_ "GenSigStartValue" SG_ 49 L_ATCU_ResetReqForOthers 0;
+BA_ "UserSigValidity" SG_ 49 L_ATCU_ResetReqForOthers 0;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_2HKBD SG_ 49 L_ATCU_ResetReqForOthers 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_3HKBD SG_ 49 L_ATCU_ResetReqForOthers 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_EVNT SG_ 49 L_ATCU_ResetReqForOthers 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 49 L_ATCU_ResetReqForOthers 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_PCM SG_ 49 L_ATCU_ResetReqForOthers 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 49 L_ATCU_ResetReqForOthers 0;
+BA_ "RoutingFactor" SG_ 49 L_ATCU_ResetReqForOthers 1;
+BA_ "Version" SG_ 49 L_ATCU_ResetReqForOthers "24.07.02";
+BA_ "GenMsgSendType" BO_ 275 0;
+BA_ "GenMsgCycleTime" BO_ 275 20;
+BA_ "GenMsgCycleTimeFast" BO_ 275 0;
+BA_ "GenMsgNrOfRepetition" BO_ 275 0;
+BA_ "GenMsgDelayTime" BO_ 275 0;
+BA_ "GenMsgStartDelayTime" BO_ 275 0;
+BA_ "GenSigStartValue" SG_ 275 L_ATCU_PCMActTgtPos 0;
+BA_ "UserSigValidity" SG_ 275 L_ATCU_PCMActTgtPos 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_PCM SG_ 275 L_ATCU_PCMActTgtPos 500;
+BA_ "NetworkRequestHoldingTime" SG_ 275 L_ATCU_PCMActTgtPos 0;
+BA_ "RoutingFactor" SG_ 275 L_ATCU_PCMActTgtPos 1;
+BA_ "Version" SG_ 275 L_ATCU_PCMActTgtPos "24.02.06";
+BA_ "GenSigStartValue" SG_ 275 L_ATCU_VehPowerIGN2 0;
+BA_ "UserSigValidity" SG_ 275 L_ATCU_VehPowerIGN2 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_PCM SG_ 275 L_ATCU_VehPowerIGN2 500;
+BA_ "NetworkRequestHoldingTime" SG_ 275 L_ATCU_VehPowerIGN2 0;
+BA_ "RoutingFactor" SG_ 275 L_ATCU_VehPowerIGN2 1;
+BA_ "Version" SG_ 275 L_ATCU_VehPowerIGN2 "24.02.06";
+BA_ "GenSigStartValue" SG_ 275 L_ATCU_VehPowerISGB 0;
+BA_ "UserSigValidity" SG_ 275 L_ATCU_VehPowerISGB 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_PCM SG_ 275 L_ATCU_VehPowerISGB 500;
+BA_ "NetworkRequestHoldingTime" SG_ 275 L_ATCU_VehPowerISGB 0;
+BA_ "RoutingFactor" SG_ 275 L_ATCU_VehPowerISGB 1;
+BA_ "Version" SG_ 275 L_ATCU_VehPowerISGB "24.02.06";
+BA_ "GenSigStartValue" SG_ 275 L_ATCU_CurrentDy 0;
+BA_ "UserSigValidity" SG_ 275 L_ATCU_CurrentDy 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_PCM SG_ 275 L_ATCU_CurrentDy 500;
+BA_ "NetworkRequestHoldingTime" SG_ 275 L_ATCU_CurrentDy 0;
+BA_ "RoutingFactor" SG_ 275 L_ATCU_CurrentDy 1;
+BA_ "Version" SG_ 275 L_ATCU_CurrentDy "24.02.06";
+BA_ "GenSigStartValue" SG_ 275 L_ATCU_CurrentMon 0;
+BA_ "UserSigValidity" SG_ 275 L_ATCU_CurrentMon 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_PCM SG_ 275 L_ATCU_CurrentMon 500;
+BA_ "NetworkRequestHoldingTime" SG_ 275 L_ATCU_CurrentMon 0;
+BA_ "RoutingFactor" SG_ 275 L_ATCU_CurrentMon 1;
+BA_ "Version" SG_ 275 L_ATCU_CurrentMon "24.02.06";
+BA_ "GenSigStartValue" SG_ 275 L_ATCU_CurrentYrPre 0;
+BA_ "UserSigValidity" SG_ 275 L_ATCU_CurrentYrPre 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_PCM SG_ 275 L_ATCU_CurrentYrPre 500;
+BA_ "NetworkRequestHoldingTime" SG_ 275 L_ATCU_CurrentYrPre 0;
+BA_ "RoutingFactor" SG_ 275 L_ATCU_CurrentYrPre 1;
+BA_ "Version" SG_ 275 L_ATCU_CurrentYrPre "24.02.06";
+BA_ "GenSigStartValue" SG_ 275 L_ATCU_CurrentYrPost 0;
+BA_ "UserSigValidity" SG_ 275 L_ATCU_CurrentYrPost 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_PCM SG_ 275 L_ATCU_CurrentYrPost 500;
+BA_ "NetworkRequestHoldingTime" SG_ 275 L_ATCU_CurrentYrPost 0;
+BA_ "RoutingFactor" SG_ 275 L_ATCU_CurrentYrPost 1;
+BA_ "Version" SG_ 275 L_ATCU_CurrentYrPost "24.02.06";
+BA_ "GenSigStartValue" SG_ 275 L_ATCU_BlwrTgtOnOff 0;
+BA_ "UserSigValidity" SG_ 275 L_ATCU_BlwrTgtOnOff 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_PCM SG_ 275 L_ATCU_BlwrTgtOnOff 500;
+BA_ "NetworkRequestHoldingTime" SG_ 275 L_ATCU_BlwrTgtOnOff 0;
+BA_ "RoutingFactor" SG_ 275 L_ATCU_BlwrTgtOnOff 1;
+BA_ "Version" SG_ 275 L_ATCU_BlwrTgtOnOff "24.02.06";
+BA_ "GenSigStartValue" SG_ 275 L_ATCU_VehPowerBatt 0;
+BA_ "UserSigValidity" SG_ 275 L_ATCU_VehPowerBatt 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_PCM SG_ 275 L_ATCU_VehPowerBatt 500;
+BA_ "NetworkRequestHoldingTime" SG_ 275 L_ATCU_VehPowerBatt 0;
+BA_ "RoutingFactor" SG_ 275 L_ATCU_VehPowerBatt 1;
+BA_ "Version" SG_ 275 L_ATCU_VehPowerBatt "24.02.06";
+BA_ "GenSigStartValue" SG_ 275 L_ATCU_VehPowerIGN1_3 0;
+BA_ "UserSigValidity" SG_ 275 L_ATCU_VehPowerIGN1_3 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_PCM SG_ 275 L_ATCU_VehPowerIGN1_3 500;
+BA_ "NetworkRequestHoldingTime" SG_ 275 L_ATCU_VehPowerIGN1_3 0;
+BA_ "RoutingFactor" SG_ 275 L_ATCU_VehPowerIGN1_3 1;
+BA_ "Version" SG_ 275 L_ATCU_VehPowerIGN1_3 "24.02.06";
+BA_ "GenMsgSendType" BO_ 276 0;
+BA_ "GenMsgCycleTime" BO_ 276 20;
+BA_ "GenMsgCycleTimeFast" BO_ 276 0;
+BA_ "GenMsgNrOfRepetition" BO_ 276 0;
+BA_ "GenMsgDelayTime" BO_ 276 0;
+BA_ "GenMsgStartDelayTime" BO_ 276 0;
+BA_ "GenSigStartValue" SG_ 276 L_ATCU_Volatilization_gmin 0;
+BA_ "UserSigValidity" SG_ 276 L_ATCU_Volatilization_gmin 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_PCM SG_ 276 L_ATCU_Volatilization_gmin 500;
+BA_ "NetworkRequestHoldingTime" SG_ 276 L_ATCU_Volatilization_gmin 0;
+BA_ "RoutingFactor" SG_ 276 L_ATCU_Volatilization_gmin 1;
+BA_ "Version" SG_ 276 L_ATCU_Volatilization_gmin "24.02.06";
+BA_ "GenSigStartValue" SG_ 276 L_ATCU_Frag1Amount_g 0;
+BA_ "UserSigValidity" SG_ 276 L_ATCU_Frag1Amount_g 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_PCM SG_ 276 L_ATCU_Frag1Amount_g 500;
+BA_ "NetworkRequestHoldingTime" SG_ 276 L_ATCU_Frag1Amount_g 0;
+BA_ "RoutingFactor" SG_ 276 L_ATCU_Frag1Amount_g 1;
+BA_ "Version" SG_ 276 L_ATCU_Frag1Amount_g "24.02.06";
+BA_ "GenSigStartValue" SG_ 276 L_ATCU_Frag2Amount_g 0;
+BA_ "UserSigValidity" SG_ 276 L_ATCU_Frag2Amount_g 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_PCM SG_ 276 L_ATCU_Frag2Amount_g 500;
+BA_ "NetworkRequestHoldingTime" SG_ 276 L_ATCU_Frag2Amount_g 0;
+BA_ "RoutingFactor" SG_ 276 L_ATCU_Frag2Amount_g 1;
+BA_ "Version" SG_ 276 L_ATCU_Frag2Amount_g "24.02.06";
+BA_ "GenSigStartValue" SG_ 276 L_ATCU_Cart1ExpDate_year 0;
+BA_ "UserSigValidity" SG_ 276 L_ATCU_Cart1ExpDate_year 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_PCM SG_ 276 L_ATCU_Cart1ExpDate_year 500;
+BA_ "NetworkRequestHoldingTime" SG_ 276 L_ATCU_Cart1ExpDate_year 0;
+BA_ "RoutingFactor" SG_ 276 L_ATCU_Cart1ExpDate_year 1;
+BA_ "Version" SG_ 276 L_ATCU_Cart1ExpDate_year "24.02.06";
+BA_ "GenSigStartValue" SG_ 276 L_ATCU_Cart2ExpDate_year 0;
+BA_ "UserSigValidity" SG_ 276 L_ATCU_Cart2ExpDate_year 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_PCM SG_ 276 L_ATCU_Cart2ExpDate_year 500;
+BA_ "NetworkRequestHoldingTime" SG_ 276 L_ATCU_Cart2ExpDate_year 0;
+BA_ "RoutingFactor" SG_ 276 L_ATCU_Cart2ExpDate_year 1;
+BA_ "Version" SG_ 276 L_ATCU_Cart2ExpDate_year "24.02.06";
+BA_ "GenMsgSendType" BO_ 624 0;
+BA_ "GenMsgCycleTime" BO_ 624 20;
+BA_ "GenMsgCycleTimeFast" BO_ 624 0;
+BA_ "GenMsgNrOfRepetition" BO_ 624 0;
+BA_ "GenMsgDelayTime" BO_ 624 0;
+BA_ "GenMsgStartDelayTime" BO_ 624 0;
+BA_ "GenSigStartValue" SG_ 624 PCM_ActPosFB 0;
+BA_ "UserSigValidity" SG_ 624 PCM_ActPosFB 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_ATCU SG_ 624 PCM_ActPosFB 500;
+BA_ "NetworkRequestHoldingTime" SG_ 624 PCM_ActPosFB 0;
+BA_ "RoutingFactor" SG_ 624 PCM_ActPosFB 1;
+BA_ "Version" SG_ 624 PCM_ActPosFB "24.02.06";
+BA_ "GenSigStartValue" SG_ 624 PCM_Blwr1Sta 0;
+BA_ "UserSigValidity" SG_ 624 PCM_Blwr1Sta 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_ATCU SG_ 624 PCM_Blwr1Sta 500;
+BA_ "NetworkRequestHoldingTime" SG_ 624 PCM_Blwr1Sta 0;
+BA_ "RoutingFactor" SG_ 624 PCM_Blwr1Sta 1;
+BA_ "Version" SG_ 624 PCM_Blwr1Sta "24.02.06";
+BA_ "GenSigStartValue" SG_ 624 PCM_Blwr2Sta 0;
+BA_ "UserSigValidity" SG_ 624 PCM_Blwr2Sta 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_ATCU SG_ 624 PCM_Blwr2Sta 500;
+BA_ "NetworkRequestHoldingTime" SG_ 624 PCM_Blwr2Sta 0;
+BA_ "RoutingFactor" SG_ 624 PCM_Blwr2Sta 1;
+BA_ "Version" SG_ 624 PCM_Blwr2Sta "24.02.06";
+BA_ "GenSigStartValue" SG_ 624 PCM_Blwr1Fail 0;
+BA_ "UserSigValidity" SG_ 624 PCM_Blwr1Fail 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_ATCU SG_ 624 PCM_Blwr1Fail 500;
+BA_ "NetworkRequestHoldingTime" SG_ 624 PCM_Blwr1Fail 0;
+BA_ "RoutingFactor" SG_ 624 PCM_Blwr1Fail 1;
+BA_ "Version" SG_ 624 PCM_Blwr1Fail "24.02.06";
+BA_ "GenSigStartValue" SG_ 624 PCM_Blwr2Fail 0;
+BA_ "UserSigValidity" SG_ 624 PCM_Blwr2Fail 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_ATCU SG_ 624 PCM_Blwr2Fail 500;
+BA_ "NetworkRequestHoldingTime" SG_ 624 PCM_Blwr2Fail 0;
+BA_ "RoutingFactor" SG_ 624 PCM_Blwr2Fail 1;
+BA_ "Version" SG_ 624 PCM_Blwr2Fail "24.02.06";
+BA_ "GenSigStartValue" SG_ 624 PCM_MainCtrlSta 0;
+BA_ "UserSigValidity" SG_ 624 PCM_MainCtrlSta 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_ATCU SG_ 624 PCM_MainCtrlSta 500;
+BA_ "NetworkRequestHoldingTime" SG_ 624 PCM_MainCtrlSta 0;
+BA_ "RoutingFactor" SG_ 624 PCM_MainCtrlSta 1;
+BA_ "Version" SG_ 624 PCM_MainCtrlSta "24.02.06";
+BA_ "GenSigStartValue" SG_ 624 PCM_Cart1Sta 0;
+BA_ "UserSigValidity" SG_ 624 PCM_Cart1Sta 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_ATCU SG_ 624 PCM_Cart1Sta 500;
+BA_ "NetworkRequestHoldingTime" SG_ 624 PCM_Cart1Sta 0;
+BA_ "RoutingFactor" SG_ 624 PCM_Cart1Sta 1;
+BA_ "Version" SG_ 624 PCM_Cart1Sta "24.02.06";
+BA_ "GenSigStartValue" SG_ 624 PCM_Cart2Sta 0;
+BA_ "UserSigValidity" SG_ 624 PCM_Cart2Sta 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_ATCU SG_ 624 PCM_Cart2Sta 500;
+BA_ "NetworkRequestHoldingTime" SG_ 624 PCM_Cart2Sta 0;
+BA_ "RoutingFactor" SG_ 624 PCM_Cart2Sta 1;
+BA_ "Version" SG_ 624 PCM_Cart2Sta "24.02.06";
+BA_ "GenSigStartValue" SG_ 624 PCM_Cart1Kinds 0;
+BA_ "UserSigValidity" SG_ 624 PCM_Cart1Kinds 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_ATCU SG_ 624 PCM_Cart1Kinds 500;
+BA_ "NetworkRequestHoldingTime" SG_ 624 PCM_Cart1Kinds 0;
+BA_ "RoutingFactor" SG_ 624 PCM_Cart1Kinds 1;
+BA_ "Version" SG_ 624 PCM_Cart1Kinds "24.02.06";
+BA_ "GenSigStartValue" SG_ 624 PCM_Cart2Kinds 0;
+BA_ "UserSigValidity" SG_ 624 PCM_Cart2Kinds 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_ATCU SG_ 624 PCM_Cart2Kinds 500;
+BA_ "NetworkRequestHoldingTime" SG_ 624 PCM_Cart2Kinds 0;
+BA_ "RoutingFactor" SG_ 624 PCM_Cart2Kinds 1;
+BA_ "Version" SG_ 624 PCM_Cart2Kinds "24.02.06";
+BA_ "GenSigStartValue" SG_ 624 PCM_ActSta 0;
+BA_ "UserSigValidity" SG_ 624 PCM_ActSta 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_ATCU SG_ 624 PCM_ActSta 500;
+BA_ "NetworkRequestHoldingTime" SG_ 624 PCM_ActSta 0;
+BA_ "RoutingFactor" SG_ 624 PCM_ActSta 1;
+BA_ "Version" SG_ 624 PCM_ActSta "24.02.06";
+BA_ "GenSigStartValue" SG_ 624 PCM_ActFail 0;
+BA_ "UserSigValidity" SG_ 624 PCM_ActFail 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_ATCU SG_ 624 PCM_ActFail 500;
+BA_ "NetworkRequestHoldingTime" SG_ 624 PCM_ActFail 0;
+BA_ "RoutingFactor" SG_ 624 PCM_ActFail 1;
+BA_ "Version" SG_ 624 PCM_ActFail "24.02.06";
+BA_ "GenMsgSendType" BO_ 625 0;
+BA_ "GenMsgCycleTime" BO_ 625 500;
+BA_ "GenMsgStartDelayTime" BO_ 625 0;
+BA_ "GenSigSendType" SG_ 625 PCM_Cart1VectorX 4;
+BA_ "GenSigStartValue" SG_ 625 PCM_Cart1VectorX 0;
+BA_ "UserSigValidity" SG_ 625 PCM_Cart1VectorX 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_ATCU SG_ 625 PCM_Cart1VectorX 5000;
+BA_ "NetworkRequestHoldingTime" SG_ 625 PCM_Cart1VectorX 0;
+BA_ "RoutingFactor" SG_ 625 PCM_Cart1VectorX 1;
+BA_ "Version" SG_ 625 PCM_Cart1VectorX "24.02.06";
+BA_ "GenSigSendType" SG_ 625 PCM_Cart1RmnPer 4;
+BA_ "GenSigStartValue" SG_ 625 PCM_Cart1RmnPer 0;
+BA_ "UserSigValidity" SG_ 625 PCM_Cart1RmnPer 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_ATCU SG_ 625 PCM_Cart1RmnPer 5000;
+BA_ "NetworkRequestHoldingTime" SG_ 625 PCM_Cart1RmnPer 0;
+BA_ "RoutingFactor" SG_ 625 PCM_Cart1RmnPer 1;
+BA_ "Version" SG_ 625 PCM_Cart1RmnPer "24.02.06";
+BA_ "GenSigSendType" SG_ 625 PCM_Cart1ExpSta 4;
+BA_ "GenSigStartValue" SG_ 625 PCM_Cart1ExpSta 0;
+BA_ "UserSigValidity" SG_ 625 PCM_Cart1ExpSta 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_ATCU SG_ 625 PCM_Cart1ExpSta 5000;
+BA_ "NetworkRequestHoldingTime" SG_ 625 PCM_Cart1ExpSta 0;
+BA_ "RoutingFactor" SG_ 625 PCM_Cart1ExpSta 1;
+BA_ "Version" SG_ 625 PCM_Cart1ExpSta "24.02.06";
+BA_ "GenSigSendType" SG_ 625 PCM_Cart1RmnDisp 4;
+BA_ "GenSigStartValue" SG_ 625 PCM_Cart1RmnDisp 0;
+BA_ "UserSigValidity" SG_ 625 PCM_Cart1RmnDisp 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_ATCU SG_ 625 PCM_Cart1RmnDisp 5000;
+BA_ "NetworkRequestHoldingTime" SG_ 625 PCM_Cart1RmnDisp 0;
+BA_ "RoutingFactor" SG_ 625 PCM_Cart1RmnDisp 1;
+BA_ "Version" SG_ 625 PCM_Cart1RmnDisp "24.02.06";
+BA_ "GenSigSendType" SG_ 625 PCM_Cart1VectorY 4;
+BA_ "GenSigStartValue" SG_ 625 PCM_Cart1VectorY 0;
+BA_ "UserSigValidity" SG_ 625 PCM_Cart1VectorY 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_ATCU SG_ 625 PCM_Cart1VectorY 5000;
+BA_ "NetworkRequestHoldingTime" SG_ 625 PCM_Cart1VectorY 0;
+BA_ "RoutingFactor" SG_ 625 PCM_Cart1VectorY 1;
+BA_ "Version" SG_ 625 PCM_Cart1VectorY "24.02.06";
+BA_ "GenMsgSendType" BO_ 626 0;
+BA_ "GenMsgCycleTime" BO_ 626 500;
+BA_ "GenMsgStartDelayTime" BO_ 626 0;
+BA_ "GenSigSendType" SG_ 626 PCM_Cart2VectorX 4;
+BA_ "GenSigStartValue" SG_ 626 PCM_Cart2VectorX 0;
+BA_ "UserSigValidity" SG_ 626 PCM_Cart2VectorX 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_ATCU SG_ 626 PCM_Cart2VectorX 5000;
+BA_ "NetworkRequestHoldingTime" SG_ 626 PCM_Cart2VectorX 0;
+BA_ "RoutingFactor" SG_ 626 PCM_Cart2VectorX 1;
+BA_ "Version" SG_ 626 PCM_Cart2VectorX "24.02.06";
+BA_ "GenSigSendType" SG_ 626 PCM_Cart2RmnPer 4;
+BA_ "GenSigStartValue" SG_ 626 PCM_Cart2RmnPer 0;
+BA_ "UserSigValidity" SG_ 626 PCM_Cart2RmnPer 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_ATCU SG_ 626 PCM_Cart2RmnPer 5000;
+BA_ "NetworkRequestHoldingTime" SG_ 626 PCM_Cart2RmnPer 0;
+BA_ "RoutingFactor" SG_ 626 PCM_Cart2RmnPer 1;
+BA_ "Version" SG_ 626 PCM_Cart2RmnPer "24.02.06";
+BA_ "GenSigSendType" SG_ 626 PCM_Cart2ExpSta 4;
+BA_ "GenSigStartValue" SG_ 626 PCM_Cart2ExpSta 0;
+BA_ "UserSigValidity" SG_ 626 PCM_Cart2ExpSta 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_ATCU SG_ 626 PCM_Cart2ExpSta 5000;
+BA_ "NetworkRequestHoldingTime" SG_ 626 PCM_Cart2ExpSta 0;
+BA_ "RoutingFactor" SG_ 626 PCM_Cart2ExpSta 1;
+BA_ "Version" SG_ 626 PCM_Cart2ExpSta "24.02.06";
+BA_ "GenSigSendType" SG_ 626 PCM_Cart2RmnDisp 4;
+BA_ "GenSigStartValue" SG_ 626 PCM_Cart2RmnDisp 0;
+BA_ "UserSigValidity" SG_ 626 PCM_Cart2RmnDisp 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_ATCU SG_ 626 PCM_Cart2RmnDisp 5000;
+BA_ "NetworkRequestHoldingTime" SG_ 626 PCM_Cart2RmnDisp 0;
+BA_ "RoutingFactor" SG_ 626 PCM_Cart2RmnDisp 1;
+BA_ "Version" SG_ 626 PCM_Cart2RmnDisp "24.02.06";
+BA_ "GenSigSendType" SG_ 626 PCM_Cart2VectorY 4;
+BA_ "GenSigStartValue" SG_ 626 PCM_Cart2VectorY 0;
+BA_ "UserSigValidity" SG_ 626 PCM_Cart2VectorY 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_ATCU SG_ 626 PCM_Cart2VectorY 5000;
+BA_ "NetworkRequestHoldingTime" SG_ 626 PCM_Cart2VectorY 0;
+BA_ "RoutingFactor" SG_ 626 PCM_Cart2VectorY 1;
+BA_ "Version" SG_ 626 PCM_Cart2VectorY "24.02.06";
+VAL_ 36 L_ATCU_ArClnIntroEvt 0 "OFF" 1 "ON" ;
+VAL_ 36 L_ATCU_ArClnSmblClr 0 "Default (Initial Value)" 1 "Mono Color" 2 "Blue Color" 3 "Green Color" 4 "Orange Color" 5 "Red Color" 6 "Yellow Color" 7 "RESERVED" 8 "RESERVED" 9 "RESERVED" 10 "RESERVED" 11 "RESERVED" 12 "RESERVED" 13 "RESERVED" 14 "Gray Color (Deactivate)" 15 "Invalid" ;
+VAL_ 36 L_ATCU_DustLevelDis 0 "Sensor Fail" 1 "Good" 2 "Normal" 3 "Bad" 4 "Very Bad" 5 "RESERVED" 6 "Loading(Init or StandBy)" 7 "Error Indicator" ;
+VAL_ 36 L_ATCU_DustBarDisOff 0 "False(Symbol ON)" 1 "True(Symbol OFF)" ;
+VAL_ 36 L_ATCU_DustSnrStepDis 0 "default" 1 "0step" 2 "1step" 3 "2step" 4 "3step" 5 "4step" 6 "5step" 7 "6step" 8 "7step" 9 "8step" 10 "9step" 11 "10step" 12 "11step" 13 "12step" 14 "13step" 15 "14step" 16 "15step" 17 "16step" ;
+VAL_ 36 L_ATCU_FragStrhDis 0 "OFF" 1 "1st(Low)" 2 "1st&2nd(Mid)" 3 "1st&2nd&3rd(High)" ;
+VAL_ 36 L_ATCU_FragKindDis 0 "Default" 1 "First" 2 "Second" 3 "RESERVED" 4 "RESERVED" 5 "RESERVED" 6 "None" 7 "Error Indicator" ;
+VAL_ 36 L_ATCU_Frag1Inform 0 "Default" 1 "THE DRIVER'S AWAKENING" 2 "MY FAVORITE PLACE" 3 "THE GREAT OUTDOORS" 4 "RESERVED" 5 "RESERVED" 6 "RESERVED" 7 "RESERVED" 8 "RESERVED" 9 "RESERVED" 10 "RESERVED" 11 "RESERVED" 12 "New Fragrance Mounted" 13 "No Cartridge Mounted" 14 "Unknown Cartridge Monuted" 15 "Error Indicator" ;
+VAL_ 36 L_ATCU_Frag2Inform 0 "Default" 1 "THE DRIVER'S AWAKENING" 2 "MY FAVORITE PLACE" 3 "THE GREAT OUTDOORS" 4 "RESERVED" 5 "RESERVED" 6 "RESERVED" 7 "RESERVED" 8 "RESERVED" 9 "RESERVED" 10 "RESERVED" 11 "RESERVED" 12 "New Fragrance Mounted" 13 "No Cartridge Mounted" 14 "Unknown Cartridge Monuted" 15 "Error Indicator" ;
+VAL_ 36 L_ATCU_Frag1RemainDisp 0 "Default" 1 "Remains 100% (70~100%)" 2 "Remains 70% (30~70%)" 3 "Remains 30% (0~30%)" 4 "Remains 0%" 5 "RESERVED" 6 "Unknown" 7 "Error Indicator" ;
+VAL_ 36 L_ATCU_Frag2RemainDisp 0 "Default" 1 "Remains 100% (70~100%)" 2 "Remains 70% (30~70%)" 3 "Remains 30% (0~30%)" 4 "Remains 0%" 5 "RESERVED" 6 "Unknown" 7 "Error Indicator" ;
+VAL_ 36 L_ATCU_ArClnSmblTyp 0 "Default" 1 "BLANK DISPLAY" 2 "Tree Only" 3 "Tree & Fixed Arrow" 4 "Tree & Rotating Arrow" ;
+VAL_ 36 L_ATCU_FrtBlwMaxLvlVaild 0 "Invalid (Multi AUTO Not Applied)" 1 "Reversed" 2 "1 Level" 3 "2 Level" 4 "3 Level" 5 "4 Level" 6 "5 Level" 7 "6 Level" 8 "7 Level" 9 "8 Level" 10 "Not used" 11 "Not used" 12 "Not used" 13 "Not used" 14 "Not used" 15 "Error Indicator" ;
+VAL_ 36 L_ATCU_OpSta 0 "DATC Off (Power Down)" 1 "DATC Normal" 2 "DATC System Off (Blower Off)" 3 "DATC Self Diagnosis" 4 "Version Display" 5 "Not used" 6 "Not used" 7 "Error Indicator" ;
+VAL_ 36 L_ATCU_TempDispUnit 0 "Centigrade(¡É)" 1 "Fahrenheit(¢µ)" 2 "Not used" 3 "Error Indicator" ;
+VAL_ 36 L_ATCU_DrvAUTOStep 0 "Default" 1 "OFF" 2 "1st & 2nd & 3rd On (3 Step Type)" 3 "1st & 2nd On (3 Step Type)" 4 "1st On (3 Step Type)" 5 "1st & 2nd On (2 Step Type)" 6 "1st On (2 Step Type)" 7 "RESERVED" 8 "RESERVED" 9 "RESERVED" 10 "RESERVED" 11 "RESERVED" 12 "RESERVED" 13 "RESERVED" 14 "RESERVED" 15 "Error Indicator" ;
+VAL_ 36 L_ATCU_DiagCodeDis 0 "Blank Display" 1023 "Error Indicator" ;
+VAL_ 49 L_ATCU_ResetPreWrngForOthers 0 "No Warning" 1 "Warning" 2 "RESERVED" 3 "Invalid" ;
+VAL_ 49 L_ATCU_ResetReqForOthers 0 "No Request" 1 "Reset Request" 2 "RESERVED" 3 "Invalid" ;
+VAL_ 275 L_ATCU_PCMActTgtPos 0 "OFF" 1 "Cartridge#1" 2 "Cartridge#2" 3 "~0x6:RESERVED" 7 "Cartridge Off Position" ;
+VAL_ 275 L_ATCU_VehPowerIGN2 0 "Off" 1 "On" ;
+VAL_ 275 L_ATCU_VehPowerISGB 0 "Off" 1 "On" ;
+VAL_ 275 L_ATCU_CurrentDy 0 "Not used" 1 "1~31 day" 2 "1~31 day" 3 "1~31 day" 4 "1~31 day" 5 "1~31 day" 6 "1~31 day" 7 "1~31 day" 8 "1~31 day" 9 "1~31 day" 10 "1~31 day" 11 "1~31 day" 12 "1~31 day" 13 "1~31 day" 14 "1~31 day" 15 "1~31 day" 16 "1~31 day" 17 "1~31 day" 18 "1~31 day" 19 "1~31 day" 20 "1~31 day" 21 "1~31 day" 22 "1~31 day" 23 "1~31 day" 24 "1~31 day" 25 "1~31 day" 26 "1~31 day" 27 "1~31 day" 28 "1~31 day" 29 "1~31 day" 30 "1~31 day" 31 "1~31 day" 32 "0x20~0xFE:RESERVED" 254 "0x20~0xFE:RESERVED" 255 "Invalid" ;
+VAL_ 275 L_ATCU_CurrentMon 0 "Not used" 1 "1~12 month" 2 "1~12 month" 3 "1~12 month" 4 "1~12 month" 5 "1~12 month" 6 "1~12 month" 7 "1~12 month" 8 "1~12 month" 9 "1~12 month" 10 "1~12 month" 11 "1~12 month" 12 "1~12 month" 13 "RESERVED" 14 "RESERVED" 15 "Invalid" ;
+VAL_ 275 L_ATCU_CurrentYrPre 0 "19" 1 "20" 2 "21" 3 "invalid" ;
+VAL_ 275 L_ATCU_CurrentYrPost 0 "00 year" 1 "01~99 year" 2 "01~99 year" 3 "01~99 year" 4 "01~99 year" 5 "01~99 year" 6 "01~99 year" 7 "01~99 year" 8 "01~99 year" 9 "01~99 year" 10 "01~99 year" 11 "01~99 year" 12 "01~99 year" 13 "01~99 year" 14 "01~99 year" 15 "01~99 year" 16 "01~99 year" 17 "01~99 year" 18 "01~99 year" 19 "01~99 year" 20 "01~99 year" 21 "01~99 year" 22 "01~99 year" 23 "01~99 year" 24 "01~99 year" 25 "01~99 year" 26 "01~99 year" 27 "01~99 year" 28 "01~99 year" 29 "01~99 year" 30 "01~99 year" 31 "01~99 year" 32 "01~99 year" 33 "01~99 year" 34 "01~99 year" 35 "01~99 year" 36 "01~99 year" 37 "01~99 year" 38 "01~99 year" 39 "01~99 year" 40 "01~99 year" 41 "01~99 year" 42 "01~99 year" 43 "01~99 year" 44 "01~99 year" 45 "01~99 year" 46 "01~99 year" 47 "01~99 year" 48 "01~99 year" 49 "01~99 year" 50 "01~99 year" 51 "01~99 year" 52 "01~99 year" 53 "01~99 year" 54 "01~99 year" 55 "01~99 year" 56 "01~99 year" 57 "01~99 year" 58 "01~99 year" 59 "01~99 year" 60 "01~99 year" 61 "01~99 year" 62 "01~99 year" 63 "01~99 year" 64 "01~99 year" 65 "01~99 year" 66 "01~99 year" 67 "01~99 year" 68 "01~99 year" 69 "01~99 year" 70 "01~99 year" 71 "01~99 year" 72 "01~99 year" 73 "01~99 year" 74 "01~99 year" 75 "01~99 year" 76 "01~99 year" 77 "01~99 year" 78 "01~99 year" 79 "01~99 year" 80 "01~99 year" 81 "01~99 year" 82 "01~99 year" 83 "01~99 year" 84 "01~99 year" 85 "01~99 year" 86 "01~99 year" 87 "01~99 year" 88 "01~99 year" 89 "01~99 year" 90 "01~99 year" 91 "01~99 year" 92 "01~99 year" 93 "01~99 year" 94 "01~99 year" 95 "01~99 year" 96 "01~99 year" 97 "01~99 year" 98 "01~99 year" 99 "01~99 year" 100 "0x64~0xFE:RESERVED" 254 "0x64~0xFE:RESERVED" 255 "Invalid" ;
+VAL_ 275 L_ATCU_BlwrTgtOnOff 0 "Default" 1 "Off" 2 "On" 3 "Reserved" ;
+VAL_ 275 L_ATCU_VehPowerBatt 0 "Off" 1 "On" ;
+VAL_ 275 L_ATCU_VehPowerIGN1_3 0 "Off" 1 "On" ;
+VAL_ 276 L_ATCU_Volatilization_gmin 0 "Invalid" ;
+VAL_ 276 L_ATCU_Frag1Amount_g 0 "0x0x00~0xFE:0.0~25.4" 254 "0x0x00~0xFE:0.0~25.4" 255 "Error Indicator" ;
+VAL_ 276 L_ATCU_Frag2Amount_g 0 "0x0x00~0xFE:0.0~25.4" 254 "0x0x00~0xFE:0.0~25.4" 255 "Error Indicator" ;
+VAL_ 276 L_ATCU_Cart1ExpDate_year 0 "Error Indicator" 1 "1~3Year" 2 "1~3Year" 3 "1~3Year" 4 "Reserved" 5 "Reserved" 6 "Reserved" 7 "Reserved" 8 "Reserved" 9 "Reserved" 10 "Reserved" 11 "Reserved" 12 "Reserved" 13 "Reserved" 14 "Reserved" 15 "Reserved" ;
+VAL_ 276 L_ATCU_Cart2ExpDate_year 0 "Error Indicator" 1 "1~3Year" 2 "1~3Year" 3 "1~3Year" 4 "Reserved" 5 "Reserved" 6 "Reserved" 7 "Reserved" 8 "Reserved" 9 "Reserved" 10 "Reserved" 11 "Reserved" 12 "Reserved" 13 "Reserved" 14 "Reserved" 15 "Reserved" ;
+VAL_ 624 PCM_ActPosFB 0 "OFF" 1 "Cartridge#1" 2 "Cartridge#2" 3 "Calibrating" 4 "Moving - #1 to #2" 5 "Moving - #1 to Off" 6 "Moving - #2 to #1" 7 "Moving - #2 to Off" 8 "Moving Off to #1" 9 "Moving Off to #2" 10 "RESERVED" 11 "RESERVED" 12 "RESERVED" 13 "RESERVED" 14 "RESERVED" 15 "Error Indicator" ;
+VAL_ 624 PCM_Blwr1Sta 0 "Normal OFF" 1 "Normal ON" 2 "Temporary Failure" 3 "Permanent Failure" ;
+VAL_ 624 PCM_Blwr2Sta 0 "Normal OFF" 1 "Normal ON" 2 "Temporary Failure" 3 "Permanent Failure" ;
+VAL_ 624 PCM_Blwr1Fail 0 "Normal" 1 "Circuit Open/Short (internal error, diagnosis/Siganl line open/short)" 2 "Motor Stall" 3 "Over Current" 4 "Over Temperature" 5 "Under Voltage" 6 "Over Voltage" 7 "reserved" ;
+VAL_ 624 PCM_Blwr2Fail 0 "Normal" 1 "Circuit Open/Short (internal error, diagnosis/Siganl line open/short)" 2 "Motor Stall" 3 "Over Current" 4 "Over Temperature" 5 "Under Voltage" 6 "Over Voltage" 7 "reserved" ;
+VAL_ 624 PCM_MainCtrlSta 0 "Initialization" 1 "Normal" 2 "Abnormal" 3 "reserved" ;
+VAL_ 624 PCM_Cart1Sta 0 "Contacted, Normal" 1 "Reserved" 2 "Temporary Failure" 3 "Not-Contacted" ;
+VAL_ 624 PCM_Cart2Sta 0 "Contacted, Normal" 1 "Reserved" 2 "Temporary Failure" 3 "Not-Contacted" ;
+VAL_ 624 PCM_Cart1Kinds 0 "Default" 1 "THE DRIVER'S AWAKENING" 2 "MY FAVOURITE PLACE" 3 "THE CREAT OUTDOORS" 4 "RESERVED" 5 "RESERVED" 6 "RESERVED" 7 "RESERVED" 8 "RESERVED" 9 "RESERVED" 10 "RESERVED" 11 "RESERVED" 12 "New Frangrance Mounted(Genuine cartidge, Not registered new frangrance)" 13 "No Cartridge Mounted" 14 "Unknown Cartridge Mounted (Not Genuine cartidge)" 15 "Error Indicator" ;
+VAL_ 624 PCM_Cart2Kinds 0 "Default" 1 "THE DRIVER'S AWAKENING" 2 "MY FAVOURITE PLACE" 3 "THE CREAT OUTDOORS" 4 "RESERVED" 5 "RESERVED" 6 "RESERVED" 7 "RESERVED" 8 "RESERVED" 9 "RESERVED" 10 "RESERVED" 11 "RESERVED" 12 "New Frangrance Mounted(Genuine cartidge, Not registered new frangrance)" 13 "No Cartridge Mounted" 14 "Unknown Cartridge Mounted (Not Genuine cartidge)" 15 "Error Indicator" ;
+VAL_ 624 PCM_ActSta 0 "Normal Stop" 1 "Normal Moving" 2 "Calibration" 3 "Reserved" 4 "Reserved" 5 "Reserved" 6 "Reserved" 7 "Reserved" 8 "Reserved" 9 "Reserved" 10 "Reserved" 11 "Reserved" 12 "Reserved" 13 "Reserved" 14 "Temporary Failure" 15 "Permanent Failure" ;
+VAL_ 624 PCM_ActFail 0 "Normal" 1 "Motor Stall" 2 "Motor circuit open/short(Motor Internal error, Over Current)" 3 "Over temperature" 4 "Over/Under Voltage" 5 "LIN Tiemout" 6 "reserved" 7 "reserved" ;
+VAL_ 625 PCM_Cart1VectorX 0 "coordinate" 1 "coordinate" 2 "coordinate" 3 "coordinate" 4 "coordinate" 5 "coordinate" 6 "coordinate" 7 "coordinate" 8 "coordinate" 9 "coordinate" 10 "coordinate" 11 "coordinate" 12 "coordinate" 13 "coordinate" 14 "coordinate" 15 "coordinate" 16 "coordinate" 17 "coordinate" 18 "coordinate" 19 "coordinate" 20 "coordinate" 21 "0x15~0xFD:RESERVED" 253 "0x15~0xFD:RESERVED" 254 "Cartridge Not Contacted" 255 "Error Indicator" ;
+VAL_ 625 PCM_Cart1RmnPer 0 "0x0x0000~0x03E8:0~100.0%" 1000 "0x0x0000~0x03E8:0~100.0%" 1001 "0x03E9~0xFFFE:Reserverd" 65534 "0x03E9~0xFFFE:Reserverd" 65535 "Error Indicator" ;
+VAL_ 625 PCM_Cart1ExpSta 0 "Default" 1 "Normal" 2 "Expired" 3 "Error Indicator" ;
+VAL_ 625 PCM_Cart1RmnDisp 0 "Default" 1 "Remains 100% (70~100%)" 2 "Remains 70% (30~70%)" 3 "Remains 30% (1~30%)" 4 "Remains 0%" 5 "Reserved" 6 "Unknown" 7 "Error Indicator" ;
+VAL_ 625 PCM_Cart1VectorY 0 "coordinate" 1 "coordinate" 2 "coordinate" 3 "coordinate" 4 "coordinate" 5 "coordinate" 6 "coordinate" 7 "coordinate" 8 "coordinate" 9 "coordinate" 10 "coordinate" 11 "coordinate" 12 "coordinate" 13 "coordinate" 14 "coordinate" 15 "coordinate" 16 "coordinate" 17 "coordinate" 18 "coordinate" 19 "coordinate" 20 "coordinate" 21 "0x15~0xFD:RESERVED" 253 "0x15~0xFD:RESERVED" 254 "Cartridge Not Contacted" 255 "Error Indicator" ;
+VAL_ 626 PCM_Cart2VectorX 0 "coordinate" 1 "coordinate" 2 "coordinate" 3 "coordinate" 4 "coordinate" 5 "coordinate" 6 "coordinate" 7 "coordinate" 8 "coordinate" 9 "coordinate" 10 "coordinate" 11 "coordinate" 12 "coordinate" 13 "coordinate" 14 "coordinate" 15 "coordinate" 16 "coordinate" 17 "coordinate" 18 "coordinate" 19 "coordinate" 20 "coordinate" 21 "0x15~0xFD:RESERVED" 253 "0x15~0xFD:RESERVED" 254 "Cartridge Not Contacted" 255 "Error Indicator" ;
+VAL_ 626 PCM_Cart2RmnPer 0 "0x0x0000~0x03E8:0~100.0%" 1000 "0x0x0000~0x03E8:0~100.0%" 1001 "0x03E9~0xFFFE:Reserverd" 65534 "0x03E9~0xFFFE:Reserverd" 65535 "Error Indicator" ;
+VAL_ 626 PCM_Cart2ExpSta 0 "Default" 1 "Normal" 2 "Expired" 3 "Error Indicator" ;
+VAL_ 626 PCM_Cart2RmnDisp 0 "Default" 1 "Remains 100% (70~100%)" 2 "Remains 70% (30~70%)" 3 "Remains 30% (1~30%)" 4 "Remains 0%" 5 "Reserved" 6 "Unknown" 7 "Error Indicator" ;
+VAL_ 626 PCM_Cart2VectorY 0 "coordinate" 1 "coordinate" 2 "coordinate" 3 "coordinate" 4 "coordinate" 5 "coordinate" 6 "coordinate" 7 "coordinate" 8 "coordinate" 9 "coordinate" 10 "coordinate" 11 "coordinate" 12 "coordinate" 13 "coordinate" 14 "coordinate" 15 "coordinate" 16 "coordinate" 17 "coordinate" 18 "coordinate" 19 "coordinate" 20 "coordinate" 21 "0x15~0xFD:RESERVED" 253 "0x15~0xFD:RESERVED" 254 "Cartridge Not Contacted" 255 "Error Indicator" ;
+

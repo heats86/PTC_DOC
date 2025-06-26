@@ -1,0 +1,183 @@
+<mxfile host="Electron" modified="2024-06-17T04:54:18.643Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.2 Chrome/114.0.5735.289 Electron/25.9.4 Safari/537.36" etag="8U8oeA3NhVp8XRSTDYAk" version="22.1.2" type="device">
+  <diagram name="페이지-1" id="c2Q3Mi_-vkpoBGP-RUkM">
+    <mxGraphModel dx="2462" dy="1403" grid="0" gridSize="10" guides="1" tooltips="1" connect="0" arrows="0" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bEdfjtPT9XDLUow2tlGW-1" value="고전압 PTC&amp;nbsp; Heater&lt;br&gt;제어로직" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="-1" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tN6RpaUip2F8-nKDLXf5-1" value="기본 로직" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="-1" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tN6RpaUip2F8-nKDLXf5-2" value="작동 로직" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="239" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tN6RpaUip2F8-nKDLXf5-3" value="고장진단 로직" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="399" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tN6RpaUip2F8-nKDLXf5-5" value="초기화 로직" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="-1" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tN6RpaUip2F8-nKDLXf5-6" value="기본 동작 로직" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="79" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tN6RpaUip2F8-nKDLXf5-8" value="Can 통신 로직" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="159" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tN6RpaUip2F8-nKDLXf5-9" value="작동 ON/OFF&amp;nbsp;로직" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="239" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tN6RpaUip2F8-nKDLXf5-10" value="고장 검출 로직" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="319" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tN6RpaUip2F8-nKDLXf5-11" value="LV 전압 측정 로직" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="399" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tN6RpaUip2F8-nKDLXf5-12" value="HV 전압 측정 로직" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="399" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tN6RpaUip2F8-nKDLXf5-13" value="IGBT 측정 로직" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="559" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tN6RpaUip2F8-nKDLXf5-14" value="HV 전류 측정 로직" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="479" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tN6RpaUip2F8-nKDLXf5-15" value="코어 온도 측정 로직" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="639" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tN6RpaUip2F8-nKDLXf5-17" value="PCB 온도 측정 로직" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="639" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tN6RpaUip2F8-nKDLXf5-18" value="인터락 체크 로직" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="719" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tN6RpaUip2F8-nKDLXf5-19" value="Can 통신 체크 로직" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="799" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tN6RpaUip2F8-nKDLXf5-20" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bEdfjtPT9XDLUow2tlGW-1" target="tN6RpaUip2F8-nKDLXf5-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="750" y="459" as="sourcePoint" />
+            <mxPoint x="800" y="409" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tN6RpaUip2F8-nKDLXf5-23" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="tN6RpaUip2F8-nKDLXf5-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="750" y="459" as="sourcePoint" />
+            <mxPoint x="280" y="19" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="280" y="259" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tN6RpaUip2F8-nKDLXf5-24" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="tN6RpaUip2F8-nKDLXf5-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="750" y="459" as="sourcePoint" />
+            <mxPoint x="280" y="259" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="280" y="419" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tN6RpaUip2F8-nKDLXf5-25" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tN6RpaUip2F8-nKDLXf5-1" target="tN6RpaUip2F8-nKDLXf5-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="750" y="459" as="sourcePoint" />
+            <mxPoint x="800" y="409" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tN6RpaUip2F8-nKDLXf5-26" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="tN6RpaUip2F8-nKDLXf5-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="19" as="sourcePoint" />
+            <mxPoint x="800" y="409" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="520" y="99" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tN6RpaUip2F8-nKDLXf5-29" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tN6RpaUip2F8-nKDLXf5-2" target="tN6RpaUip2F8-nKDLXf5-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="750" y="459" as="sourcePoint" />
+            <mxPoint x="520" y="259" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tN6RpaUip2F8-nKDLXf5-30" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="tN6RpaUip2F8-nKDLXf5-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="99" as="sourcePoint" />
+            <mxPoint x="800" y="409" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="520" y="179" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tN6RpaUip2F8-nKDLXf5-31" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="tN6RpaUip2F8-nKDLXf5-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="259" as="sourcePoint" />
+            <mxPoint x="800" y="409" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="520" y="339" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tN6RpaUip2F8-nKDLXf5-32" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="tN6RpaUip2F8-nKDLXf5-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="750" y="459" as="sourcePoint" />
+            <mxPoint x="560" y="419" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tN6RpaUip2F8-nKDLXf5-33" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="tN6RpaUip2F8-nKDLXf5-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="419" as="sourcePoint" />
+            <mxPoint x="800" y="409" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="520" y="819" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tN6RpaUip2F8-nKDLXf5-34" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="tN6RpaUip2F8-nKDLXf5-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="750" y="459" as="sourcePoint" />
+            <mxPoint x="520" y="499" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tN6RpaUip2F8-nKDLXf5-35" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="tN6RpaUip2F8-nKDLXf5-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="750" y="459" as="sourcePoint" />
+            <mxPoint x="520" y="579" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tN6RpaUip2F8-nKDLXf5-36" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="tN6RpaUip2F8-nKDLXf5-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="750" y="459" as="sourcePoint" />
+            <mxPoint x="520" y="659" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tN6RpaUip2F8-nKDLXf5-37" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="tN6RpaUip2F8-nKDLXf5-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="750" y="459" as="sourcePoint" />
+            <mxPoint x="520" y="739" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tN6RpaUip2F8-nKDLXf5-38" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="tN6RpaUip2F8-nKDLXf5-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="459" as="sourcePoint" />
+            <mxPoint x="800" y="409" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="760" y="459" />
+              <mxPoint x="760" y="419" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tN6RpaUip2F8-nKDLXf5-39" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="699" as="sourcePoint" />
+            <mxPoint x="800" y="659" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="760" y="699" />
+              <mxPoint x="760" y="659" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

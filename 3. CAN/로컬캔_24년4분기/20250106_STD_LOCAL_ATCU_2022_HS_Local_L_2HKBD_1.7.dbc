@@ -1,0 +1,2529 @@
+VERSION ""
+
+
+NS_ :
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_: L_3HKBD L_FHPTC L_ATCU L_2HKBD L_PCM L_EVNT L_HKBD L_RHPTC
+
+
+BO_ 102 L_2HKBD_06: 8 L_2HKBD
+ SG_ L_2HKBD_RrDrTempClickCnt : 0|8@1+ (1,0) [0|0] ""  L_ATCU
+ SG_ L_2HKBD_RrPsTempClickCnt : 16|8@1+ (1,0) [0|0] ""  L_ATCU
+ SG_ L_2HKBD_RrPsBlwrClickCnt : 24|8@1+ (1,0) [0|0] ""  L_ATCU
+ SG_ L_2HKBD_RrTempKnobCnt : 32|2@1+ (1,0) [0|0] ""  L_ATCU
+ SG_ L_2HKBD_RrBlwKnobCnt : 34|2@1+ (1,0) [0|0] ""  L_ATCU
+ SG_ L_2HKBD_RrDrBlwrClickCnt : 8|8@1+ (1,0) [0|0] ""  L_ATCU
+
+BO_ 35 L_ATCU_03: 8 L_ATCU
+ SG_ L_ATCU_DrOnlyDis : 0|2@1+ (1,0) [0|0] ""  L_HKBD
+ SG_ L_ATCU_SmrtVntDis : 11|2@1+ (1,0) [0|0] ""  L_HKBD
+ SG_ L_ATCU_FrWndShldHtInd : 13|2@1+ (1,0) [0|0] ""  L_HKBD
+ SG_ L_ATCU_IncarMtrOnReq : 15|1@1+ (1,0) [0|0] ""  L_HKBD
+ SG_ L_ATCU_LanguageInfo : 16|8@1+ (1,0) [0|0] ""  L_HKBD
+ SG_ L_ATCU_RrDefInd : 2|1@1+ (1,0) [0|0] ""  L_HKBD
+ SG_ L_ATCU_AfterBlowDisplay : 24|2@1+ (1,0) [0|0] ""  L_HKBD
+ SG_ L_ATCU_SchdldVentDisplay : 26|2@1+ (1,0) [0|0] ""  L_HKBD
+ SG_ L_ATCU_FLStHeatSwHInd : 28|1@1+ (1,0) [0|0] ""  L_HKBD
+ SG_ L_ATCU_FLStHeatSwMInd : 29|1@1+ (1,0) [0|0] ""  L_HKBD
+ SG_ L_ATCU_ADSBlinkDis : 3|2@1+ (1,0) [0|0] ""  L_HKBD
+ SG_ L_ATCU_FLStHeatSwLInd : 30|1@1+ (1,0) [0|0] ""  L_HKBD
+ SG_ L_ATCU_FLStVntSwHInd : 31|1@1+ (1,0) [0|0] ""  L_HKBD
+ SG_ L_ATCU_FLStVntSwMInd : 32|1@1+ (1,0) [0|0] ""  L_HKBD
+ SG_ L_ATCU_FLStVntSwLInd : 33|1@1+ (1,0) [0|0] ""  L_HKBD
+ SG_ L_ATCU_FRStHeatSwHInd : 34|1@1+ (1,0) [0|0] ""  L_HKBD
+ SG_ L_ATCU_FRStHeatSwMInd : 35|1@1+ (1,0) [0|0] ""  L_HKBD
+ SG_ L_ATCU_FRStHeatSwLInd : 36|1@1+ (1,0) [0|0] ""  L_HKBD
+ SG_ L_ATCU_FRStVntSwHInd : 37|1@1+ (1,0) [0|0] ""  L_HKBD
+ SG_ L_ATCU_FRStVntSwMInd : 38|1@1+ (1,0) [0|0] ""  L_HKBD
+ SG_ L_ATCU_FRStVntSwLInd : 39|1@1+ (1,0) [0|0] ""  L_HKBD
+ SG_ L_ATCU_StrWhlHeatInd : 40|2@1+ (1,0) [0|0] ""  L_HKBD
+ SG_ L_ATCU_RhstaLvlSta : 42|5@1+ (1,0) [0|0] ""  L_2HKBD,L_EVNT,L_HKBD
+ SG_ L_ATCU_IntTailOnOff : 47|1@1+ (1,0) [0|0] ""  L_2HKBD,L_HKBD
+ SG_ L_ATCU_AutoLightSta : 48|1@1+ (1,0) [0|0] ""  L_HKBD
+ SG_ L_ATCU_FrBckLightSta : 49|1@1+ (1,0) [0|0] ""  L_HKBD
+ SG_ L_ATCU_DisplayTheme : 50|2@1+ (1,0) [0|0] ""  L_HKBD
+ SG_ L_ATCU_GUIBlankDis : 52|1@1+ (1,0) [0|0] ""  L_HKBD
+ SG_ L_ATCU_HptIntnstySet : 53|4@1+ (1,0) [0|0] ""  L_HKBD
+ SG_ L_ATCU_TlltLmpDis : 57|3@1+ (1,0) [0|0] ""  L_HKBD
+ SG_ L_ATCU_AvTailOnOff : 60|1@1+ (1,0) [0|0] ""  L_HKBD
+ SG_ L_ATCU_SchdldClimateDisplay : 61|2@1+ (1,0) [0|0] ""  L_HKBD
+ SG_ L_ATCU_AirClnDis : 7|2@1+ (1,0) [0|0] ""  L_HKBD
+ SG_ L_ATCU_CO2WrngDis : 9|2@1+ (1,0) [0|0] ""  L_HKBD
+
+BO_ 100 L_2HKBD_04: 8 L_2HKBD
+ SG_ L_2HKBD_RrDrModeDnSw : 0|1@1+ (1,0) [0|0] ""  L_ATCU
+ SG_ L_2HKBD_RrDrModeUpSw : 1|1@1+ (1,0) [0|0] ""  L_ATCU
+ SG_ L_2HKBD_RrDrAutoSw : 10|1@1+ (1,0) [0|0] ""  L_ATCU
+ SG_ L_2HKBD_Rr_OffSw : 11|1@1+ (1,0) [0|0] ""  L_ATCU
+ SG_ L_2HKBD_RrSyncSw : 12|1@1+ (1,0) [0|0] ""  L_ATCU
+ SG_ L_2HKBD_RrAcSw : 13|1@1+ (1,0) [0|0] ""  L_ATCU
+ SG_ L_2HKBD_RLStHtrSwReq : 14|1@1+ (1,0) [0|0] ""  L_ATCU
+ SG_ L_2HKBD_RLStVentSwReq : 15|1@1+ (1,0) [0|0] ""  L_ATCU
+ SG_ L_2HKBD_RRStHtrSwReq : 16|1@1+ (1,0) [0|0] ""  L_ATCU
+ SG_ L_2HKBD_RRStVentSwReq : 17|1@1+ (1,0) [0|0] ""  L_ATCU
+ SG_ L_2HKBD_RrDrMultiAutoSw : 18|3@1+ (1,0) [0|0] ""  L_ATCU
+ SG_ L_2HKBD_RrDrModeSw : 2|1@1+ (1,0) [0|0] ""  L_ATCU
+ SG_ L_2HKBD_RrPsModeSw : 21|1@1+ (1,0) [0|0] ""  L_ATCU
+ SG_ L_2HKBD_RrPsModeDnSw : 22|1@1+ (1,0) [0|0] ""  L_ATCU
+ SG_ L_2HKBD_RrPsModeUpSw : 23|1@1+ (1,0) [0|0] ""  L_ATCU
+ SG_ L_2HKBD_RrPsModeVentSw : 24|1@1+ (1,0) [0|0] ""  L_ATCU
+ SG_ L_2HKBD_RrPsModeFloorSw : 25|1@1+ (1,0) [0|0] ""  L_ATCU
+ SG_ L_2HKBD_RrPsModeBiLvlSw : 26|1@1+ (1,0) [0|0] ""  L_ATCU
+ SG_ L_2HKBD_RrPsTempDnSw : 27|1@1+ (1,0) [0|0] ""  L_ATCU
+ SG_ L_2HKBD_RrPsTempUpSw : 28|1@1+ (1,0) [0|0] ""  L_ATCU
+ SG_ L_2HKBD_RrPsBlwUpSw : 29|1@1+ (1,0) [0|0] ""  L_ATCU
+ SG_ L_2HKBD_RrDRModeVentSw : 3|1@1+ (1,0) [0|0] ""  L_ATCU
+ SG_ L_2HKBD_RrPsBlwDnSw : 30|1@1+ (1,0) [0|0] ""  L_ATCU
+ SG_ L_2HKBD_RrPsAutoSw : 31|1@1+ (1,0) [0|0] ""  L_ATCU
+ SG_ L_2HKBD_RrPsMultiAutoSw : 32|3@1+ (1,0) [0|0] ""  L_ATCU
+ SG_ L_2HKBD_RrDrBlwDnOffSw : 35|1@1+ (1,0) [0|0] ""  L_ATCU
+ SG_ L_2HKBD_RrPsBlwDnOffSw : 36|1@1+ (1,0) [0|0] ""  L_ATCU
+ SG_ L_2HKBD_RrOnOffSet : 37|2@1+ (1,0) [0|0] ""  L_ATCU
+ SG_ L_2HKBD_RrDrModeFloorSw : 4|1@1+ (1,0) [0|0] ""  L_ATCU
+ SG_ L_2HKBD_RrDrModeBiLvlSw : 5|1@1+ (1,0) [0|0] ""  L_ATCU
+ SG_ L_2HKBD_RrDrTempDnSw : 6|1@1+ (1,0) [0|0] ""  L_ATCU
+ SG_ L_2HKBD_RrDrTempUpSw : 7|1@1+ (1,0) [0|0] ""  L_ATCU
+ SG_ L_2HKBD_RrDrBlwDnSw : 8|1@1+ (1,0) [0|0] ""  L_ATCU
+ SG_ L_2HKBD_RrDrBlwUpSw : 9|1@1+ (1,0) [0|0] ""  L_ATCU
+
+BO_ 101 L_2HKBD_05: 8 L_2HKBD
+ SG_ L_2HKBD_RrFlrDuctSnsr : 0|8@1+ (0.02,0) [0|0] "V"  L_ATCU
+ SG_ L_2HKBD_RrVntDuctSnsr : 9|8@1+ (0.02,0) [0|0] "V"  L_ATCU
+
+BO_ 33 L_ATCU_01: 8 L_ATCU
+ SG_ L_ATCU_Typ1 : 0|4@1+ (1,0) [0|0] ""  L_HKBD
+ SG_ L_ATCU_Typ_All_2 : 12|8@1+ (1,0) [0|0] ""  L_2HKBD,L_3HKBD,L_HKBD
+ SG_ L_ATCU_TempDispSta : 20|2@1+ (1,0) [0|0] ""  L_2HKBD,L_3HKBD,L_HKBD
+ SG_ L_ATCU_StrgWhlHeatingOpt : 22|2@1+ (1,0) [0|0] ""  L_2HKBD,L_3HKBD,L_HKBD
+ SG_ L_ATCU_Drv_SeatOptSta : 24|3@1+ (1,0) [0|0] ""  L_2HKBD,L_3HKBD,L_HKBD
+ SG_ L_ATCU_Ast_SeatOptSta : 27|3@1+ (1,0) [0|0] ""  L_2HKBD,L_3HKBD,L_HKBD
+ SG_ L_ATCU_RL_SeatOptSta : 30|3@1+ (1,0) [0|0] ""  L_2HKBD,L_3HKBD,L_HKBD
+ SG_ L_ATCU_RR_SeatOptSta : 33|3@1+ (1,0) [0|0] ""  L_2HKBD,L_3HKBD,L_HKBD
+ SG_ L_ATCU_SmartZoneDis : 36|2@1+ (1,0) [0|0] ""  L_HKBD
+ SG_ L_ATCU_Typ_All_3 : 38|8@1+ (1,0) [0|0] ""  L_2HKBD,L_3HKBD,L_HKBD
+ SG_ L_ATCU_Typ_All_1 : 4|8@1+ (1,0) [0|0] ""  L_2HKBD,L_3HKBD,L_HKBD
+
+BO_ 98 L_2HKBD_02: 8 L_2HKBD
+ SG_ L_2HKBD_Rr_EvapVolVal : 0|8@1+ (0.02,0) [0|0] ""  L_ATCU
+ SG_ L_2HKBD_Rr_TempActrSt : 18|2@1+ (1,0) [0|0] ""  L_ATCU
+ SG_ L_2HKBD_Rr_TempAsstActrFB : 20|10@1+ (1,0) [0|0] ""  L_ATCU
+ SG_ L_2HKBD_Rr_TempAsstActrSt : 30|2@1+ (1,0) [0|0] ""  L_ATCU
+ SG_ L_2HKBD_Rr_ModeActrFB : 32|10@1+ (1,0) [0|0] ""  L_ATCU
+ SG_ L_2HKBD_Rr_ModeActrSt : 42|2@1+ (1,0) [0|0] ""  L_ATCU
+ SG_ L_2HKBD_Rr_BLDCError : 44|4@1+ (1,0) [0|0] ""  L_ATCU
+ SG_ L_2HKBD_Rr_HVACBLDCRpmFB : 48|16@1+ (5,0) [0|0] "RPM"  L_ATCU
+ SG_ L_2HKBD_Rr_TempActrFB : 8|10@1+ (1,0) [0|0] ""  L_ATCU
+
+BO_ 38 L_ATCU_06: 8 L_ATCU
+ SG_ L_ATCU_3rdRrTempCDis : 0|8@1+ (0.5,14) [0|0] "¡É"  L_3HKBD,L_HKBD
+ SG_ L_ATCU_3rdRrModDis : 16|4@1+ (1,0) [0|0] ""  L_3HKBD,L_HKBD
+ SG_ L_ATCU_3rdRrBlwDis : 20|4@1+ (1,0) [0|0] ""  L_3HKBD,L_HKBD
+ SG_ L_ATCU_3rdRrAutoDis : 24|2@1+ (1,0) [0|0] ""  L_3HKBD,L_HKBD
+ SG_ L_ATCU_3rdRrMultiAutoBlwDis : 26|3@1+ (1,0) [0|0] ""  L_3HKBD,L_HKBD
+ SG_ L_ATCU_3rdRrSyncDis : 29|2@1+ (1,0) [0|0] ""  L_3HKBD,L_HKBD
+ SG_ L_ATCU_3rdRrOnInd : 31|2@1+ (1,0) [0|0] ""  L_3HKBD,L_HKBD
+ SG_ L_ATCU_3rdRrLockDis : 33|2@1+ (1,0) [0|0] ""  L_3HKBD,L_HKBD
+ SG_ L_ATCU_3rdRrLcdBckLightSta : 35|1@1+ (1,0) [0|0] ""  L_3HKBD,L_HKBD
+ SG_ L_ATCU_3rdRrGUIBlankDis : 36|1@1+ (1,0) [0|0] ""  L_3HKBD,L_HKBD
+ SG_ L_ATCU_3rdRLStHeatSwHInd : 37|1@1+ (1,0) [0|0] ""  L_3HKBD,L_HKBD
+ SG_ L_ATCU_3rdRLStHeatSwMInd : 38|1@1+ (1,0) [0|0] ""  L_3HKBD,L_HKBD
+ SG_ L_ATCU_3rdRLStHeatSwLInd : 39|1@1+ (1,0) [0|0] ""  L_3HKBD,L_HKBD
+ SG_ L_ATCU_3rdRLStVntSwHInd : 40|1@1+ (1,0) [0|0] ""  L_3HKBD,L_HKBD
+ SG_ L_ATCU_3rdRLStVntSwMInd : 41|1@1+ (1,0) [0|0] ""  L_3HKBD,L_HKBD
+ SG_ L_ATCU_3rdRLStVntSwLInd : 42|1@1+ (1,0) [0|0] ""  L_3HKBD,L_HKBD
+ SG_ L_ATCU_3rdRRStHeatSwHInd : 43|1@1+ (1,0) [0|0] ""  L_3HKBD,L_HKBD
+ SG_ L_ATCU_3rdRRStHeatSwMInd : 44|1@1+ (1,0) [0|0] ""  L_3HKBD,L_HKBD
+ SG_ L_ATCU_3rdRRStHeatSwLInd : 45|1@1+ (1,0) [0|0] ""  L_3HKBD,L_HKBD
+ SG_ L_ATCU_3rdRRStVntSwHInd : 46|1@1+ (1,0) [0|0] ""  L_3HKBD,L_HKBD
+ SG_ L_ATCU_3rdRRStVntSwMInd : 47|1@1+ (1,0) [0|0] ""  L_3HKBD,L_HKBD
+ SG_ L_ATCU_3rdRRStVntSwLInd : 48|1@1+ (1,0) [0|0] ""  L_3HKBD,L_HKBD
+ SG_ L_ATCU_3rdRrMTCOpSta : 49|2@1+ (1,0) [0|0] ""  L_3HKBD,L_HKBD
+ SG_ L_ATCU_3rdRrMtcTempLvl : 51|4@1+ (1,0) [0|0] ""  L_3HKBD,L_HKBD
+ SG_ L_ATCU_3rdAUTOStep : 55|3@1+ (1,0) [0|0] ""  L_3HKBD,L_HKBD
+ SG_ L_ATCU_RrPassMultiAutoBlwDis : 58|3@1+ (1,0) [0|0] ""  L_2HKBD,L_HKBD
+ SG_ L_ATCU_DisPnlState : 61|2@1+ (1,0) [0|0] ""  L_HKBD
+ SG_ L_ATCU_3rdRrTempFDis : 8|8@1+ (1,56) [0|0] "¢µ"  L_3HKBD,L_HKBD
+
+BO_ 99 L_2HKBD_03: 8 L_2HKBD
+ SG_ L_2HKBD_SwBtnTyp : 0|40@1+ (1,0) [0|0] ""  L_ATCU
+ SG_ L_2HKBD_ResetOpSta : 62|2@1+ (1,0) [0|0] ""  L_ATCU
+
+BO_ 39 L_ATCU_07: 8 L_ATCU
+ SG_ L_ATCU_RrHVACTempActrTgt : 0|10@1+ (1,0) [0|0] "AD"  L_2HKBD,L_3HKBD,L_HKBD
+ SG_ L_ATCU_RrHVACTempAsstActrTgt : 10|10@1+ (1,0) [0|0] "AD"  L_2HKBD,L_3HKBD,L_HKBD
+ SG_ L_ATCU_RrDrHVACModeActrTgt : 20|10@1+ (1,0) [0|0] ""  L_2HKBD,L_3HKBD,L_HKBD
+ SG_ L_ATCU_RrHVACBlowerTgtV : 30|8@1+ (0.1,0) [0|0] "V"  L_2HKBD,L_3HKBD,L_HKBD
+ SG_ L_ATCU_RrHVACBLDCRpmVal : 38|16@1+ (1,0) [0|0] "rpm"  L_2HKBD,L_3HKBD,L_HKBD
+ SG_ L_ATCU_RrPsHVACModeActrTgt : 54|10@1+ (1,0) [0|0] ""  L_2HKBD,L_3HKBD,L_HKBD
+
+BO_ 36 L_ATCU_04: 8 L_ATCU
+ SG_ L_ATCU_ArClnIntroEvt : 0|1@1+ (1,0) [0|0] ""  L_HKBD
+ SG_ L_ATCU_ArClnSmblClr : 1|4@1+ (1,0) [0|0] ""  L_HKBD
+ SG_ L_ATCU_DustLevelDis : 19|3@1+ (1,0) [0|0] ""  L_HKBD
+ SG_ L_ATCU_DustBarDisOff : 22|1@1+ (1,0) [0|0] ""  L_HKBD
+ SG_ L_ATCU_DustSnrStepDis : 23|6@1+ (1,0) [0|0] ""  L_HKBD
+ SG_ L_ATCU_FragStrhDis : 29|2@1+ (1,0) [0|0] ""  L_HKBD,L_PCM
+ SG_ L_ATCU_FragKindDis : 31|3@1+ (1,0) [0|0] ""  L_HKBD,L_PCM
+ SG_ L_ATCU_Frag1Inform : 34|4@1+ (1,0) [0|0] ""  L_HKBD,L_PCM
+ SG_ L_ATCU_Frag2Inform : 38|4@1+ (1,0) [0|0] ""  L_HKBD,L_PCM
+ SG_ L_ATCU_Frag1RemainDisp : 42|4@1+ (1,0) [0|0] ""  L_HKBD,L_PCM
+ SG_ L_ATCU_Frag2RemainDisp : 46|4@1+ (1,0) [0|0] ""  L_2HKBD,L_HKBD
+ SG_ L_ATCU_ArClnSmblTyp : 5|4@1+ (1,0) [0|0] ""  L_HKBD
+ SG_ L_ATCU_FrtBlwMaxLvlVaild : 50|4@1+ (1,0) [0|0] ""  L_2HKBD,L_HKBD
+ SG_ L_ATCU_OpSta : 54|3@1+ (1,0) [0|0] ""  L_EVNT,L_HKBD
+ SG_ L_ATCU_TempDispUnit : 57|2@1+ (1,0) [0|0] ""  L_2HKBD,L_HKBD
+ SG_ L_ATCU_DrvAUTOStep : 59|4@1+ (1,0) [0|0] ""  L_HKBD
+ SG_ L_ATCU_DiagCodeDis : 9|10@1+ (1,-1) [0|0] ""  L_HKBD
+
+BO_ 97 L_2HKBD_01: 8 L_2HKBD
+ SG_ L_2HKBD_Sw_Opt1 : 0|8@1+ (1,0) [0|0] ""  L_ATCU
+ SG_ L_2HKBD_Typ2 : 16|8@1+ (1,0) [0|0] ""  L_ATCU
+ SG_ L_2HKBD_Typ3 : 24|8@1+ (1,0) [0|0] ""  L_ATCU
+ SG_ L_2HKBD_Typ1 : 8|8@1+ (1,0) [0|0] ""  L_ATCU
+
+BO_ 37 L_ATCU_05: 8 L_ATCU
+ SG_ L_ATCU_RrOpSta : 0|3@1+ (1,0) [0|0] ""  L_2HKBD,L_HKBD
+ SG_ L_ATCU_RrDrvTempFDis : 11|8@1+ (1,56) [0|0] "¢µ"  L_2HKBD,L_HKBD
+ SG_ L_ATCU_RrDrvModDis : 19|4@1+ (1,0) [0|0] ""  L_2HKBD,L_EVNT,L_HKBD
+ SG_ L_ATCU_RrDrvBlwDis : 23|4@1+ (1,0) [0|0] ""  L_2HKBD,L_HKBD
+ SG_ L_ATCU_RrDrvAutoDis : 27|2@1+ (1,0) [0|0] ""  L_2HKBD,L_HKBD
+ SG_ L_ATCU_RrDrvMultiAutoBlwDis : 29|2@1+ (1,0) [0|0] ""  L_2HKBD,L_HKBD
+ SG_ L_ATCU_RrDrvTempCDis : 3|8@1+ (0.5,14) [0|0] "¡É"  L_2HKBD,L_HKBD
+ SG_ L_ATCU_RrSyncDis : 31|2@1+ (1,0) [0|0] ""  L_2HKBD,L_HKBD
+ SG_ L_ATCU_RrLcdBckLightSta : 33|1@1+ (1,0) [0|0] ""  L_2HKBD,L_HKBD
+ SG_ L_ATCU_RrGUIBlankDis : 34|1@1+ (1,0) [0|0] ""  L_2HKBD,L_HKBD
+ SG_ L_ATCU_RLStHeatSwHInd : 35|1@1+ (1,0) [0|0] ""  L_2HKBD,L_HKBD
+ SG_ L_ATCU_RLStHeatSwMInd : 36|1@1+ (1,0) [0|0] ""  L_2HKBD,L_HKBD
+ SG_ L_ATCU_RLStHeatSwLInd : 37|1@1+ (1,0) [0|0] ""  L_2HKBD,L_HKBD
+ SG_ L_ATCU_RLStVntSwHInd : 38|1@1+ (1,0) [0|0] ""  L_2HKBD,L_HKBD
+ SG_ L_ATCU_RLStVntSwMInd : 39|1@1+ (1,0) [0|0] ""  L_2HKBD,L_HKBD
+ SG_ L_ATCU_RLStVntSwLInd : 40|1@1+ (1,0) [0|0] ""  L_2HKBD,L_HKBD
+ SG_ L_ATCU_RRStHeatSwHInd : 41|1@1+ (1,0) [0|0] ""  L_2HKBD,L_HKBD
+ SG_ L_ATCU_RRStHeatSwMInd : 42|1@1+ (1,0) [0|0] ""  L_2HKBD,L_HKBD
+ SG_ L_ATCU_RRStHeatSwLInd : 43|1@1+ (1,0) [0|0] ""  L_2HKBD,L_HKBD
+ SG_ L_ATCU_RRStVntSwHInd : 44|1@1+ (1,0) [0|0] ""  L_2HKBD,L_HKBD
+ SG_ L_ATCU_RRStVntSwMInd : 45|1@1+ (1,0) [0|0] ""  L_2HKBD,L_HKBD
+ SG_ L_ATCU_RRStVntSwLInd : 46|1@1+ (1,0) [0|0] ""  L_2HKBD,L_HKBD
+ SG_ L_ATCU_RrMTCOpSta : 47|2@1+ (1,0) [0|0] ""  L_2HKBD,L_HKBD
+ SG_ L_ATCU_RrMTCTempLvl : 49|4@1+ (1,0) [0|0] ""  L_2HKBD,L_HKBD
+ SG_ L_ATCU_RrPsModDis : 53|4@1+ (1,0) [0|0] ""  L_2HKBD,L_EVNT,L_HKBD
+ SG_ L_ATCU_RrLockDis : 57|2@1+ (1,0) [0|0] ""  L_2HKBD,L_HKBD
+ SG_ L_ATCU_RrDrvAutoStep : 59|4@1+ (1,0) [0|0] ""  L_2HKBD,L_HKBD
+
+BO_ 40 L_ATCU_08: 8 L_ATCU
+ SG_ L_ATCU_PassAUTOStep : 0|3@1+ (1,0) [0|0] ""  L_2HKBD,L_HKBD
+ SG_ L_ATCU_RrPassTempFDis : 11|8@1+ (1,56) [0|0] "¢µ"  L_2HKBD,L_HKBD
+ SG_ L_ATCU_RrPassBlwDis : 19|4@1+ (1,0) [0|0] ""  L_2HKBD,L_HKBD
+ SG_ L_ATCU_RrPassAUTODis : 23|2@1+ (1,0) [0|0] ""  L_2HKBD,L_HKBD
+ SG_ L_ATCU_RrPassAUTOStep : 25|3@1+ (1,0) [0|0] ""  L_2HKBD,L_HKBD
+ SG_ L_ATCU_CampModeSta : 28|2@1+ (1,0) [0|0] ""  L_2HKBD,L_3HKBD,L_EVNT,L_HKBD
+ SG_ L_ATCU_RrPassTempCDis : 3|8@1+ (0.5,14) [0|0] "¡É"  L_2HKBD,L_HKBD
+ SG_ L_ATCU_UtilModeUsmSta : 30|2@1+ (1,0) [0|0] ""  L_2HKBD,L_3HKBD,L_EVNT,L_HKBD
+ SG_ L_ATCU_RrAcDis : 32|2@1+ (1,0) [0|0] ""  L_2HKBD,L_3HKBD,L_HKBD
+ SG_ L_ATCU_3rdAcDis : 34|2@1+ (1,0) [0|0] ""  L_2HKBD,L_3HKBD,L_HKBD
+
+BO_ 41 L_ATCU_09: 8 L_ATCU
+ SG_ L_ATCU_OutTempDispC : 0|8@1+ (0.5,-41) [0|0] "¡É"  L_FHPTC,L_HKBD,L_RHPTC
+ SG_ L_ATCU_DtntOutSta : 16|1@1+ (1,0) [0|0] ""  L_2HKBD,L_EVNT,L_HKBD
+ SG_ L_ATCU_AutoBrightSta : 17|8@1+ (1,0) [0|0] ""  L_2HKBD,L_EVNT,L_HKBD
+ SG_ L_ATCU_DustSnrVal : 25|10@1+ (1,0) [0|0] "um/m3"  L_HKBD
+ SG_ L_ATCU_NotMinModeBrightSta : 35|8@1+ (1,0) [0|0] ""  L_2HKBD,L_3HKBD,L_EVNT,L_HKBD
+ SG_ L_ATCU_IAUPrfleVal : 43|4@1+ (1,0) [0|0] ""  L_EVNT
+ SG_ L_ATCU_AVNPrfleVal : 47|4@1+ (1,0) [0|0] ""  L_EVNT
+ SG_ L_ATCU_SchdldClimateSta : 51|2@1+ (1,0) [0|0] ""  L_EVNT
+ SG_ L_ATCU_OutTempDispF : 8|8@1+ (1,-42) [0|0] "¢µ"  L_FHPTC,L_HKBD,L_RHPTC
+
+BO_ 49 L_ATCU_11: 8 L_ATCU
+ SG_ L_ATCU_ResetPreWrngForOthers : 0|2@1+ (1,0) [0|0] ""  L_2HKBD,L_3HKBD,L_EVNT,L_HKBD,L_PCM
+ SG_ L_ATCU_ResetReqForOthers : 2|2@1+ (1,0) [0|0] ""  L_2HKBD,L_3HKBD,L_EVNT,L_HKBD,L_PCM
+
+
+
+CM_ BO_ 97 "[PE] Periodic and On Event";
+CM_ SG_ 97 L_2HKBD_Sw_Opt1 "2HKBD_Switch_Option1";
+CM_ SG_ 97 L_2HKBD_Typ2 "2HKBD_Type2";
+CM_ SG_ 97 L_2HKBD_Typ3 "2HKBD_Type3";
+CM_ SG_ 97 L_2HKBD_Typ1 "2HKBD_Type1";
+CM_ BO_ 98 "[P] Periodic";
+CM_ SG_ 98 L_2HKBD_Rr_EvapVolVal "2HKBD_Rear_EvaporatorVoltageValue";
+CM_ SG_ 98 L_2HKBD_Rr_TempActrSt "2HKBD_Rear_TemperatureActuatorStatus";
+CM_ SG_ 98 L_2HKBD_Rr_TempAsstActrFB "2HKBD_Rear_TemperatureAssistActuatorFeedback";
+CM_ SG_ 98 L_2HKBD_Rr_TempAsstActrSt "2HKBD_Rear_TemperatureAssistActuatorStatus";
+CM_ SG_ 98 L_2HKBD_Rr_ModeActrFB "2HKBD_Rear_ModeActuatorFeedback";
+CM_ SG_ 98 L_2HKBD_Rr_ModeActrSt "2HKBD_Rear_ModeActuatorStatus";
+CM_ SG_ 98 L_2HKBD_Rr_BLDCError "2HKBD_Rear_BLDCError";
+CM_ SG_ 98 L_2HKBD_Rr_HVACBLDCRpmFB "2HKBD_Rear_HVACBLDCRpmFeedBack";
+CM_ SG_ 98 L_2HKBD_Rr_TempActrFB "2HKBD_Rear_TemperatureActuatorFeedback";
+CM_ BO_ 99 "[PE] Periodic and On Event";
+CM_ SG_ 99 L_2HKBD_SwBtnTyp "2HKBD-SwitchButtonType";
+CM_ SG_ 99 L_2HKBD_ResetOpSta "This signal indicates whether the reset operation has been completed or not";
+CM_ BO_ 100 "[PE] Periodic and On Event";
+CM_ SG_ 100 L_2HKBD_RrDrModeDnSw "2HKBD_RearDriverModeDownSwitch";
+CM_ SG_ 100 L_2HKBD_RrDrModeUpSw "2HKBD_RearDriverModeUpSwitch";
+CM_ SG_ 100 L_2HKBD_RrDrAutoSw "2HKBD_RearDriverAutoSwitch";
+CM_ SG_ 100 L_2HKBD_Rr_OffSw "2HKBD_Rear_OffSwitch";
+CM_ SG_ 100 L_2HKBD_RrSyncSw "2HKBD_Rear_SyncSwitch";
+CM_ SG_ 100 L_2HKBD_RrAcSw "2HKBD_Rear_ACSwitch";
+CM_ SG_ 100 L_2HKBD_RLStHtrSwReq "2HKBD_RearLeftSeatHeaterSwitchRequest";
+CM_ SG_ 100 L_2HKBD_RLStVentSwReq "2HKBD_RearLeftSeatVentSwitchRequest";
+CM_ SG_ 100 L_2HKBD_RRStHtrSwReq "2HKBD_RearRightSeatHeaterSwitchRequest";
+CM_ SG_ 100 L_2HKBD_RRStVentSwReq "2HKBD_RearRightSeatVentSwitchRequest";
+CM_ SG_ 100 L_2HKBD_RrDrMultiAutoSw "2HKBD_RearDriverMultiAutoSwitch";
+CM_ SG_ 100 L_2HKBD_RrDrModeSw "2HKBD_RearDriverModeSwitch";
+CM_ SG_ 100 L_2HKBD_RrPsModeSw "2HKBD_RearPassengerModeSwitch";
+CM_ SG_ 100 L_2HKBD_RrPsModeDnSw "2HKBD_RearPassengerModeDownSwitch";
+CM_ SG_ 100 L_2HKBD_RrPsModeUpSw "2HKBD_RearPassengerModeUpSwitch";
+CM_ SG_ 100 L_2HKBD_RrPsModeVentSw "2HKBD_RearPassengerModeVentSwitch";
+CM_ SG_ 100 L_2HKBD_RrPsModeFloorSw "2HKBD_RearPassengerModeFloorSwitch";
+CM_ SG_ 100 L_2HKBD_RrPsModeBiLvlSw "2HKBD_RearPassengerModeBiLevelSwitch";
+CM_ SG_ 100 L_2HKBD_RrPsTempDnSw "2HKBD_RearPassengerTemperatureDownSwitch";
+CM_ SG_ 100 L_2HKBD_RrPsTempUpSw "2HKBD_RearPassengerTemperatureUpSwitch";
+CM_ SG_ 100 L_2HKBD_RrPsBlwUpSw "2HKBD_RearPassengerBlowerUpSwitch";
+CM_ SG_ 100 L_2HKBD_RrDRModeVentSw "2HKBD_RearDriverModeVentSwitch";
+CM_ SG_ 100 L_2HKBD_RrPsBlwDnSw "2HKBD_RearPassengerBlowerDownSwitch";
+CM_ SG_ 100 L_2HKBD_RrPsAutoSw "2HKBD_RearPassengerAutoSwitch";
+CM_ SG_ 100 L_2HKBD_RrPsMultiAutoSw "2HKBD_RearPassengerMultiAutoSwitch";
+CM_ SG_ 100 L_2HKBD_RrDrBlwDnOffSw "2HKBD_RearDriverBlowerDownOffSwitch";
+CM_ SG_ 100 L_2HKBD_RrPsBlwDnOffSw "2HKBD_ReaerPassengerBlowerDownOffSwitch";
+CM_ SG_ 100 L_2HKBD_RrOnOffSet "2HKBD_RearOnOffSet";
+CM_ SG_ 100 L_2HKBD_RrDrModeFloorSw "2HKBD_RearDriverModeFloorSwitch";
+CM_ SG_ 100 L_2HKBD_RrDrModeBiLvlSw "2HKBD_RearDriverModeBiLevelSwitch";
+CM_ SG_ 100 L_2HKBD_RrDrTempDnSw "2HKBD_RearDriverTempDownSwitch";
+CM_ SG_ 100 L_2HKBD_RrDrTempUpSw "2HKBD_RearDriverTempUpSwitch";
+CM_ SG_ 100 L_2HKBD_RrDrBlwDnSw "2HKBD_RearDriverBlowerDownSwitch";
+CM_ SG_ 100 L_2HKBD_RrDrBlwUpSw "2HKBD_RearDriverBlowerUpSwitch";
+CM_ BO_ 101 "[P] Periodic";
+CM_ SG_ 101 L_2HKBD_RrFlrDuctSnsr "2HKBD_RearFloorDuctSensor";
+CM_ SG_ 101 L_2HKBD_RrVntDuctSnsr "2HKBD_RearVentDuctSensor";
+CM_ BO_ 102 "[EC] On Event and On Change";
+CM_ SG_ 102 L_2HKBD_RrDrTempClickCnt "2HKBD_RearDriverTempClickCount";
+CM_ SG_ 102 L_2HKBD_RrPsTempClickCnt "2HKBD_RearPassengerTempClickCount";
+CM_ SG_ 102 L_2HKBD_RrPsBlwrClickCnt "2HKBD_RearPassengerBlowerClickCount";
+CM_ SG_ 102 L_2HKBD_RrTempKnobCnt "2HKBD_RearTemperatureKnobCount (for knobs rotate count)";
+CM_ SG_ 102 L_2HKBD_RrBlwKnobCnt "2HKBD_RearBlowerKnobCount (for knobs rotate count)";
+CM_ SG_ 102 L_2HKBD_RrDrBlwrClickCnt "2HKBD_RearDriverBlowerClickCount";
+CM_ BO_ 33 "[PE] Periodic and On Event";
+CM_ SG_ 33 L_ATCU_Typ1 "ATCU_Type1";
+CM_ SG_ 33 L_ATCU_Drv_SeatOptSta "ATCU_Drvier_SeatOptionStaus";
+CM_ SG_ 33 L_ATCU_Ast_SeatOptSta "ATCU_Ast_SeatOptionStatus";
+CM_ SG_ 33 L_ATCU_RL_SeatOptSta "ATCU_RearLeft_SeatOptionStatus";
+CM_ SG_ 33 L_ATCU_RR_SeatOptSta "ATCU_RearRight_SeatOperationStatus";
+CM_ SG_ 33 L_ATCU_SmartZoneDis "L_ATCU_SmartZoneDisplay";
+CM_ BO_ 35 "[PE] Periodic and On Event";
+CM_ SG_ 35 L_ATCU_DrOnlyDis "ATCU_DriverOnlyDisplay";
+CM_ SG_ 35 L_ATCU_SmrtVntDis "ATCU_SmartVentilationDisplay";
+CM_ SG_ 35 L_ATCU_FrWndShldHtInd "ATCU_FrontWindShieldHeaterIndicator";
+CM_ SG_ 35 L_ATCU_IncarMtrOnReq "ATCU_IncarMotorOnRequest";
+CM_ SG_ 35 L_ATCU_LanguageInfo "ATCU_LanguageInformation";
+CM_ SG_ 35 L_ATCU_RrDefInd "ATCU_RearDEFIndicator";
+CM_ SG_ 35 L_ATCU_AfterBlowDisplay "ATCU_AfterBlow Display";
+CM_ SG_ 35 L_ATCU_SchdldVentDisplay "ATCU_SchduledVentDispaly";
+CM_ SG_ 35 L_ATCU_FLStHeatSwHInd "ATCU_FrontLeftSeatHeatSwitchHighIndicator";
+CM_ SG_ 35 L_ATCU_FLStHeatSwMInd "ATCU_FrontLeftSeatHeatSwitchMiddleIndicator";
+CM_ SG_ 35 L_ATCU_ADSBlinkDis "ATCU_ADSBlinkDisplay";
+CM_ SG_ 35 L_ATCU_FLStHeatSwLInd "ATCU_FrontLeftSeatHeatSwitchLowIndicator";
+CM_ SG_ 35 L_ATCU_FLStVntSwHInd "ATCU_FrontLeftSeatVentilationSwitchHighIndicator";
+CM_ SG_ 35 L_ATCU_FLStVntSwMInd "ATCU_FrontLeftSeatVentilationSwitchMiddleIndicator";
+CM_ SG_ 35 L_ATCU_FLStVntSwLInd "ATCU_FrontLeftSeatVentilationSwitchLowIndicator";
+CM_ SG_ 35 L_ATCU_FRStHeatSwHInd "ATCU_FrontRightSeatHeatSwitchHighIndicator";
+CM_ SG_ 35 L_ATCU_FRStHeatSwMInd "ATCU_FrontRightSeatHeatSwitchMiddleIndicator";
+CM_ SG_ 35 L_ATCU_FRStHeatSwLInd "ATCU_FrontRightSeatHeatSwitchLowIndicator";
+CM_ SG_ 35 L_ATCU_FRStVntSwHInd "ATCU_FrontRightSeatVentilationSwitchHighIndicator";
+CM_ SG_ 35 L_ATCU_FRStVntSwMInd "ATCU_FrontRightSeatVentilationSwitchMiddleIndicator";
+CM_ SG_ 35 L_ATCU_FRStVntSwLInd "ATCU_FrontRightSeatVentilationSwitchLowIndicator";
+CM_ SG_ 35 L_ATCU_StrWhlHeatInd "ATCU_SteeringWheelHeatIndicator";
+CM_ SG_ 35 L_ATCU_RhstaLvlSta "ATCU_RheostatLevelStatus";
+CM_ SG_ 35 L_ATCU_IntTailOnOff "ATCU_InternalTailOnOff";
+CM_ SG_ 35 L_ATCU_AutoLightSta "ATCU_AutoLightStatus";
+CM_ SG_ 35 L_ATCU_FrBckLightSta "ATCU_FrontBackLightStatus";
+CM_ SG_ 35 L_ATCU_DisplayTheme "ATCU_DisplayTheme";
+CM_ SG_ 35 L_ATCU_GUIBlankDis "ATCU_GUIBlankDisplay";
+CM_ SG_ 35 L_ATCU_HptIntnstySet "ATCU_HapticIntensityLevelSet";
+CM_ SG_ 35 L_ATCU_TlltLmpDis "ATCU_TelltaleLampDisplay";
+CM_ SG_ 35 L_ATCU_AvTailOnOff "ATCU_AVTailOnOff";
+CM_ SG_ 35 L_ATCU_SchdldClimateDisplay "ATCU_ScheduledClimateDisplay";
+CM_ SG_ 35 L_ATCU_AirClnDis "ATCU_AirCleaningDisplay";
+CM_ SG_ 35 L_ATCU_CO2WrngDis "ATCU_CO2WarningDisplay";
+CM_ BO_ 36 "[PE] Periodic and On Event";
+CM_ SG_ 36 L_ATCU_ArClnIntroEvt "ATCU_AirCleaningIntroEvent";
+CM_ SG_ 36 L_ATCU_ArClnSmblClr "ATCU_AirCleaningSymbolColor";
+CM_ SG_ 36 L_ATCU_DustLevelDis "ATCU_DustLevelDisplay";
+CM_ SG_ 36 L_ATCU_DustBarDisOff "ATCU_DustBarDisplayOff";
+CM_ SG_ 36 L_ATCU_DustSnrStepDis "ATCU_DustSensorStepDisplay";
+CM_ SG_ 36 L_ATCU_FragStrhDis "ATCU_FragStrengthDisplay";
+CM_ SG_ 36 L_ATCU_FragKindDis "ATCU_FragKindDisplay";
+CM_ SG_ 36 L_ATCU_Frag1Inform "ATCU_Frag1Information";
+CM_ SG_ 36 L_ATCU_Frag2Inform "ATCU_Frag2Information";
+CM_ SG_ 36 L_ATCU_Frag1RemainDisp "ATCU_Frag1RemainDisplay";
+CM_ SG_ 36 L_ATCU_Frag2RemainDisp "ATCU_Frag2RemainDisplay";
+CM_ SG_ 36 L_ATCU_ArClnSmblTyp "ATCU_AircCleaningSymbolType";
+CM_ SG_ 36 L_ATCU_FrtBlwMaxLvlVaild "ATCU_FrontBlowerMaxLevelVaild";
+CM_ SG_ 36 L_ATCU_OpSta "ATCU_OperationStatus";
+CM_ SG_ 36 L_ATCU_TempDispUnit "ATCU_TemperatureDisplayUnit";
+CM_ SG_ 36 L_ATCU_DrvAUTOStep "ATCU_DriverAutoStep";
+CM_ SG_ 36 L_ATCU_DiagCodeDis "ATCU_DiagCodeDisplay";
+CM_ BO_ 37 "[PE] Periodic and On Event";
+CM_ SG_ 37 L_ATCU_RrOpSta "ATCU_RearOperationStatus";
+CM_ SG_ 37 L_ATCU_RrDrvTempFDis "ATCU_RearDriverTemperature¢µDisplay";
+CM_ SG_ 37 L_ATCU_RrDrvModDis "ATCU_RearDriverModeDisplay";
+CM_ SG_ 37 L_ATCU_RrDrvBlwDis "ATCU_RearDriverBlowerDisplay";
+CM_ SG_ 37 L_ATCU_RrDrvAutoDis "ATCU_RearDriverAutoDisplay";
+CM_ SG_ 37 L_ATCU_RrDrvMultiAutoBlwDis "ATCU_RearDriverMultiAutoBlowerDisplay";
+CM_ SG_ 37 L_ATCU_RrDrvTempCDis "ATCU_RearDriverTemperature¡ÉDisplay";
+CM_ SG_ 37 L_ATCU_RrSyncDis "ATCU_RearSyncDisplay";
+CM_ SG_ 37 L_ATCU_RrLcdBckLightSta "ATCU_RearLCDBackLightStatus";
+CM_ SG_ 37 L_ATCU_RrGUIBlankDis "ATCU_RearGUIBlankDisplay";
+CM_ SG_ 37 L_ATCU_RLStHeatSwHInd "ATCU_RearLeftSeatHeatSwitchHighIndicator";
+CM_ SG_ 37 L_ATCU_RLStHeatSwMInd "ATCU_RearLeftSeatHeatSwitchMiddleIndicator";
+CM_ SG_ 37 L_ATCU_RLStHeatSwLInd "ATCU_RearLeftSeatHeatSwitchLowIndicator";
+CM_ SG_ 37 L_ATCU_RLStVntSwHInd "ATCU_RearLeftSeatVentilationSwitchHighIndicator";
+CM_ SG_ 37 L_ATCU_RLStVntSwMInd "ATCU_RearLeftSeatVentilationSwitchMiddleIndicator";
+CM_ SG_ 37 L_ATCU_RLStVntSwLInd "ATCU_RearLeftSeatVentilationSwitchLowIndicator";
+CM_ SG_ 37 L_ATCU_RRStHeatSwHInd "ATCU_RearRightSeatHeatSwitchHighIndicator";
+CM_ SG_ 37 L_ATCU_RRStHeatSwMInd "ATCU_RearRightSeatHeatSwitchMiddleIndicator";
+CM_ SG_ 37 L_ATCU_RRStHeatSwLInd "ATCU_RearRightSeatHeatSwitchLowIndicator";
+CM_ SG_ 37 L_ATCU_RRStVntSwHInd "ATCU_RearRightSeatVentilationSwitchHighIndicator";
+CM_ SG_ 37 L_ATCU_RRStVntSwMInd "ATCU_RearRightSeatVentilationSwitchMiddleIndicator";
+CM_ SG_ 37 L_ATCU_RRStVntSwLInd "ATCU_RearRightSeatVentilationSwitchLowIndicator";
+CM_ SG_ 37 L_ATCU_RrMTCOpSta "ATCU_RearMTCOperationStatus";
+CM_ SG_ 37 L_ATCU_RrMTCTempLvl "ATCU_RearMTCTempLevel";
+CM_ SG_ 37 L_ATCU_RrPsModDis "ATCU_RearPassengerModeDisplay";
+CM_ SG_ 37 L_ATCU_RrLockDis "ATCU_RearLockDisplay";
+CM_ SG_ 37 L_ATCU_RrDrvAutoStep "ATCU_RearDriverAutoStep";
+CM_ BO_ 38 "[PE] Periodic and On Event";
+CM_ SG_ 38 L_ATCU_3rdRrTempCDis "ATCU_3rdRearTemperature¡ÉDisplay";
+CM_ SG_ 38 L_ATCU_3rdRrModDis "ATCU_3rdRearModeDisplay";
+CM_ SG_ 38 L_ATCU_3rdRrBlwDis "ATCU_3rdRearBlowerDisplay";
+CM_ SG_ 38 L_ATCU_3rdRrAutoDis "ATCU_3rdRearAutoDisplay";
+CM_ SG_ 38 L_ATCU_3rdRrMultiAutoBlwDis "ATCU_3rdRearMultiAutoBlowerDisplay";
+CM_ SG_ 38 L_ATCU_3rdRrSyncDis "ATCU_3rdRearSyncDisplay";
+CM_ SG_ 38 L_ATCU_3rdRrOnInd "ATCU_3rdRearONIndicator";
+CM_ SG_ 38 L_ATCU_3rdRrLockDis "ATCU_3rdRearLockDisplay";
+CM_ SG_ 38 L_ATCU_3rdRrLcdBckLightSta "ATCU_3rdRearLCDBackLightStatus";
+CM_ SG_ 38 L_ATCU_3rdRrGUIBlankDis "ATCU_3rdRearGUIBlankDisplay";
+CM_ SG_ 38 L_ATCU_3rdRLStHeatSwHInd "ATCU_3rdRearLeftSeatHeatSwitchHighIndicator";
+CM_ SG_ 38 L_ATCU_3rdRLStHeatSwMInd "ATCU_3rdRearLeftSeatHeatSwitchMiddleIndicator";
+CM_ SG_ 38 L_ATCU_3rdRLStHeatSwLInd "ATCU_3rdRearLeftSeatHeatSwitchLowIndicator";
+CM_ SG_ 38 L_ATCU_3rdRLStVntSwHInd "ATCU_3rdRearLeftSeatVentilationSwitchHighIndicator";
+CM_ SG_ 38 L_ATCU_3rdRLStVntSwMInd "ATCU_3rdRearLeftSeatVentilationSwitchMiddleIndicator";
+CM_ SG_ 38 L_ATCU_3rdRLStVntSwLInd "ATCU_3rdRearLeftSeatVentilationSwitchLowIndicator";
+CM_ SG_ 38 L_ATCU_3rdRRStHeatSwHInd "ATCU_3rdRearRightSeatHeatSwitchHighIndicator";
+CM_ SG_ 38 L_ATCU_3rdRRStHeatSwMInd "ATCU_3rdRearRightSeatHeatSwitchMiddleIndicator";
+CM_ SG_ 38 L_ATCU_3rdRRStHeatSwLInd "ATCU_3rdRearRightSeatHeatSwitchLowIndicator";
+CM_ SG_ 38 L_ATCU_3rdRRStVntSwHInd "ATCU_3rdRearRightSeatVentilationSwitchHighIndicator";
+CM_ SG_ 38 L_ATCU_3rdRRStVntSwMInd "ATCU_3rdRearRightSeatVentilationSwitchMiddleIndicator";
+CM_ SG_ 38 L_ATCU_3rdRRStVntSwLInd "ATCU_3rdRearRightSeatVentilationSwitchLowIndicator";
+CM_ SG_ 38 L_ATCU_3rdRrMTCOpSta "ATCU_3rdRearMTCOperationStatus";
+CM_ SG_ 38 L_ATCU_3rdRrMtcTempLvl "ATCU_3rdRearMTCTemperatureLevel";
+CM_ SG_ 38 L_ATCU_3rdAUTOStep "ATCU_3rdAUTOStep";
+CM_ SG_ 38 L_ATCU_RrPassMultiAutoBlwDis "ATCU_RrPassengerMultiAutoBlowerDisplay";
+CM_ SG_ 38 L_ATCU_DisPnlState "ATCU_DisplayPanelState";
+CM_ SG_ 38 L_ATCU_3rdRrTempFDis "ATCU_3rdRearTemperature¢µDisplay";
+CM_ BO_ 39 "[P] Periodic";
+CM_ SG_ 39 L_ATCU_RrHVACTempActrTgt "ATCU_RearHVACTemperatureActuatorTarget";
+CM_ SG_ 39 L_ATCU_RrHVACTempAsstActrTgt "ATCU_RearHVCACTempAsstanceActuatorTarget";
+CM_ SG_ 39 L_ATCU_RrDrHVACModeActrTgt "ATCU_RearDriverHVACModeActuatorTarget";
+CM_ SG_ 39 L_ATCU_RrHVACBlowerTgtV "ATCU_RearHVACBlowerTargetVoltage";
+CM_ SG_ 39 L_ATCU_RrHVACBLDCRpmVal "ATCU_RearHVAC BLDC Motor RPM Value";
+CM_ SG_ 39 L_ATCU_RrPsHVACModeActrTgt "ATCU_RearPassengerHVACModeActuatorTarget";
+CM_ BO_ 40 "[PE] Periodic and On Event";
+CM_ SG_ 40 L_ATCU_PassAUTOStep "ATCU_PassAUTOStep";
+CM_ SG_ 40 L_ATCU_RrPassTempFDis "ATCU_RrPassTempFDisplay";
+CM_ SG_ 40 L_ATCU_RrPassBlwDis "ATCU_RrPassBlwDis";
+CM_ SG_ 40 L_ATCU_RrPassAUTODis "ATCU_RrPassAUTODis";
+CM_ SG_ 40 L_ATCU_RrPassAUTOStep "ATCU_RrPassAUTOStep";
+CM_ SG_ 40 L_ATCU_CampModeSta "ATCU_CampModeStatus";
+CM_ SG_ 40 L_ATCU_RrPassTempCDis "ATCU_RrPassTempCDisplay";
+CM_ SG_ 40 L_ATCU_UtilModeUsmSta "ATCU_UtilityModeUSMStatus";
+CM_ SG_ 40 L_ATCU_RrAcDis "ATCU_RrAcDisplay";
+CM_ SG_ 40 L_ATCU_3rdAcDis "L_ATCU_3rdAcDisplay";
+CM_ BO_ 41 "[P] Periodic";
+CM_ SG_ 41 L_ATCU_OutTempDispC "ATCU_OutTemperatureDisplay(¡É)";
+CM_ SG_ 41 L_ATCU_DtntOutSta "ATCU_DetentOutStatus";
+CM_ SG_ 41 L_ATCU_AutoBrightSta "ATCU_AutoBrightStatus";
+CM_ SG_ 41 L_ATCU_DustSnrVal "ATCU_DustSensorValue";
+CM_ SG_ 41 L_ATCU_NotMinModeBrightSta "ATCU_NotMinimumModeBrightStatus";
+CM_ SG_ 41 L_ATCU_IAUPrfleVal "L_ATCU_IAUProfileValue";
+CM_ SG_ 41 L_ATCU_AVNPrfleVal "L_ATCU_AVNProfileValue";
+CM_ SG_ 41 L_ATCU_SchdldClimateSta "Operation of the air conditioning system, controlled by the remote control instructions according to the Power status and VCU(HCU, CCU, etc.), NOT ROUTING.";
+CM_ SG_ 41 L_ATCU_OutTempDispF "ATCU_OutTemperatureDisplay(¢µ)";
+CM_ BO_ 49 "[PE] Periodic and On Event";
+CM_ SG_ 49 L_ATCU_ResetPreWrngForOthers "This is a PDC routing signal for reset preparing sideeffect of reset";
+CM_ SG_ 49 L_ATCU_ResetReqForOthers "This is a PDC routing signal for SW reset except for Gateway";
+BA_DEF_ BO_ "DiagState" ENUM "No","Yes" ;
+BA_DEF_ BO_ "DiagResponse" ENUM "No","Yes" ;
+BA_DEF_ BO_ "DiagRequest" ENUM "No","Yes" ;
+BA_DEF_ BO_ "TpMessage" ENUM "No","Yes" ;
+BA_DEF_ SG_ "UsrSigIDS" ENUM "Yes","No" ;
+BA_DEF_ BO_ "UsrMsgIDSforwardDeviation" INT 0 100 ;
+BA_DEF_ BO_ "UsrMsgIDSbackwardDeviation" INT 50 1000 ;
+BA_DEF_ BO_ "UsrMsgIDS" ENUM "Yes","No" ;
+BA_DEF_ "BusType" STRING ;
+BA_DEF_ "DBName" STRING ;
+BA_DEF_ "Baudrate" INT 50000 1000000 ;
+BA_DEF_ "BRS" INT 0 1 ;
+BA_DEF_ "GenEnvVarEndingDsp" STRING ;
+BA_DEF_ "GenEnvVarEndingSnd" STRING ;
+BA_DEF_ "GenEnvVarPrefix" STRING ;
+BA_DEF_ "GenNWMApBusSleep" STRING ;
+BA_DEF_ "GenNWMApCanNormal" STRING ;
+BA_DEF_ "GenNWMApCanOff" STRING ;
+BA_DEF_ "GenNWMApCanOn" STRING ;
+BA_DEF_ "GenNWMApCanSleep" STRING ;
+BA_DEF_ "GenNWMApCanWakeUp" STRING ;
+BA_DEF_ "GenNWMGotoMode_Awake" STRING ;
+BA_DEF_ "GenNWMGotoMode_BusSleep" STRING ;
+BA_DEF_ "GenNWMSleepTime" INT 1375 1650 ;
+BA_DEF_ "GenNWMTalkNM" STRING ;
+BA_DEF_ "Manufacturer" STRING ;
+BA_DEF_ "NmBaseAddress" HEX 0 2047 ;
+BA_DEF_ "NmMessageCount" INT 0 128 ;
+BA_DEF_ "NmType" STRING ;
+BA_DEF_ "SamplePointMax" INT 50 85 ;
+BA_DEF_ "SamplePointMin" INT 55 85 ;
+BA_DEF_ "SyncJumpWidthMax" INT 1 8 ;
+BA_DEF_ "SyncJumpWidthMin" INT 1 4 ;
+BA_DEF_ "VersionDay" INT 1 31 ;
+BA_DEF_ "VersionMonth" INT 1 12 ;
+BA_DEF_ "VersionNumber" INT 0 999999 ;
+BA_DEF_ "VersionNumberInternal" INT 0 9999 ;
+BA_DEF_ "VersionWeek" INT 1 53 ;
+BA_DEF_ "VersionYear" INT 0 9999 ;
+BA_DEF_ BU_ "NmStationAddress" HEX 0 255 ;
+BA_DEF_ BU_ "NmNode" ENUM "No","Yes" ;
+BA_DEF_ BU_ "CANoeDrift" INT 0 0 ;
+BA_DEF_ BU_ "CANoeJitterMax" INT 0 0 ;
+BA_DEF_ BU_ "CANoeJitterMin" INT 0 0 ;
+BA_DEF_ BU_ "CANoeStartDelay" INT 0 0 ;
+BA_DEF_ BU_ "GenNodSleepTime" INT 1375 1650 ;
+BA_DEF_ BU_ "ILUsed" ENUM "No","Yes" ;
+BA_DEF_ BU_ "NmCAN" INT 1 2 ;
+BA_DEF_ BU_ "NodeLayerModules" STRING ;
+BA_DEF_ BU_ "NWM_Knoten" ENUM "No","Yes" ;
+BA_DEF_ BU_ "TpRxIdentifier" HEX 0 0 ;
+BA_DEF_ BU_ "TpTxIdentifier" HEX 0 0 ;
+BA_DEF_ BO_ "GenMsgCycleTime" INT 0 2000 ;
+BA_DEF_ BO_ "GenMsgStartDelayTime" INT 0 2000 ;
+BA_DEF_ BO_ "GenMsgSendType" ENUM "Cyclic","NoMsgSendType" ;
+BA_DEF_ BO_ "GenMsgCycleTimeFast" INT 0 500 ;
+BA_DEF_ BO_ "GenMsgDelayTime" INT 0 20 ;
+BA_DEF_ BO_ "GenMsgFastOnStart" INT 0 0 ;
+BA_DEF_ BO_ "GenMsgILSupport" ENUM "No","Yes" ;
+BA_DEF_ BO_ "GenMsgMinAcceptLength" INT 0 0 ;
+BA_DEF_ BO_ "GenMsgNrOfRepetition" INT 0 3 ;
+BA_DEF_ BO_ "NmMessage" ENUM "No","Yes" ;
+BA_DEF_ BO_ "NWM-Botschaft" ENUM "No","Yes" ;
+BA_DEF_ BO_ "TpTxIndex" INT 0 65535 ;
+BA_DEF_ BO_ "VFrameFormat" ENUM "StandardCAN","ExtendedCAN","reserved","reserved","reserved","reserved","reserved","reserved","reserved","reserved","reserved","reserved","reserved","reserved","StandardCAN_FD","ExtendedCAN_FD" ;
+BA_DEF_ SG_ "SignalLongName" STRING ;
+BA_DEF_ SG_ "UserSigValidity" ENUM "B+","ACC","IG","IG1","IG2","IG3","IG1 or IG2","IG1 or IG3","Undef" ;
+BA_DEF_ SG_ "TimeoutValue" STRING ;
+BA_DEF_ SG_ "UsrSigPurpose" ENUM "Undef","FN","DIAG","DIAG(Req)","DIAG(Res)","DIAG(Phy)","DEV","CCP(Req)","CCP(Res)","NM","TP" ;
+BA_DEF_ SG_ "GenSigStartValue" INT 0 1215752192 ;
+BA_DEF_ SG_ "NetworkRequest" ENUM "Yes","No" ;
+BA_DEF_ SG_ "NetworkRequestHoldingTime" INT 0 65535 ;
+BA_DEF_ SG_ "Description" STRING ;
+BA_DEF_ SG_ "Version" STRING ;
+BA_DEF_ SG_ "GenSigEnvVarType" ENUM "Int","Float","Undef" ;
+BA_DEF_ SG_ "GenSigEVName" STRING ;
+BA_DEF_ SG_ "GenSigInactiveValue" INT 0 65536 ;
+BA_DEF_ SG_ "GenSigSendType" ENUM "Cyclic","OnWrite","OnWriteWithRepetition","OnChange","OnChangeWithRepetition","IfActive","IfActiveWithRepetition","NoSigSendType","OnChangeAndIfActive","OnChangeAndIfActiveWithRepetition" ;
+BA_DEF_ SG_ "GenSigTimeoutMsg" HEX 0 2047 ;
+BA_DEF_ SG_ "GwSigLatencyTime" INT 0 65536 ;
+BA_DEF_ SG_ "GwSigMissingSourceType" ENUM "Undef","OldValue","DefaultValue","InitialValue" ;
+BA_DEF_ SG_ "NWM-WakeupAllowed" ENUM "<n.a.>" ;
+BA_DEF_ SG_ "UndefinedValueRangeBegin" INT 0 0 ;
+BA_DEF_ SG_ "RoutingFactor" INT 1 1215752192 ;
+BA_DEF_REL_ BU_SG_REL_ "GenSigTimeoutTime" INT 0 7000 ;
+BA_DEF_DEF_ "DiagState" "No" ;
+BA_DEF_DEF_ "DiagResponse" "No" ;
+BA_DEF_DEF_ "DiagRequest" "No" ;
+BA_DEF_DEF_ "TpMessage" "No" ;
+BA_DEF_DEF_ "UsrSigIDS" "No" ;
+BA_DEF_DEF_ "UsrMsgIDSforwardDeviation" 10 ;
+BA_DEF_DEF_ "UsrMsgIDSbackwardDeviation" 100 ;
+BA_DEF_DEF_ "UsrMsgIDS" "No" ;
+BA_DEF_DEF_ "BusType" "CAN" ;
+BA_DEF_DEF_ "DBName" "" ;
+BA_DEF_DEF_ "Baudrate" 500000 ;
+BA_DEF_DEF_ "BRS" 0 ;
+BA_DEF_DEF_ "GenEnvVarEndingDsp" "Dsp_" ;
+BA_DEF_DEF_ "GenEnvVarEndingSnd" "_" ;
+BA_DEF_DEF_ "GenEnvVarPrefix" "Env" ;
+BA_DEF_DEF_ "GenNWMApBusSleep" "AppNmCanBusSleep()" ;
+BA_DEF_DEF_ "GenNWMApCanNormal" "AppNmCanNormal()" ;
+BA_DEF_DEF_ "GenNWMApCanOff" "ApplCanOffline()" ;
+BA_DEF_DEF_ "GenNWMApCanOn" "ApplCanOnline()" ;
+BA_DEF_DEF_ "GenNWMApCanSleep" "ApplNmCanSleep()" ;
+BA_DEF_DEF_ "GenNWMApCanWakeUp" "ApplCanWakeUp()" ;
+BA_DEF_DEF_ "GenNWMGotoMode_Awake" "GotoMode_Awake()" ;
+BA_DEF_DEF_ "GenNWMGotoMode_BusSleep" "GotoMode_BusSleep()" ;
+BA_DEF_DEF_ "GenNWMSleepTime" 1500 ;
+BA_DEF_DEF_ "GenNWMTalkNM" "TalkNM()" ;
+BA_DEF_DEF_ "Manufacturer" "HMC" ;
+BA_DEF_DEF_ "NmBaseAddress" 1280 ;
+BA_DEF_DEF_ "NmMessageCount" 128 ;
+BA_DEF_DEF_ "NmType" "Vector" ;
+BA_DEF_DEF_ "SamplePointMax" 80 ;
+BA_DEF_DEF_ "SamplePointMin" 80 ;
+BA_DEF_DEF_ "SyncJumpWidthMax" 3 ;
+BA_DEF_DEF_ "SyncJumpWidthMin" 2 ;
+BA_DEF_DEF_ "VersionDay" 1 ;
+BA_DEF_DEF_ "VersionMonth" 1 ;
+BA_DEF_DEF_ "VersionNumber" 0 ;
+BA_DEF_DEF_ "VersionNumberInternal" 0 ;
+BA_DEF_DEF_ "VersionWeek" 1 ;
+BA_DEF_DEF_ "VersionYear" 0 ;
+BA_DEF_DEF_ "NmStationAddress" 0 ;
+BA_DEF_DEF_ "NmNode" "Yes" ;
+BA_DEF_DEF_ "CANoeDrift" 0 ;
+BA_DEF_DEF_ "CANoeJitterMax" 0 ;
+BA_DEF_DEF_ "CANoeJitterMin" 0 ;
+BA_DEF_DEF_ "CANoeStartDelay" 0 ;
+BA_DEF_DEF_ "GenNodSleepTime" 1500 ;
+BA_DEF_DEF_ "ILUsed" "Yes" ;
+BA_DEF_DEF_ "NmCAN" 1 ;
+BA_DEF_DEF_ "NodeLayerModules" "oseknm01.dll,CANoeILNLVector.dll" ;
+BA_DEF_DEF_ "NWM_Knoten" "Yes" ;
+BA_DEF_DEF_ "TpRxIdentifier" 0 ;
+BA_DEF_DEF_ "TpTxIdentifier" 0 ;
+BA_DEF_DEF_ "GenMsgCycleTime" 200 ;
+BA_DEF_DEF_ "GenMsgStartDelayTime" 0 ;
+BA_DEF_DEF_ "GenMsgSendType" "NoMsgSendType" ;
+BA_DEF_DEF_ "GenMsgCycleTimeFast" 40 ;
+BA_DEF_DEF_ "GenMsgDelayTime" 20 ;
+BA_DEF_DEF_ "GenMsgFastOnStart" 0 ;
+BA_DEF_DEF_ "GenMsgILSupport" "Yes" ;
+BA_DEF_DEF_ "GenMsgMinAcceptLength" 0 ;
+BA_DEF_DEF_ "GenMsgNrOfRepetition" 3 ;
+BA_DEF_DEF_ "NmMessage" "No" ;
+BA_DEF_DEF_ "NWM-Botschaft" "No" ;
+BA_DEF_DEF_ "TpTxIndex" 0 ;
+BA_DEF_DEF_ "VFrameFormat" "StandardCAN" ;
+BA_DEF_DEF_ "SignalLongName" "" ;
+BA_DEF_DEF_ "UserSigValidity" "IG" ;
+BA_DEF_DEF_ "TimeoutValue" "" ;
+BA_DEF_DEF_ "UsrSigPurpose" "FN" ;
+BA_DEF_DEF_ "GenSigStartValue" 0 ;
+BA_DEF_DEF_ "NetworkRequest" "No" ;
+BA_DEF_DEF_ "NetworkRequestHoldingTime" 0 ;
+BA_DEF_DEF_ "Description" "" ;
+BA_DEF_DEF_ "Version" "" ;
+BA_DEF_DEF_ "GenSigEnvVarType" "Undef" ;
+BA_DEF_DEF_ "GenSigEVName" "" ;
+BA_DEF_DEF_ "GenSigInactiveValue" 0 ;
+BA_DEF_DEF_ "GenSigSendType" "NoSigSendType" ;
+BA_DEF_DEF_ "GenSigTimeoutMsg" 0 ;
+BA_DEF_DEF_ "GwSigLatencyTime" 40 ;
+BA_DEF_DEF_ "GwSigMissingSourceType" "Undef" ;
+BA_DEF_DEF_ "NWM-WakeupAllowed" "<n.a.>" ;
+BA_DEF_DEF_ "UndefinedValueRangeBegin" 0 ;
+BA_DEF_DEF_ "RoutingFactor" 1 ;
+BA_DEF_DEF_REL_ "GenSigTimeoutTime" 500 ;
+BA_ "DBName" "Local_HS";
+BA_ "VersionDay" 1;
+BA_ "VersionMonth" 1;
+BA_ "VersionYear" 1;
+BA_ "VersionWeek" 1;
+BA_ "VersionNumber" 241101;
+BA_ "VersionNumberInternal" 0;
+BA_ "NmStationAddress" BU_ L_2HKBD 0;
+BA_ "NmNode" BU_ L_2HKBD 0;
+BA_ "GenMsgSendType" BO_ 97 0;
+BA_ "GenMsgCycleTime" BO_ 97 500;
+BA_ "GenMsgStartDelayTime" BO_ 97 0;
+BA_ "NmStationAddress" BU_ L_ATCU 0;
+BA_ "NmNode" BU_ L_ATCU 0;
+BA_ "Description" SG_ 97 L_2HKBD_Sw_Opt1 "Bit0~2:RESERVED
+Bit3~4:(Type):0 - None/1 - ATC/2 - MTC 
+Bit5~7:RESERVED";
+BA_ "GenSigSendType" SG_ 97 L_2HKBD_Sw_Opt1 4;
+BA_ "GenSigStartValue" SG_ 97 L_2HKBD_Sw_Opt1 0;
+BA_ "UserSigValidity" SG_ 97 L_2HKBD_Sw_Opt1 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_ATCU SG_ 97 L_2HKBD_Sw_Opt1 5000;
+BA_ "NetworkRequestHoldingTime" SG_ 97 L_2HKBD_Sw_Opt1 0;
+BA_ "RoutingFactor" SG_ 97 L_2HKBD_Sw_Opt1 1;
+BA_ "Version" SG_ 97 L_2HKBD_Sw_Opt1 "23.11.09";
+BA_ "Description" SG_ 97 L_2HKBD_Typ2 "Bit 0 : 2nd ROOF DR DUCT Snsr : 0 ? Not Apply / 1 ? Apply
+Bit 1 : 2nd ROOF Ast DUCT Snsr : 0 ? Not Apply / 1 ? Apply
+Bit 2 : 2nd FLOOR DR DUCT Snsr : 0 ? Not Apply / 1 ? Apply
+Bit 3 : 2nd FLOOR Ast DUCT Snsr : 0 ? Not Apply / 1 - Apply
+Bit 4 : RESERVED
+Bit 5~6 (2nd Multi Auto Text):0 - Multi Auto State Text Not Applied/1 - Multi Auto State Text Display Only Applied/2 - Multi Auto State Text Display & Control Applied/3 ? RESERVED
+Bit7:(2nd REAR LOCK):0 ? NON REAR LOCK/1 ? REAR LOCK";
+BA_ "GenSigSendType" SG_ 97 L_2HKBD_Typ2 4;
+BA_ "GenSigStartValue" SG_ 97 L_2HKBD_Typ2 0;
+BA_ "UserSigValidity" SG_ 97 L_2HKBD_Typ2 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_ATCU SG_ 97 L_2HKBD_Typ2 5000;
+BA_ "NetworkRequestHoldingTime" SG_ 97 L_2HKBD_Typ2 0;
+BA_ "RoutingFactor" SG_ 97 L_2HKBD_Typ2 1;
+BA_ "Version" SG_ 97 L_2HKBD_Typ2 "24.11.00";
+BA_ "Description" SG_ 97 L_2HKBD_Typ3 "Bit 0~1 (2nd Rear Ps Auto Step):0 ? None/1 ? Single(On/Off)/2 ? 2 Step Type (High/Low/Off)/3 ? 3 Step Type(High/Medium/Low/Off)
+Bit 2~3 RESERVED
+Bit 4~5 (2nd Rear Ps Multi Auto Text):0 - Multi Auto State Text Not Applied/1 - Multi Auto State Text Display Only Applied/2 - Multi Auto State Text Display & Control Applied/3 ? RESERVED";
+BA_ "GenSigSendType" SG_ 97 L_2HKBD_Typ3 4;
+BA_ "GenSigStartValue" SG_ 97 L_2HKBD_Typ3 0;
+BA_ "UserSigValidity" SG_ 97 L_2HKBD_Typ3 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_ATCU SG_ 97 L_2HKBD_Typ3 5000;
+BA_ "NetworkRequestHoldingTime" SG_ 97 L_2HKBD_Typ3 0;
+BA_ "RoutingFactor" SG_ 97 L_2HKBD_Typ3 1;
+BA_ "Version" SG_ 97 L_2HKBD_Typ3 "24.02.01";
+BA_ "Description" SG_ 97 L_2HKBD_Typ1 "Bit 0~7 : RESERVED";
+BA_ "GenSigSendType" SG_ 97 L_2HKBD_Typ1 4;
+BA_ "GenSigStartValue" SG_ 97 L_2HKBD_Typ1 0;
+BA_ "UserSigValidity" SG_ 97 L_2HKBD_Typ1 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_ATCU SG_ 97 L_2HKBD_Typ1 5000;
+BA_ "NetworkRequestHoldingTime" SG_ 97 L_2HKBD_Typ1 0;
+BA_ "RoutingFactor" SG_ 97 L_2HKBD_Typ1 1;
+BA_ "Version" SG_ 97 L_2HKBD_Typ1 "24.02.01";
+BA_ "GenMsgSendType" BO_ 98 0;
+BA_ "GenMsgCycleTime" BO_ 98 20;
+BA_ "GenMsgCycleTimeFast" BO_ 98 0;
+BA_ "GenMsgNrOfRepetition" BO_ 98 0;
+BA_ "GenMsgDelayTime" BO_ 98 0;
+BA_ "GenMsgStartDelayTime" BO_ 98 0;
+BA_ "GenSigStartValue" SG_ 98 L_2HKBD_Rr_EvapVolVal 0;
+BA_ "UserSigValidity" SG_ 98 L_2HKBD_Rr_EvapVolVal 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_ATCU SG_ 98 L_2HKBD_Rr_EvapVolVal 500;
+BA_ "NetworkRequestHoldingTime" SG_ 98 L_2HKBD_Rr_EvapVolVal 0;
+BA_ "RoutingFactor" SG_ 98 L_2HKBD_Rr_EvapVolVal 1;
+BA_ "Version" SG_ 98 L_2HKBD_Rr_EvapVolVal "23.09.05";
+BA_ "GenSigStartValue" SG_ 98 L_2HKBD_Rr_TempActrSt 0;
+BA_ "UserSigValidity" SG_ 98 L_2HKBD_Rr_TempActrSt 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_ATCU SG_ 98 L_2HKBD_Rr_TempActrSt 500;
+BA_ "NetworkRequestHoldingTime" SG_ 98 L_2HKBD_Rr_TempActrSt 0;
+BA_ "RoutingFactor" SG_ 98 L_2HKBD_Rr_TempActrSt 1;
+BA_ "Version" SG_ 98 L_2HKBD_Rr_TempActrSt "23.09.01";
+BA_ "GenSigStartValue" SG_ 98 L_2HKBD_Rr_TempAsstActrFB 0;
+BA_ "UserSigValidity" SG_ 98 L_2HKBD_Rr_TempAsstActrFB 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_ATCU SG_ 98 L_2HKBD_Rr_TempAsstActrFB 500;
+BA_ "NetworkRequestHoldingTime" SG_ 98 L_2HKBD_Rr_TempAsstActrFB 0;
+BA_ "RoutingFactor" SG_ 98 L_2HKBD_Rr_TempAsstActrFB 1;
+BA_ "Version" SG_ 98 L_2HKBD_Rr_TempAsstActrFB "23.09.01";
+BA_ "GenSigStartValue" SG_ 98 L_2HKBD_Rr_TempAsstActrSt 0;
+BA_ "UserSigValidity" SG_ 98 L_2HKBD_Rr_TempAsstActrSt 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_ATCU SG_ 98 L_2HKBD_Rr_TempAsstActrSt 500;
+BA_ "NetworkRequestHoldingTime" SG_ 98 L_2HKBD_Rr_TempAsstActrSt 0;
+BA_ "RoutingFactor" SG_ 98 L_2HKBD_Rr_TempAsstActrSt 1;
+BA_ "Version" SG_ 98 L_2HKBD_Rr_TempAsstActrSt "23.09.01";
+BA_ "GenSigStartValue" SG_ 98 L_2HKBD_Rr_ModeActrFB 0;
+BA_ "UserSigValidity" SG_ 98 L_2HKBD_Rr_ModeActrFB 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_ATCU SG_ 98 L_2HKBD_Rr_ModeActrFB 500;
+BA_ "NetworkRequestHoldingTime" SG_ 98 L_2HKBD_Rr_ModeActrFB 0;
+BA_ "RoutingFactor" SG_ 98 L_2HKBD_Rr_ModeActrFB 1;
+BA_ "Version" SG_ 98 L_2HKBD_Rr_ModeActrFB "23.09.01";
+BA_ "GenSigStartValue" SG_ 98 L_2HKBD_Rr_ModeActrSt 0;
+BA_ "UserSigValidity" SG_ 98 L_2HKBD_Rr_ModeActrSt 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_ATCU SG_ 98 L_2HKBD_Rr_ModeActrSt 500;
+BA_ "NetworkRequestHoldingTime" SG_ 98 L_2HKBD_Rr_ModeActrSt 0;
+BA_ "RoutingFactor" SG_ 98 L_2HKBD_Rr_ModeActrSt 1;
+BA_ "Version" SG_ 98 L_2HKBD_Rr_ModeActrSt "23.09.01";
+BA_ "GenSigStartValue" SG_ 98 L_2HKBD_Rr_BLDCError 0;
+BA_ "UserSigValidity" SG_ 98 L_2HKBD_Rr_BLDCError 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_ATCU SG_ 98 L_2HKBD_Rr_BLDCError 500;
+BA_ "NetworkRequestHoldingTime" SG_ 98 L_2HKBD_Rr_BLDCError 0;
+BA_ "RoutingFactor" SG_ 98 L_2HKBD_Rr_BLDCError 1;
+BA_ "Version" SG_ 98 L_2HKBD_Rr_BLDCError "23.09.01";
+BA_ "Description" SG_ 98 L_2HKBD_Rr_HVACBLDCRpmFB "00H~3E8H:RPM = Factor * Hex + Offset/3E9H ~ FFFFH:RESERVED";
+BA_ "GenSigStartValue" SG_ 98 L_2HKBD_Rr_HVACBLDCRpmFB 0;
+BA_ "UserSigValidity" SG_ 98 L_2HKBD_Rr_HVACBLDCRpmFB 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_ATCU SG_ 98 L_2HKBD_Rr_HVACBLDCRpmFB 500;
+BA_ "NetworkRequestHoldingTime" SG_ 98 L_2HKBD_Rr_HVACBLDCRpmFB 0;
+BA_ "RoutingFactor" SG_ 98 L_2HKBD_Rr_HVACBLDCRpmFB 1;
+BA_ "Version" SG_ 98 L_2HKBD_Rr_HVACBLDCRpmFB "23.09.05";
+BA_ "GenSigStartValue" SG_ 98 L_2HKBD_Rr_TempActrFB 0;
+BA_ "UserSigValidity" SG_ 98 L_2HKBD_Rr_TempActrFB 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_ATCU SG_ 98 L_2HKBD_Rr_TempActrFB 500;
+BA_ "NetworkRequestHoldingTime" SG_ 98 L_2HKBD_Rr_TempActrFB 0;
+BA_ "RoutingFactor" SG_ 98 L_2HKBD_Rr_TempActrFB 1;
+BA_ "Version" SG_ 98 L_2HKBD_Rr_TempActrFB "23.09.01";
+BA_ "GenMsgSendType" BO_ 99 0;
+BA_ "GenMsgCycleTime" BO_ 99 500;
+BA_ "GenMsgStartDelayTime" BO_ 99 0;
+BA_ "Description" SG_ 99 L_2HKBD_SwBtnTyp "Each bit for button type is defined as
+0-None/1-Hardkey/2-Touch(Used Beep)/3-Touch(Not Used Beep)
+Bit 0~1 : 2nd Temp Button / Bit 2~3 : 2nd Blower Button / Bit 4~5 : 2nd Mode Button / Bit 6~7 : 2nd Auto Button / Bit 8~9 : 2nd A/C Button / Bit 10~11 : 2nd Sync Button / Bit 12~13 : 2nd StHeatVnt Button / Bit 14~15 : OFF / 16~19 : Reserved";
+BA_ "GenSigSendType" SG_ 99 L_2HKBD_SwBtnTyp 4;
+BA_ "GenSigStartValue" SG_ 99 L_2HKBD_SwBtnTyp 0;
+BA_ "UserSigValidity" SG_ 99 L_2HKBD_SwBtnTyp 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_ATCU SG_ 99 L_2HKBD_SwBtnTyp 5000;
+BA_ "NetworkRequestHoldingTime" SG_ 99 L_2HKBD_SwBtnTyp 0;
+BA_ "RoutingFactor" SG_ 99 L_2HKBD_SwBtnTyp 1;
+BA_ "Version" SG_ 99 L_2HKBD_SwBtnTyp "23.11.09";
+BA_ "Description" SG_ 99 L_2HKBD_ResetOpSta "This signal indicates whether the reset operation has been completed or not";
+BA_ "GenSigSendType" SG_ 99 L_2HKBD_ResetOpSta 4;
+BA_ "GenSigStartValue" SG_ 99 L_2HKBD_ResetOpSta 0;
+BA_ "UserSigValidity" SG_ 99 L_2HKBD_ResetOpSta 0;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_ATCU SG_ 99 L_2HKBD_ResetOpSta 1000;
+BA_ "NetworkRequestHoldingTime" SG_ 99 L_2HKBD_ResetOpSta 0;
+BA_ "RoutingFactor" SG_ 99 L_2HKBD_ResetOpSta 1;
+BA_ "Version" SG_ 99 L_2HKBD_ResetOpSta "24.10.05";
+BA_ "GenMsgSendType" BO_ 100 0;
+BA_ "GenMsgCycleTime" BO_ 100 200;
+BA_ "GenMsgStartDelayTime" BO_ 100 0;
+BA_ "GenSigSendType" SG_ 100 L_2HKBD_RrDrModeDnSw 4;
+BA_ "GenSigStartValue" SG_ 100 L_2HKBD_RrDrModeDnSw 0;
+BA_ "UserSigValidity" SG_ 100 L_2HKBD_RrDrModeDnSw 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_ATCU SG_ 100 L_2HKBD_RrDrModeDnSw 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 100 L_2HKBD_RrDrModeDnSw 0;
+BA_ "RoutingFactor" SG_ 100 L_2HKBD_RrDrModeDnSw 1;
+BA_ "Version" SG_ 100 L_2HKBD_RrDrModeDnSw "23.09.01";
+BA_ "GenSigSendType" SG_ 100 L_2HKBD_RrDrModeUpSw 4;
+BA_ "GenSigStartValue" SG_ 100 L_2HKBD_RrDrModeUpSw 0;
+BA_ "UserSigValidity" SG_ 100 L_2HKBD_RrDrModeUpSw 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_ATCU SG_ 100 L_2HKBD_RrDrModeUpSw 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 100 L_2HKBD_RrDrModeUpSw 0;
+BA_ "RoutingFactor" SG_ 100 L_2HKBD_RrDrModeUpSw 1;
+BA_ "Version" SG_ 100 L_2HKBD_RrDrModeUpSw "23.09.01";
+BA_ "GenSigSendType" SG_ 100 L_2HKBD_RrDrAutoSw 4;
+BA_ "GenSigStartValue" SG_ 100 L_2HKBD_RrDrAutoSw 0;
+BA_ "UserSigValidity" SG_ 100 L_2HKBD_RrDrAutoSw 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_ATCU SG_ 100 L_2HKBD_RrDrAutoSw 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 100 L_2HKBD_RrDrAutoSw 0;
+BA_ "RoutingFactor" SG_ 100 L_2HKBD_RrDrAutoSw 1;
+BA_ "Version" SG_ 100 L_2HKBD_RrDrAutoSw "23.09.01";
+BA_ "GenSigSendType" SG_ 100 L_2HKBD_Rr_OffSw 4;
+BA_ "GenSigStartValue" SG_ 100 L_2HKBD_Rr_OffSw 0;
+BA_ "UserSigValidity" SG_ 100 L_2HKBD_Rr_OffSw 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_ATCU SG_ 100 L_2HKBD_Rr_OffSw 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 100 L_2HKBD_Rr_OffSw 0;
+BA_ "RoutingFactor" SG_ 100 L_2HKBD_Rr_OffSw 1;
+BA_ "Version" SG_ 100 L_2HKBD_Rr_OffSw "23.09.01";
+BA_ "GenSigSendType" SG_ 100 L_2HKBD_RrSyncSw 4;
+BA_ "GenSigStartValue" SG_ 100 L_2HKBD_RrSyncSw 0;
+BA_ "UserSigValidity" SG_ 100 L_2HKBD_RrSyncSw 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_ATCU SG_ 100 L_2HKBD_RrSyncSw 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 100 L_2HKBD_RrSyncSw 0;
+BA_ "RoutingFactor" SG_ 100 L_2HKBD_RrSyncSw 1;
+BA_ "Version" SG_ 100 L_2HKBD_RrSyncSw "23.09.01";
+BA_ "GenSigSendType" SG_ 100 L_2HKBD_RrAcSw 4;
+BA_ "GenSigStartValue" SG_ 100 L_2HKBD_RrAcSw 0;
+BA_ "UserSigValidity" SG_ 100 L_2HKBD_RrAcSw 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_ATCU SG_ 100 L_2HKBD_RrAcSw 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 100 L_2HKBD_RrAcSw 0;
+BA_ "RoutingFactor" SG_ 100 L_2HKBD_RrAcSw 1;
+BA_ "Version" SG_ 100 L_2HKBD_RrAcSw "23.09.01";
+BA_ "GenSigSendType" SG_ 100 L_2HKBD_RLStHtrSwReq 4;
+BA_ "GenSigStartValue" SG_ 100 L_2HKBD_RLStHtrSwReq 0;
+BA_ "UserSigValidity" SG_ 100 L_2HKBD_RLStHtrSwReq 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_ATCU SG_ 100 L_2HKBD_RLStHtrSwReq 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 100 L_2HKBD_RLStHtrSwReq 0;
+BA_ "RoutingFactor" SG_ 100 L_2HKBD_RLStHtrSwReq 1;
+BA_ "Version" SG_ 100 L_2HKBD_RLStHtrSwReq "23.09.01";
+BA_ "GenSigSendType" SG_ 100 L_2HKBD_RLStVentSwReq 4;
+BA_ "GenSigStartValue" SG_ 100 L_2HKBD_RLStVentSwReq 0;
+BA_ "UserSigValidity" SG_ 100 L_2HKBD_RLStVentSwReq 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_ATCU SG_ 100 L_2HKBD_RLStVentSwReq 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 100 L_2HKBD_RLStVentSwReq 0;
+BA_ "RoutingFactor" SG_ 100 L_2HKBD_RLStVentSwReq 1;
+BA_ "Version" SG_ 100 L_2HKBD_RLStVentSwReq "23.09.01";
+BA_ "GenSigSendType" SG_ 100 L_2HKBD_RRStHtrSwReq 4;
+BA_ "GenSigStartValue" SG_ 100 L_2HKBD_RRStHtrSwReq 0;
+BA_ "UserSigValidity" SG_ 100 L_2HKBD_RRStHtrSwReq 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_ATCU SG_ 100 L_2HKBD_RRStHtrSwReq 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 100 L_2HKBD_RRStHtrSwReq 0;
+BA_ "RoutingFactor" SG_ 100 L_2HKBD_RRStHtrSwReq 1;
+BA_ "Version" SG_ 100 L_2HKBD_RRStHtrSwReq "23.09.01";
+BA_ "GenSigSendType" SG_ 100 L_2HKBD_RRStVentSwReq 4;
+BA_ "GenSigStartValue" SG_ 100 L_2HKBD_RRStVentSwReq 0;
+BA_ "UserSigValidity" SG_ 100 L_2HKBD_RRStVentSwReq 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_ATCU SG_ 100 L_2HKBD_RRStVentSwReq 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 100 L_2HKBD_RRStVentSwReq 0;
+BA_ "RoutingFactor" SG_ 100 L_2HKBD_RRStVentSwReq 1;
+BA_ "Version" SG_ 100 L_2HKBD_RRStVentSwReq "23.09.01";
+BA_ "GenSigSendType" SG_ 100 L_2HKBD_RrDrMultiAutoSw 4;
+BA_ "GenSigStartValue" SG_ 100 L_2HKBD_RrDrMultiAutoSw 7;
+BA_ "UserSigValidity" SG_ 100 L_2HKBD_RrDrMultiAutoSw 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_ATCU SG_ 100 L_2HKBD_RrDrMultiAutoSw 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 100 L_2HKBD_RrDrMultiAutoSw 0;
+BA_ "RoutingFactor" SG_ 100 L_2HKBD_RrDrMultiAutoSw 1;
+BA_ "Version" SG_ 100 L_2HKBD_RrDrMultiAutoSw "24.01.00";
+BA_ "GenSigSendType" SG_ 100 L_2HKBD_RrDrModeSw 4;
+BA_ "GenSigStartValue" SG_ 100 L_2HKBD_RrDrModeSw 0;
+BA_ "UserSigValidity" SG_ 100 L_2HKBD_RrDrModeSw 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_ATCU SG_ 100 L_2HKBD_RrDrModeSw 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 100 L_2HKBD_RrDrModeSw 0;
+BA_ "RoutingFactor" SG_ 100 L_2HKBD_RrDrModeSw 1;
+BA_ "Version" SG_ 100 L_2HKBD_RrDrModeSw "23.09.01";
+BA_ "GenSigSendType" SG_ 100 L_2HKBD_RrPsModeSw 4;
+BA_ "GenSigStartValue" SG_ 100 L_2HKBD_RrPsModeSw 0;
+BA_ "UserSigValidity" SG_ 100 L_2HKBD_RrPsModeSw 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_ATCU SG_ 100 L_2HKBD_RrPsModeSw 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 100 L_2HKBD_RrPsModeSw 0;
+BA_ "RoutingFactor" SG_ 100 L_2HKBD_RrPsModeSw 1;
+BA_ "Version" SG_ 100 L_2HKBD_RrPsModeSw "23.09.01";
+BA_ "GenSigSendType" SG_ 100 L_2HKBD_RrPsModeDnSw 4;
+BA_ "GenSigStartValue" SG_ 100 L_2HKBD_RrPsModeDnSw 0;
+BA_ "UserSigValidity" SG_ 100 L_2HKBD_RrPsModeDnSw 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_ATCU SG_ 100 L_2HKBD_RrPsModeDnSw 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 100 L_2HKBD_RrPsModeDnSw 0;
+BA_ "RoutingFactor" SG_ 100 L_2HKBD_RrPsModeDnSw 1;
+BA_ "Version" SG_ 100 L_2HKBD_RrPsModeDnSw "23.09.01";
+BA_ "GenSigSendType" SG_ 100 L_2HKBD_RrPsModeUpSw 4;
+BA_ "GenSigStartValue" SG_ 100 L_2HKBD_RrPsModeUpSw 0;
+BA_ "UserSigValidity" SG_ 100 L_2HKBD_RrPsModeUpSw 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_ATCU SG_ 100 L_2HKBD_RrPsModeUpSw 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 100 L_2HKBD_RrPsModeUpSw 0;
+BA_ "RoutingFactor" SG_ 100 L_2HKBD_RrPsModeUpSw 1;
+BA_ "Version" SG_ 100 L_2HKBD_RrPsModeUpSw "23.09.01";
+BA_ "GenSigSendType" SG_ 100 L_2HKBD_RrPsModeVentSw 4;
+BA_ "GenSigStartValue" SG_ 100 L_2HKBD_RrPsModeVentSw 0;
+BA_ "UserSigValidity" SG_ 100 L_2HKBD_RrPsModeVentSw 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_ATCU SG_ 100 L_2HKBD_RrPsModeVentSw 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 100 L_2HKBD_RrPsModeVentSw 0;
+BA_ "RoutingFactor" SG_ 100 L_2HKBD_RrPsModeVentSw 1;
+BA_ "Version" SG_ 100 L_2HKBD_RrPsModeVentSw "23.09.01";
+BA_ "GenSigSendType" SG_ 100 L_2HKBD_RrPsModeFloorSw 4;
+BA_ "GenSigStartValue" SG_ 100 L_2HKBD_RrPsModeFloorSw 0;
+BA_ "UserSigValidity" SG_ 100 L_2HKBD_RrPsModeFloorSw 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_ATCU SG_ 100 L_2HKBD_RrPsModeFloorSw 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 100 L_2HKBD_RrPsModeFloorSw 0;
+BA_ "RoutingFactor" SG_ 100 L_2HKBD_RrPsModeFloorSw 1;
+BA_ "Version" SG_ 100 L_2HKBD_RrPsModeFloorSw "23.09.01";
+BA_ "GenSigSendType" SG_ 100 L_2HKBD_RrPsModeBiLvlSw 4;
+BA_ "GenSigStartValue" SG_ 100 L_2HKBD_RrPsModeBiLvlSw 0;
+BA_ "UserSigValidity" SG_ 100 L_2HKBD_RrPsModeBiLvlSw 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_ATCU SG_ 100 L_2HKBD_RrPsModeBiLvlSw 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 100 L_2HKBD_RrPsModeBiLvlSw 0;
+BA_ "RoutingFactor" SG_ 100 L_2HKBD_RrPsModeBiLvlSw 1;
+BA_ "Version" SG_ 100 L_2HKBD_RrPsModeBiLvlSw "23.09.01";
+BA_ "GenSigSendType" SG_ 100 L_2HKBD_RrPsTempDnSw 4;
+BA_ "GenSigStartValue" SG_ 100 L_2HKBD_RrPsTempDnSw 0;
+BA_ "UserSigValidity" SG_ 100 L_2HKBD_RrPsTempDnSw 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_ATCU SG_ 100 L_2HKBD_RrPsTempDnSw 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 100 L_2HKBD_RrPsTempDnSw 0;
+BA_ "RoutingFactor" SG_ 100 L_2HKBD_RrPsTempDnSw 1;
+BA_ "Version" SG_ 100 L_2HKBD_RrPsTempDnSw "23.09.01";
+BA_ "GenSigSendType" SG_ 100 L_2HKBD_RrPsTempUpSw 4;
+BA_ "GenSigStartValue" SG_ 100 L_2HKBD_RrPsTempUpSw 0;
+BA_ "UserSigValidity" SG_ 100 L_2HKBD_RrPsTempUpSw 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_ATCU SG_ 100 L_2HKBD_RrPsTempUpSw 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 100 L_2HKBD_RrPsTempUpSw 0;
+BA_ "RoutingFactor" SG_ 100 L_2HKBD_RrPsTempUpSw 1;
+BA_ "Version" SG_ 100 L_2HKBD_RrPsTempUpSw "23.09.01";
+BA_ "GenSigSendType" SG_ 100 L_2HKBD_RrPsBlwUpSw 4;
+BA_ "GenSigStartValue" SG_ 100 L_2HKBD_RrPsBlwUpSw 0;
+BA_ "UserSigValidity" SG_ 100 L_2HKBD_RrPsBlwUpSw 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_ATCU SG_ 100 L_2HKBD_RrPsBlwUpSw 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 100 L_2HKBD_RrPsBlwUpSw 0;
+BA_ "RoutingFactor" SG_ 100 L_2HKBD_RrPsBlwUpSw 1;
+BA_ "Version" SG_ 100 L_2HKBD_RrPsBlwUpSw "23.09.01";
+BA_ "GenSigSendType" SG_ 100 L_2HKBD_RrDRModeVentSw 4;
+BA_ "GenSigStartValue" SG_ 100 L_2HKBD_RrDRModeVentSw 0;
+BA_ "UserSigValidity" SG_ 100 L_2HKBD_RrDRModeVentSw 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_ATCU SG_ 100 L_2HKBD_RrDRModeVentSw 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 100 L_2HKBD_RrDRModeVentSw 0;
+BA_ "RoutingFactor" SG_ 100 L_2HKBD_RrDRModeVentSw 1;
+BA_ "Version" SG_ 100 L_2HKBD_RrDRModeVentSw "23.09.01";
+BA_ "GenSigSendType" SG_ 100 L_2HKBD_RrPsBlwDnSw 4;
+BA_ "GenSigStartValue" SG_ 100 L_2HKBD_RrPsBlwDnSw 0;
+BA_ "UserSigValidity" SG_ 100 L_2HKBD_RrPsBlwDnSw 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_ATCU SG_ 100 L_2HKBD_RrPsBlwDnSw 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 100 L_2HKBD_RrPsBlwDnSw 0;
+BA_ "RoutingFactor" SG_ 100 L_2HKBD_RrPsBlwDnSw 1;
+BA_ "Version" SG_ 100 L_2HKBD_RrPsBlwDnSw "23.09.01";
+BA_ "GenSigSendType" SG_ 100 L_2HKBD_RrPsAutoSw 4;
+BA_ "GenSigStartValue" SG_ 100 L_2HKBD_RrPsAutoSw 0;
+BA_ "UserSigValidity" SG_ 100 L_2HKBD_RrPsAutoSw 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_ATCU SG_ 100 L_2HKBD_RrPsAutoSw 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 100 L_2HKBD_RrPsAutoSw 0;
+BA_ "RoutingFactor" SG_ 100 L_2HKBD_RrPsAutoSw 1;
+BA_ "Version" SG_ 100 L_2HKBD_RrPsAutoSw "23.09.01";
+BA_ "GenSigSendType" SG_ 100 L_2HKBD_RrPsMultiAutoSw 4;
+BA_ "GenSigStartValue" SG_ 100 L_2HKBD_RrPsMultiAutoSw 7;
+BA_ "UserSigValidity" SG_ 100 L_2HKBD_RrPsMultiAutoSw 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_ATCU SG_ 100 L_2HKBD_RrPsMultiAutoSw 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 100 L_2HKBD_RrPsMultiAutoSw 0;
+BA_ "RoutingFactor" SG_ 100 L_2HKBD_RrPsMultiAutoSw 1;
+BA_ "Version" SG_ 100 L_2HKBD_RrPsMultiAutoSw "24.01.00";
+BA_ "GenSigSendType" SG_ 100 L_2HKBD_RrDrBlwDnOffSw 4;
+BA_ "GenSigStartValue" SG_ 100 L_2HKBD_RrDrBlwDnOffSw 0;
+BA_ "UserSigValidity" SG_ 100 L_2HKBD_RrDrBlwDnOffSw 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_ATCU SG_ 100 L_2HKBD_RrDrBlwDnOffSw 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 100 L_2HKBD_RrDrBlwDnOffSw 0;
+BA_ "RoutingFactor" SG_ 100 L_2HKBD_RrDrBlwDnOffSw 1;
+BA_ "Version" SG_ 100 L_2HKBD_RrDrBlwDnOffSw "23.09.01";
+BA_ "GenSigSendType" SG_ 100 L_2HKBD_RrPsBlwDnOffSw 4;
+BA_ "GenSigStartValue" SG_ 100 L_2HKBD_RrPsBlwDnOffSw 0;
+BA_ "UserSigValidity" SG_ 100 L_2HKBD_RrPsBlwDnOffSw 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_ATCU SG_ 100 L_2HKBD_RrPsBlwDnOffSw 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 100 L_2HKBD_RrPsBlwDnOffSw 0;
+BA_ "RoutingFactor" SG_ 100 L_2HKBD_RrPsBlwDnOffSw 1;
+BA_ "Version" SG_ 100 L_2HKBD_RrPsBlwDnOffSw "23.09.01";
+BA_ "GenSigSendType" SG_ 100 L_2HKBD_RrOnOffSet 4;
+BA_ "GenSigStartValue" SG_ 100 L_2HKBD_RrOnOffSet 0;
+BA_ "UserSigValidity" SG_ 100 L_2HKBD_RrOnOffSet 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_ATCU SG_ 100 L_2HKBD_RrOnOffSet 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 100 L_2HKBD_RrOnOffSet 0;
+BA_ "RoutingFactor" SG_ 100 L_2HKBD_RrOnOffSet 1;
+BA_ "Version" SG_ 100 L_2HKBD_RrOnOffSet "23.09.01";
+BA_ "GenSigSendType" SG_ 100 L_2HKBD_RrDrModeFloorSw 4;
+BA_ "GenSigStartValue" SG_ 100 L_2HKBD_RrDrModeFloorSw 0;
+BA_ "UserSigValidity" SG_ 100 L_2HKBD_RrDrModeFloorSw 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_ATCU SG_ 100 L_2HKBD_RrDrModeFloorSw 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 100 L_2HKBD_RrDrModeFloorSw 0;
+BA_ "RoutingFactor" SG_ 100 L_2HKBD_RrDrModeFloorSw 1;
+BA_ "Version" SG_ 100 L_2HKBD_RrDrModeFloorSw "23.09.01";
+BA_ "GenSigSendType" SG_ 100 L_2HKBD_RrDrModeBiLvlSw 4;
+BA_ "GenSigStartValue" SG_ 100 L_2HKBD_RrDrModeBiLvlSw 0;
+BA_ "UserSigValidity" SG_ 100 L_2HKBD_RrDrModeBiLvlSw 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_ATCU SG_ 100 L_2HKBD_RrDrModeBiLvlSw 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 100 L_2HKBD_RrDrModeBiLvlSw 0;
+BA_ "RoutingFactor" SG_ 100 L_2HKBD_RrDrModeBiLvlSw 1;
+BA_ "Version" SG_ 100 L_2HKBD_RrDrModeBiLvlSw "23.09.01";
+BA_ "GenSigSendType" SG_ 100 L_2HKBD_RrDrTempDnSw 4;
+BA_ "GenSigStartValue" SG_ 100 L_2HKBD_RrDrTempDnSw 0;
+BA_ "UserSigValidity" SG_ 100 L_2HKBD_RrDrTempDnSw 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_ATCU SG_ 100 L_2HKBD_RrDrTempDnSw 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 100 L_2HKBD_RrDrTempDnSw 0;
+BA_ "RoutingFactor" SG_ 100 L_2HKBD_RrDrTempDnSw 1;
+BA_ "Version" SG_ 100 L_2HKBD_RrDrTempDnSw "23.09.01";
+BA_ "GenSigSendType" SG_ 100 L_2HKBD_RrDrTempUpSw 4;
+BA_ "GenSigStartValue" SG_ 100 L_2HKBD_RrDrTempUpSw 0;
+BA_ "UserSigValidity" SG_ 100 L_2HKBD_RrDrTempUpSw 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_ATCU SG_ 100 L_2HKBD_RrDrTempUpSw 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 100 L_2HKBD_RrDrTempUpSw 0;
+BA_ "RoutingFactor" SG_ 100 L_2HKBD_RrDrTempUpSw 1;
+BA_ "Version" SG_ 100 L_2HKBD_RrDrTempUpSw "23.09.01";
+BA_ "GenSigSendType" SG_ 100 L_2HKBD_RrDrBlwDnSw 4;
+BA_ "GenSigStartValue" SG_ 100 L_2HKBD_RrDrBlwDnSw 0;
+BA_ "UserSigValidity" SG_ 100 L_2HKBD_RrDrBlwDnSw 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_ATCU SG_ 100 L_2HKBD_RrDrBlwDnSw 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 100 L_2HKBD_RrDrBlwDnSw 0;
+BA_ "RoutingFactor" SG_ 100 L_2HKBD_RrDrBlwDnSw 1;
+BA_ "Version" SG_ 100 L_2HKBD_RrDrBlwDnSw "23.09.01";
+BA_ "GenSigSendType" SG_ 100 L_2HKBD_RrDrBlwUpSw 4;
+BA_ "GenSigStartValue" SG_ 100 L_2HKBD_RrDrBlwUpSw 0;
+BA_ "UserSigValidity" SG_ 100 L_2HKBD_RrDrBlwUpSw 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_ATCU SG_ 100 L_2HKBD_RrDrBlwUpSw 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 100 L_2HKBD_RrDrBlwUpSw 0;
+BA_ "RoutingFactor" SG_ 100 L_2HKBD_RrDrBlwUpSw 1;
+BA_ "Version" SG_ 100 L_2HKBD_RrDrBlwUpSw "23.09.01";
+BA_ "GenMsgSendType" BO_ 101 0;
+BA_ "GenMsgCycleTime" BO_ 101 20;
+BA_ "GenMsgCycleTimeFast" BO_ 101 0;
+BA_ "GenMsgNrOfRepetition" BO_ 101 0;
+BA_ "GenMsgDelayTime" BO_ 101 0;
+BA_ "GenMsgStartDelayTime" BO_ 101 0;
+BA_ "GenSigStartValue" SG_ 101 L_2HKBD_RrFlrDuctSnsr 0;
+BA_ "UserSigValidity" SG_ 101 L_2HKBD_RrFlrDuctSnsr 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_ATCU SG_ 101 L_2HKBD_RrFlrDuctSnsr 500;
+BA_ "NetworkRequestHoldingTime" SG_ 101 L_2HKBD_RrFlrDuctSnsr 0;
+BA_ "RoutingFactor" SG_ 101 L_2HKBD_RrFlrDuctSnsr 1;
+BA_ "Version" SG_ 101 L_2HKBD_RrFlrDuctSnsr "23.09.05";
+BA_ "GenSigStartValue" SG_ 101 L_2HKBD_RrVntDuctSnsr 0;
+BA_ "UserSigValidity" SG_ 101 L_2HKBD_RrVntDuctSnsr 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_ATCU SG_ 101 L_2HKBD_RrVntDuctSnsr 500;
+BA_ "NetworkRequestHoldingTime" SG_ 101 L_2HKBD_RrVntDuctSnsr 0;
+BA_ "RoutingFactor" SG_ 101 L_2HKBD_RrVntDuctSnsr 1;
+BA_ "Version" SG_ 101 L_2HKBD_RrVntDuctSnsr "23.09.05";
+BA_ "GenMsgCycleTime" BO_ 102 0;
+BA_ "GenMsgDelayTime" BO_ 102 20;
+BA_ "GenMsgStartDelayTime" BO_ 102 0;
+BA_ "GenSigSendType" SG_ 102 L_2HKBD_RrDrTempClickCnt 4;
+BA_ "GenSigStartValue" SG_ 102 L_2HKBD_RrDrTempClickCnt 255;
+BA_ "UserSigValidity" SG_ 102 L_2HKBD_RrDrTempClickCnt 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_ATCU SG_ 102 L_2HKBD_RrDrTempClickCnt 0;
+BA_ "NetworkRequestHoldingTime" SG_ 102 L_2HKBD_RrDrTempClickCnt 0;
+BA_ "RoutingFactor" SG_ 102 L_2HKBD_RrDrTempClickCnt 1;
+BA_ "Version" SG_ 102 L_2HKBD_RrDrTempClickCnt "24.01.00";
+BA_ "GenSigSendType" SG_ 102 L_2HKBD_RrPsTempClickCnt 4;
+BA_ "GenSigStartValue" SG_ 102 L_2HKBD_RrPsTempClickCnt 255;
+BA_ "UserSigValidity" SG_ 102 L_2HKBD_RrPsTempClickCnt 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_ATCU SG_ 102 L_2HKBD_RrPsTempClickCnt 0;
+BA_ "NetworkRequestHoldingTime" SG_ 102 L_2HKBD_RrPsTempClickCnt 0;
+BA_ "RoutingFactor" SG_ 102 L_2HKBD_RrPsTempClickCnt 1;
+BA_ "Version" SG_ 102 L_2HKBD_RrPsTempClickCnt "24.01.00";
+BA_ "GenSigSendType" SG_ 102 L_2HKBD_RrPsBlwrClickCnt 4;
+BA_ "GenSigStartValue" SG_ 102 L_2HKBD_RrPsBlwrClickCnt 255;
+BA_ "UserSigValidity" SG_ 102 L_2HKBD_RrPsBlwrClickCnt 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_ATCU SG_ 102 L_2HKBD_RrPsBlwrClickCnt 0;
+BA_ "NetworkRequestHoldingTime" SG_ 102 L_2HKBD_RrPsBlwrClickCnt 0;
+BA_ "RoutingFactor" SG_ 102 L_2HKBD_RrPsBlwrClickCnt 1;
+BA_ "Version" SG_ 102 L_2HKBD_RrPsBlwrClickCnt "24.01.00";
+BA_ "GenSigSendType" SG_ 102 L_2HKBD_RrTempKnobCnt 4;
+BA_ "GenSigStartValue" SG_ 102 L_2HKBD_RrTempKnobCnt 3;
+BA_ "UserSigValidity" SG_ 102 L_2HKBD_RrTempKnobCnt 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_ATCU SG_ 102 L_2HKBD_RrTempKnobCnt 0;
+BA_ "NetworkRequestHoldingTime" SG_ 102 L_2HKBD_RrTempKnobCnt 0;
+BA_ "RoutingFactor" SG_ 102 L_2HKBD_RrTempKnobCnt 1;
+BA_ "Version" SG_ 102 L_2HKBD_RrTempKnobCnt "24.01.00";
+BA_ "GenSigSendType" SG_ 102 L_2HKBD_RrBlwKnobCnt 4;
+BA_ "GenSigStartValue" SG_ 102 L_2HKBD_RrBlwKnobCnt 3;
+BA_ "UserSigValidity" SG_ 102 L_2HKBD_RrBlwKnobCnt 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_ATCU SG_ 102 L_2HKBD_RrBlwKnobCnt 0;
+BA_ "NetworkRequestHoldingTime" SG_ 102 L_2HKBD_RrBlwKnobCnt 0;
+BA_ "RoutingFactor" SG_ 102 L_2HKBD_RrBlwKnobCnt 1;
+BA_ "Version" SG_ 102 L_2HKBD_RrBlwKnobCnt "24.01.00";
+BA_ "GenSigSendType" SG_ 102 L_2HKBD_RrDrBlwrClickCnt 4;
+BA_ "GenSigStartValue" SG_ 102 L_2HKBD_RrDrBlwrClickCnt 255;
+BA_ "UserSigValidity" SG_ 102 L_2HKBD_RrDrBlwrClickCnt 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_ATCU SG_ 102 L_2HKBD_RrDrBlwrClickCnt 0;
+BA_ "NetworkRequestHoldingTime" SG_ 102 L_2HKBD_RrDrBlwrClickCnt 0;
+BA_ "RoutingFactor" SG_ 102 L_2HKBD_RrDrBlwrClickCnt 1;
+BA_ "Version" SG_ 102 L_2HKBD_RrDrBlwrClickCnt "24.01.00";
+BA_ "GenMsgSendType" BO_ 33 0;
+BA_ "GenMsgCycleTime" BO_ 33 500;
+BA_ "GenMsgStartDelayTime" BO_ 33 0;
+BA_ "NmStationAddress" BU_ L_HKBD 0;
+BA_ "NmNode" BU_ L_HKBD 0;
+BA_ "Description" SG_ 33 L_ATCU_Typ1 "This signal includes regional information.";
+BA_ "GenSigSendType" SG_ 33 L_ATCU_Typ1 4;
+BA_ "GenSigStartValue" SG_ 33 L_ATCU_Typ1 0;
+BA_ "UserSigValidity" SG_ 33 L_ATCU_Typ1 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 33 L_ATCU_Typ1 5000;
+BA_ "NetworkRequestHoldingTime" SG_ 33 L_ATCU_Typ1 0;
+BA_ "RoutingFactor" SG_ 33 L_ATCU_Typ1 1;
+BA_ "Version" SG_ 33 L_ATCU_Typ1 "23.08.13";
+BA_ "NmStationAddress" BU_ L_3HKBD 0;
+BA_ "NmNode" BU_ L_3HKBD 0;
+BA_ "Description" SG_ 33 L_ATCU_Typ_All_2 "Bit0~1 (2nd Blower Control): 0???None / 1???Single / 2 - Dual / 3???(Reserved)
+Bit2~3 (2nd TEMP Control): 0???None / 1???Single / 2 - Dual / 3???(Reserved)
+Bit4~5 (2nd MODE Control): 0???None / 1???Single / 2 - Dual / 3???(Reserved)
+Bit6~7 (2nd AUTO Control): 0???None / 1???Single / 2 - Dual / 3???(Reserved)";
+BA_ "GenSigSendType" SG_ 33 L_ATCU_Typ_All_2 4;
+BA_ "GenSigStartValue" SG_ 33 L_ATCU_Typ_All_2 0;
+BA_ "UserSigValidity" SG_ 33 L_ATCU_Typ_All_2 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_2HKBD SG_ 33 L_ATCU_Typ_All_2 5000;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_3HKBD SG_ 33 L_ATCU_Typ_All_2 5000;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 33 L_ATCU_Typ_All_2 5000;
+BA_ "NetworkRequestHoldingTime" SG_ 33 L_ATCU_Typ_All_2 0;
+BA_ "RoutingFactor" SG_ 33 L_ATCU_Typ_All_2 1;
+BA_ "Version" SG_ 33 L_ATCU_Typ_All_2 "24.08.00";
+BA_ "Description" SG_ 33 L_ATCU_TempDispSta "Temperature range options";
+BA_ "GenSigSendType" SG_ 33 L_ATCU_TempDispSta 4;
+BA_ "GenSigStartValue" SG_ 33 L_ATCU_TempDispSta 1;
+BA_ "UserSigValidity" SG_ 33 L_ATCU_TempDispSta 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_2HKBD SG_ 33 L_ATCU_TempDispSta 5000;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_3HKBD SG_ 33 L_ATCU_TempDispSta 5000;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 33 L_ATCU_TempDispSta 5000;
+BA_ "NetworkRequestHoldingTime" SG_ 33 L_ATCU_TempDispSta 0;
+BA_ "RoutingFactor" SG_ 33 L_ATCU_TempDispSta 1;
+BA_ "Version" SG_ 33 L_ATCU_TempDispSta "24.08.00";
+BA_ "Description" SG_ 33 L_ATCU_StrgWhlHeatingOpt "Steering Wheel Heating Option : Used when receiving CAN signals (C_StrgWhlHeatingOpt @ICU/PDC). If the vehicle does not receive CAN, 0x3: Invalid transmission, unable to transmit singular information.";
+BA_ "GenSigSendType" SG_ 33 L_ATCU_StrgWhlHeatingOpt 4;
+BA_ "GenSigStartValue" SG_ 33 L_ATCU_StrgWhlHeatingOpt 3;
+BA_ "UserSigValidity" SG_ 33 L_ATCU_StrgWhlHeatingOpt 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_2HKBD SG_ 33 L_ATCU_StrgWhlHeatingOpt 5000;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_3HKBD SG_ 33 L_ATCU_StrgWhlHeatingOpt 5000;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 33 L_ATCU_StrgWhlHeatingOpt 5000;
+BA_ "NetworkRequestHoldingTime" SG_ 33 L_ATCU_StrgWhlHeatingOpt 0;
+BA_ "RoutingFactor" SG_ 33 L_ATCU_StrgWhlHeatingOpt 1;
+BA_ "Version" SG_ 33 L_ATCU_StrgWhlHeatingOpt "24.08.00";
+BA_ "Description" SG_ 33 L_ATCU_Drv_SeatOptSta "Heater/ventilation option specification applied to Driver seat (LH side for LHD / RH side for RHD)";
+BA_ "GenSigSendType" SG_ 33 L_ATCU_Drv_SeatOptSta 4;
+BA_ "GenSigStartValue" SG_ 33 L_ATCU_Drv_SeatOptSta 0;
+BA_ "UserSigValidity" SG_ 33 L_ATCU_Drv_SeatOptSta 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_2HKBD SG_ 33 L_ATCU_Drv_SeatOptSta 5000;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_3HKBD SG_ 33 L_ATCU_Drv_SeatOptSta 5000;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 33 L_ATCU_Drv_SeatOptSta 5000;
+BA_ "NetworkRequestHoldingTime" SG_ 33 L_ATCU_Drv_SeatOptSta 0;
+BA_ "RoutingFactor" SG_ 33 L_ATCU_Drv_SeatOptSta 1;
+BA_ "Version" SG_ 33 L_ATCU_Drv_SeatOptSta "23.08.13";
+BA_ "Description" SG_ 33 L_ATCU_Ast_SeatOptSta "Heater/ventilation option specification applied to Driver seat (LH side for LHD / RH side for RHD)";
+BA_ "GenSigSendType" SG_ 33 L_ATCU_Ast_SeatOptSta 4;
+BA_ "GenSigStartValue" SG_ 33 L_ATCU_Ast_SeatOptSta 0;
+BA_ "UserSigValidity" SG_ 33 L_ATCU_Ast_SeatOptSta 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_2HKBD SG_ 33 L_ATCU_Ast_SeatOptSta 5000;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_3HKBD SG_ 33 L_ATCU_Ast_SeatOptSta 5000;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 33 L_ATCU_Ast_SeatOptSta 5000;
+BA_ "NetworkRequestHoldingTime" SG_ 33 L_ATCU_Ast_SeatOptSta 0;
+BA_ "RoutingFactor" SG_ 33 L_ATCU_Ast_SeatOptSta 1;
+BA_ "Version" SG_ 33 L_ATCU_Ast_SeatOptSta "23.08.13";
+BA_ "Description" SG_ 33 L_ATCU_RL_SeatOptSta "Heater/ventilation option specification applied to Driver seat (LH side for LHD / RH side for RHD)";
+BA_ "GenSigSendType" SG_ 33 L_ATCU_RL_SeatOptSta 4;
+BA_ "GenSigStartValue" SG_ 33 L_ATCU_RL_SeatOptSta 0;
+BA_ "UserSigValidity" SG_ 33 L_ATCU_RL_SeatOptSta 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_2HKBD SG_ 33 L_ATCU_RL_SeatOptSta 5000;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_3HKBD SG_ 33 L_ATCU_RL_SeatOptSta 5000;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 33 L_ATCU_RL_SeatOptSta 5000;
+BA_ "NetworkRequestHoldingTime" SG_ 33 L_ATCU_RL_SeatOptSta 0;
+BA_ "RoutingFactor" SG_ 33 L_ATCU_RL_SeatOptSta 1;
+BA_ "Version" SG_ 33 L_ATCU_RL_SeatOptSta "23.08.13";
+BA_ "Description" SG_ 33 L_ATCU_RR_SeatOptSta "Heater/ventilation option specification applied to Driver seat (LH side for LHD / RH side for RHD)";
+BA_ "GenSigSendType" SG_ 33 L_ATCU_RR_SeatOptSta 4;
+BA_ "GenSigStartValue" SG_ 33 L_ATCU_RR_SeatOptSta 0;
+BA_ "UserSigValidity" SG_ 33 L_ATCU_RR_SeatOptSta 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_2HKBD SG_ 33 L_ATCU_RR_SeatOptSta 5000;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_3HKBD SG_ 33 L_ATCU_RR_SeatOptSta 5000;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 33 L_ATCU_RR_SeatOptSta 5000;
+BA_ "NetworkRequestHoldingTime" SG_ 33 L_ATCU_RR_SeatOptSta 0;
+BA_ "RoutingFactor" SG_ 33 L_ATCU_RR_SeatOptSta 1;
+BA_ "Version" SG_ 33 L_ATCU_RR_SeatOptSta "23.08.13";
+BA_ "Description" SG_ 33 L_ATCU_SmartZoneDis "Smart HVAC SmartZone on/off signal";
+BA_ "GenSigSendType" SG_ 33 L_ATCU_SmartZoneDis 4;
+BA_ "GenSigStartValue" SG_ 33 L_ATCU_SmartZoneDis 0;
+BA_ "UserSigValidity" SG_ 33 L_ATCU_SmartZoneDis 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 33 L_ATCU_SmartZoneDis 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 33 L_ATCU_SmartZoneDis 0;
+BA_ "RoutingFactor" SG_ 33 L_ATCU_SmartZoneDis 1;
+BA_ "Version" SG_ 33 L_ATCU_SmartZoneDis "24.11.00";
+BA_ "Description" SG_ 33 L_ATCU_Typ_All_3 "Bit0~1 (3rd Blower Control): 0???None / 1???Single / 2 - Dual / 3???(Reserved)
+Bit2~3 (3rd TEMP Control): 0???None / 1???Single / 2 - Dual / 3???(Reserved)
+Bit4~5 (3rd MODE Control): 0???None / 1???Single / 2 - Dual / 3???(Reserved)
+Bit6~7 (3rd AUTO Control): 0???None / 1???Single / 2 - Dual / 3???(Reserved)";
+BA_ "GenSigSendType" SG_ 33 L_ATCU_Typ_All_3 4;
+BA_ "GenSigStartValue" SG_ 33 L_ATCU_Typ_All_3 0;
+BA_ "UserSigValidity" SG_ 33 L_ATCU_Typ_All_3 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_2HKBD SG_ 33 L_ATCU_Typ_All_3 5000;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_3HKBD SG_ 33 L_ATCU_Typ_All_3 5000;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 33 L_ATCU_Typ_All_3 5000;
+BA_ "NetworkRequestHoldingTime" SG_ 33 L_ATCU_Typ_All_3 0;
+BA_ "RoutingFactor" SG_ 33 L_ATCU_Typ_All_3 1;
+BA_ "Version" SG_ 33 L_ATCU_Typ_All_3 "24.08.00";
+BA_ "Description" SG_ 33 L_ATCU_Typ_All_1 "Bit0~1 (Front Blower Control): 0 ? None / 1 ? Single / 2 - Dual / 3 ? (Reserved)
+Bit2~3 (Front TEMP Control): 0 ? None / 1 ? Single / 2 - Dual / 3 ? (Reserved)
+Bit4~5 (Front MODE Control): 0 ? None / 1 ? Single / 2 - Dual / 3 ? (Reserved)
+Bit6~7 (Front AUTO Control): 0 ? None / 1 ? Single / 2 - Dual / 3 ? (Reserved)";
+BA_ "GenSigSendType" SG_ 33 L_ATCU_Typ_All_1 4;
+BA_ "GenSigStartValue" SG_ 33 L_ATCU_Typ_All_1 0;
+BA_ "UserSigValidity" SG_ 33 L_ATCU_Typ_All_1 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_2HKBD SG_ 33 L_ATCU_Typ_All_1 5000;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_3HKBD SG_ 33 L_ATCU_Typ_All_1 5000;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 33 L_ATCU_Typ_All_1 5000;
+BA_ "NetworkRequestHoldingTime" SG_ 33 L_ATCU_Typ_All_1 0;
+BA_ "RoutingFactor" SG_ 33 L_ATCU_Typ_All_1 1;
+BA_ "Version" SG_ 33 L_ATCU_Typ_All_1 "24.08.00";
+BA_ "GenMsgSendType" BO_ 35 0;
+BA_ "GenMsgCycleTime" BO_ 35 200;
+BA_ "GenMsgStartDelayTime" BO_ 35 0;
+BA_ "GenSigSendType" SG_ 35 L_ATCU_DrOnlyDis 4;
+BA_ "GenSigStartValue" SG_ 35 L_ATCU_DrOnlyDis 0;
+BA_ "UserSigValidity" SG_ 35 L_ATCU_DrOnlyDis 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 35 L_ATCU_DrOnlyDis 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 35 L_ATCU_DrOnlyDis 0;
+BA_ "RoutingFactor" SG_ 35 L_ATCU_DrOnlyDis 1;
+BA_ "Version" SG_ 35 L_ATCU_DrOnlyDis "23.08.13";
+BA_ "GenSigSendType" SG_ 35 L_ATCU_SmrtVntDis 4;
+BA_ "GenSigStartValue" SG_ 35 L_ATCU_SmrtVntDis 0;
+BA_ "UserSigValidity" SG_ 35 L_ATCU_SmrtVntDis 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 35 L_ATCU_SmrtVntDis 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 35 L_ATCU_SmrtVntDis 0;
+BA_ "RoutingFactor" SG_ 35 L_ATCU_SmrtVntDis 1;
+BA_ "Version" SG_ 35 L_ATCU_SmrtVntDis "23.08.13";
+BA_ "GenSigSendType" SG_ 35 L_ATCU_FrWndShldHtInd 4;
+BA_ "GenSigStartValue" SG_ 35 L_ATCU_FrWndShldHtInd 0;
+BA_ "UserSigValidity" SG_ 35 L_ATCU_FrWndShldHtInd 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 35 L_ATCU_FrWndShldHtInd 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 35 L_ATCU_FrWndShldHtInd 0;
+BA_ "RoutingFactor" SG_ 35 L_ATCU_FrWndShldHtInd 1;
+BA_ "Version" SG_ 35 L_ATCU_FrWndShldHtInd "23.08.13";
+BA_ "GenSigSendType" SG_ 35 L_ATCU_IncarMtrOnReq 4;
+BA_ "GenSigStartValue" SG_ 35 L_ATCU_IncarMtrOnReq 0;
+BA_ "UserSigValidity" SG_ 35 L_ATCU_IncarMtrOnReq 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 35 L_ATCU_IncarMtrOnReq 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 35 L_ATCU_IncarMtrOnReq 0;
+BA_ "RoutingFactor" SG_ 35 L_ATCU_IncarMtrOnReq 1;
+BA_ "Version" SG_ 35 L_ATCU_IncarMtrOnReq "23.11.06";
+BA_ "Description" SG_ 35 L_ATCU_LanguageInfo "This signal indicates System Language information for Font display";
+BA_ "GenSigSendType" SG_ 35 L_ATCU_LanguageInfo 4;
+BA_ "GenSigStartValue" SG_ 35 L_ATCU_LanguageInfo 255;
+BA_ "UserSigValidity" SG_ 35 L_ATCU_LanguageInfo 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 35 L_ATCU_LanguageInfo 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 35 L_ATCU_LanguageInfo 0;
+BA_ "RoutingFactor" SG_ 35 L_ATCU_LanguageInfo 1;
+BA_ "Version" SG_ 35 L_ATCU_LanguageInfo "24.01.00";
+BA_ "GenSigSendType" SG_ 35 L_ATCU_RrDefInd 4;
+BA_ "GenSigStartValue" SG_ 35 L_ATCU_RrDefInd 0;
+BA_ "UserSigValidity" SG_ 35 L_ATCU_RrDefInd 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 35 L_ATCU_RrDefInd 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 35 L_ATCU_RrDefInd 0;
+BA_ "RoutingFactor" SG_ 35 L_ATCU_RrDefInd 1;
+BA_ "Version" SG_ 35 L_ATCU_RrDefInd "23.08.13";
+BA_ "GenSigSendType" SG_ 35 L_ATCU_AfterBlowDisplay 4;
+BA_ "GenSigStartValue" SG_ 35 L_ATCU_AfterBlowDisplay 0;
+BA_ "UserSigValidity" SG_ 35 L_ATCU_AfterBlowDisplay 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 35 L_ATCU_AfterBlowDisplay 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 35 L_ATCU_AfterBlowDisplay 0;
+BA_ "RoutingFactor" SG_ 35 L_ATCU_AfterBlowDisplay 1;
+BA_ "Version" SG_ 35 L_ATCU_AfterBlowDisplay "23.11.09";
+BA_ "Description" SG_ 35 L_ATCU_SchdldVentDisplay "Operate Blower based on set time and date by user for better cabin room ventilation.";
+BA_ "GenSigSendType" SG_ 35 L_ATCU_SchdldVentDisplay 4;
+BA_ "GenSigStartValue" SG_ 35 L_ATCU_SchdldVentDisplay 0;
+BA_ "UserSigValidity" SG_ 35 L_ATCU_SchdldVentDisplay 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 35 L_ATCU_SchdldVentDisplay 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 35 L_ATCU_SchdldVentDisplay 0;
+BA_ "RoutingFactor" SG_ 35 L_ATCU_SchdldVentDisplay 1;
+BA_ "Version" SG_ 35 L_ATCU_SchdldVentDisplay "24.01.00";
+BA_ "GenSigSendType" SG_ 35 L_ATCU_FLStHeatSwHInd 4;
+BA_ "GenSigStartValue" SG_ 35 L_ATCU_FLStHeatSwHInd 0;
+BA_ "UserSigValidity" SG_ 35 L_ATCU_FLStHeatSwHInd 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 35 L_ATCU_FLStHeatSwHInd 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 35 L_ATCU_FLStHeatSwHInd 0;
+BA_ "RoutingFactor" SG_ 35 L_ATCU_FLStHeatSwHInd 1;
+BA_ "Version" SG_ 35 L_ATCU_FLStHeatSwHInd "23.08.13";
+BA_ "GenSigSendType" SG_ 35 L_ATCU_FLStHeatSwMInd 4;
+BA_ "GenSigStartValue" SG_ 35 L_ATCU_FLStHeatSwMInd 0;
+BA_ "UserSigValidity" SG_ 35 L_ATCU_FLStHeatSwMInd 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 35 L_ATCU_FLStHeatSwMInd 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 35 L_ATCU_FLStHeatSwMInd 0;
+BA_ "RoutingFactor" SG_ 35 L_ATCU_FLStHeatSwMInd 1;
+BA_ "Version" SG_ 35 L_ATCU_FLStHeatSwMInd "23.08.13";
+BA_ "GenSigSendType" SG_ 35 L_ATCU_ADSBlinkDis 4;
+BA_ "GenSigStartValue" SG_ 35 L_ATCU_ADSBlinkDis 0;
+BA_ "UserSigValidity" SG_ 35 L_ATCU_ADSBlinkDis 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 35 L_ATCU_ADSBlinkDis 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 35 L_ATCU_ADSBlinkDis 0;
+BA_ "RoutingFactor" SG_ 35 L_ATCU_ADSBlinkDis 1;
+BA_ "Version" SG_ 35 L_ATCU_ADSBlinkDis "23.08.13";
+BA_ "GenSigSendType" SG_ 35 L_ATCU_FLStHeatSwLInd 4;
+BA_ "GenSigStartValue" SG_ 35 L_ATCU_FLStHeatSwLInd 0;
+BA_ "UserSigValidity" SG_ 35 L_ATCU_FLStHeatSwLInd 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 35 L_ATCU_FLStHeatSwLInd 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 35 L_ATCU_FLStHeatSwLInd 0;
+BA_ "RoutingFactor" SG_ 35 L_ATCU_FLStHeatSwLInd 1;
+BA_ "Version" SG_ 35 L_ATCU_FLStHeatSwLInd "23.08.13";
+BA_ "GenSigSendType" SG_ 35 L_ATCU_FLStVntSwHInd 4;
+BA_ "GenSigStartValue" SG_ 35 L_ATCU_FLStVntSwHInd 0;
+BA_ "UserSigValidity" SG_ 35 L_ATCU_FLStVntSwHInd 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 35 L_ATCU_FLStVntSwHInd 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 35 L_ATCU_FLStVntSwHInd 0;
+BA_ "RoutingFactor" SG_ 35 L_ATCU_FLStVntSwHInd 1;
+BA_ "Version" SG_ 35 L_ATCU_FLStVntSwHInd "23.08.13";
+BA_ "GenSigSendType" SG_ 35 L_ATCU_FLStVntSwMInd 4;
+BA_ "GenSigStartValue" SG_ 35 L_ATCU_FLStVntSwMInd 0;
+BA_ "UserSigValidity" SG_ 35 L_ATCU_FLStVntSwMInd 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 35 L_ATCU_FLStVntSwMInd 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 35 L_ATCU_FLStVntSwMInd 0;
+BA_ "RoutingFactor" SG_ 35 L_ATCU_FLStVntSwMInd 1;
+BA_ "Version" SG_ 35 L_ATCU_FLStVntSwMInd "23.08.13";
+BA_ "GenSigSendType" SG_ 35 L_ATCU_FLStVntSwLInd 4;
+BA_ "GenSigStartValue" SG_ 35 L_ATCU_FLStVntSwLInd 0;
+BA_ "UserSigValidity" SG_ 35 L_ATCU_FLStVntSwLInd 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 35 L_ATCU_FLStVntSwLInd 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 35 L_ATCU_FLStVntSwLInd 0;
+BA_ "RoutingFactor" SG_ 35 L_ATCU_FLStVntSwLInd 1;
+BA_ "Version" SG_ 35 L_ATCU_FLStVntSwLInd "23.08.13";
+BA_ "GenSigSendType" SG_ 35 L_ATCU_FRStHeatSwHInd 4;
+BA_ "GenSigStartValue" SG_ 35 L_ATCU_FRStHeatSwHInd 0;
+BA_ "UserSigValidity" SG_ 35 L_ATCU_FRStHeatSwHInd 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 35 L_ATCU_FRStHeatSwHInd 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 35 L_ATCU_FRStHeatSwHInd 0;
+BA_ "RoutingFactor" SG_ 35 L_ATCU_FRStHeatSwHInd 1;
+BA_ "Version" SG_ 35 L_ATCU_FRStHeatSwHInd "23.08.13";
+BA_ "GenSigSendType" SG_ 35 L_ATCU_FRStHeatSwMInd 4;
+BA_ "GenSigStartValue" SG_ 35 L_ATCU_FRStHeatSwMInd 0;
+BA_ "UserSigValidity" SG_ 35 L_ATCU_FRStHeatSwMInd 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 35 L_ATCU_FRStHeatSwMInd 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 35 L_ATCU_FRStHeatSwMInd 0;
+BA_ "RoutingFactor" SG_ 35 L_ATCU_FRStHeatSwMInd 1;
+BA_ "Version" SG_ 35 L_ATCU_FRStHeatSwMInd "23.08.13";
+BA_ "GenSigSendType" SG_ 35 L_ATCU_FRStHeatSwLInd 4;
+BA_ "GenSigStartValue" SG_ 35 L_ATCU_FRStHeatSwLInd 0;
+BA_ "UserSigValidity" SG_ 35 L_ATCU_FRStHeatSwLInd 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 35 L_ATCU_FRStHeatSwLInd 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 35 L_ATCU_FRStHeatSwLInd 0;
+BA_ "RoutingFactor" SG_ 35 L_ATCU_FRStHeatSwLInd 1;
+BA_ "Version" SG_ 35 L_ATCU_FRStHeatSwLInd "23.08.13";
+BA_ "GenSigSendType" SG_ 35 L_ATCU_FRStVntSwHInd 4;
+BA_ "GenSigStartValue" SG_ 35 L_ATCU_FRStVntSwHInd 0;
+BA_ "UserSigValidity" SG_ 35 L_ATCU_FRStVntSwHInd 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 35 L_ATCU_FRStVntSwHInd 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 35 L_ATCU_FRStVntSwHInd 0;
+BA_ "RoutingFactor" SG_ 35 L_ATCU_FRStVntSwHInd 1;
+BA_ "Version" SG_ 35 L_ATCU_FRStVntSwHInd "23.08.13";
+BA_ "GenSigSendType" SG_ 35 L_ATCU_FRStVntSwMInd 4;
+BA_ "GenSigStartValue" SG_ 35 L_ATCU_FRStVntSwMInd 0;
+BA_ "UserSigValidity" SG_ 35 L_ATCU_FRStVntSwMInd 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 35 L_ATCU_FRStVntSwMInd 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 35 L_ATCU_FRStVntSwMInd 0;
+BA_ "RoutingFactor" SG_ 35 L_ATCU_FRStVntSwMInd 1;
+BA_ "Version" SG_ 35 L_ATCU_FRStVntSwMInd "23.08.13";
+BA_ "GenSigSendType" SG_ 35 L_ATCU_FRStVntSwLInd 4;
+BA_ "GenSigStartValue" SG_ 35 L_ATCU_FRStVntSwLInd 0;
+BA_ "UserSigValidity" SG_ 35 L_ATCU_FRStVntSwLInd 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 35 L_ATCU_FRStVntSwLInd 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 35 L_ATCU_FRStVntSwLInd 0;
+BA_ "RoutingFactor" SG_ 35 L_ATCU_FRStVntSwLInd 1;
+BA_ "Version" SG_ 35 L_ATCU_FRStVntSwLInd "23.08.13";
+BA_ "Description" SG_ 35 L_ATCU_StrWhlHeatInd "This signal indicates the status of Steering Wheel Heater";
+BA_ "GenSigSendType" SG_ 35 L_ATCU_StrWhlHeatInd 4;
+BA_ "GenSigStartValue" SG_ 35 L_ATCU_StrWhlHeatInd 0;
+BA_ "UserSigValidity" SG_ 35 L_ATCU_StrWhlHeatInd 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 35 L_ATCU_StrWhlHeatInd 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 35 L_ATCU_StrWhlHeatInd 0;
+BA_ "RoutingFactor" SG_ 35 L_ATCU_StrWhlHeatInd 1;
+BA_ "Version" SG_ 35 L_ATCU_StrWhlHeatInd "23.08.13";
+BA_ "NmStationAddress" BU_ L_EVNT 0;
+BA_ "NmNode" BU_ L_EVNT 0;
+BA_ "Description" SG_ 35 L_ATCU_RhstaLvlSta "This signal is used for a rheostat level of CLUSTER from 1 to 21 level (21 level:Detent) for a Unified Illumination System
+
+¡Ø Start Value:Current Value";
+BA_ "GenSigSendType" SG_ 35 L_ATCU_RhstaLvlSta 4;
+BA_ "GenSigStartValue" SG_ 35 L_ATCU_RhstaLvlSta 0;
+BA_ "UserSigValidity" SG_ 35 L_ATCU_RhstaLvlSta 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_2HKBD SG_ 35 L_ATCU_RhstaLvlSta 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_EVNT SG_ 35 L_ATCU_RhstaLvlSta 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 35 L_ATCU_RhstaLvlSta 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 35 L_ATCU_RhstaLvlSta 0;
+BA_ "RoutingFactor" SG_ 35 L_ATCU_RhstaLvlSta 1;
+BA_ "Version" SG_ 35 L_ATCU_RhstaLvlSta "24.08.00";
+BA_ "GenSigSendType" SG_ 35 L_ATCU_IntTailOnOff 4;
+BA_ "GenSigStartValue" SG_ 35 L_ATCU_IntTailOnOff 0;
+BA_ "UserSigValidity" SG_ 35 L_ATCU_IntTailOnOff 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_2HKBD SG_ 35 L_ATCU_IntTailOnOff 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 35 L_ATCU_IntTailOnOff 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 35 L_ATCU_IntTailOnOff 0;
+BA_ "RoutingFactor" SG_ 35 L_ATCU_IntTailOnOff 1;
+BA_ "Version" SG_ 35 L_ATCU_IntTailOnOff "23.08.13";
+BA_ "Description" SG_ 35 L_ATCU_AutoLightSta "This signal indicates autolight sensor output";
+BA_ "GenSigSendType" SG_ 35 L_ATCU_AutoLightSta 4;
+BA_ "GenSigStartValue" SG_ 35 L_ATCU_AutoLightSta 0;
+BA_ "UserSigValidity" SG_ 35 L_ATCU_AutoLightSta 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 35 L_ATCU_AutoLightSta 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 35 L_ATCU_AutoLightSta 0;
+BA_ "RoutingFactor" SG_ 35 L_ATCU_AutoLightSta 1;
+BA_ "Version" SG_ 35 L_ATCU_AutoLightSta "23.08.13";
+BA_ "GenSigSendType" SG_ 35 L_ATCU_FrBckLightSta 4;
+BA_ "GenSigStartValue" SG_ 35 L_ATCU_FrBckLightSta 0;
+BA_ "UserSigValidity" SG_ 35 L_ATCU_FrBckLightSta 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 35 L_ATCU_FrBckLightSta 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 35 L_ATCU_FrBckLightSta 0;
+BA_ "RoutingFactor" SG_ 35 L_ATCU_FrBckLightSta 1;
+BA_ "Version" SG_ 35 L_ATCU_FrBckLightSta "23.08.13";
+BA_ "GenSigSendType" SG_ 35 L_ATCU_DisplayTheme 4;
+BA_ "GenSigStartValue" SG_ 35 L_ATCU_DisplayTheme 0;
+BA_ "UserSigValidity" SG_ 35 L_ATCU_DisplayTheme 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 35 L_ATCU_DisplayTheme 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 35 L_ATCU_DisplayTheme 0;
+BA_ "RoutingFactor" SG_ 35 L_ATCU_DisplayTheme 1;
+BA_ "Version" SG_ 35 L_ATCU_DisplayTheme "23.08.13";
+BA_ "GenSigSendType" SG_ 35 L_ATCU_GUIBlankDis 4;
+BA_ "GenSigStartValue" SG_ 35 L_ATCU_GUIBlankDis 0;
+BA_ "UserSigValidity" SG_ 35 L_ATCU_GUIBlankDis 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 35 L_ATCU_GUIBlankDis 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 35 L_ATCU_GUIBlankDis 0;
+BA_ "RoutingFactor" SG_ 35 L_ATCU_GUIBlankDis 1;
+BA_ "Version" SG_ 35 L_ATCU_GUIBlankDis "23.08.13";
+BA_ "GenSigSendType" SG_ 35 L_ATCU_HptIntnstySet 4;
+BA_ "GenSigStartValue" SG_ 35 L_ATCU_HptIntnstySet 0;
+BA_ "UserSigValidity" SG_ 35 L_ATCU_HptIntnstySet 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 35 L_ATCU_HptIntnstySet 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 35 L_ATCU_HptIntnstySet 0;
+BA_ "RoutingFactor" SG_ 35 L_ATCU_HptIntnstySet 1;
+BA_ "Version" SG_ 35 L_ATCU_HptIntnstySet "23.11.06";
+BA_ "Description" SG_ 35 L_ATCU_TlltLmpDis "This signal means information regarding Occupant status.
+0) 00Xb:X position means PAB OFF Lamp indication. When this bit set as 1 PAB OFF lamp turns ON. 
+    0Y0b:Y position means PAB ON Lamp indication. When this bit set as 1 PAB ON lamp turns ON.
+
+1) Default value:0x2 (PAB ON Lamp on, PAB OFF Lamp off,)
+2) Default value Transmit condition
+    - When the input condition is not determined.
+    - When the input condition is not supported.";
+BA_ "GenSigSendType" SG_ 35 L_ATCU_TlltLmpDis 4;
+BA_ "GenSigStartValue" SG_ 35 L_ATCU_TlltLmpDis 0;
+BA_ "UserSigValidity" SG_ 35 L_ATCU_TlltLmpDis 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 35 L_ATCU_TlltLmpDis 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 35 L_ATCU_TlltLmpDis 0;
+BA_ "RoutingFactor" SG_ 35 L_ATCU_TlltLmpDis 1;
+BA_ "Version" SG_ 35 L_ATCU_TlltLmpDis "23.08.13";
+BA_ "GenSigSendType" SG_ 35 L_ATCU_AvTailOnOff 4;
+BA_ "GenSigStartValue" SG_ 35 L_ATCU_AvTailOnOff 0;
+BA_ "UserSigValidity" SG_ 35 L_ATCU_AvTailOnOff 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 35 L_ATCU_AvTailOnOff 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 35 L_ATCU_AvTailOnOff 0;
+BA_ "RoutingFactor" SG_ 35 L_ATCU_AvTailOnOff 1;
+BA_ "Version" SG_ 35 L_ATCU_AvTailOnOff "23.08.13";
+BA_ "Description" SG_ 35 L_ATCU_SchdldClimateDisplay "Operate Climate system based on set time and date by user in EV vehicle.";
+BA_ "GenSigSendType" SG_ 35 L_ATCU_SchdldClimateDisplay 4;
+BA_ "GenSigStartValue" SG_ 35 L_ATCU_SchdldClimateDisplay 0;
+BA_ "UserSigValidity" SG_ 35 L_ATCU_SchdldClimateDisplay 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 35 L_ATCU_SchdldClimateDisplay 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 35 L_ATCU_SchdldClimateDisplay 0;
+BA_ "RoutingFactor" SG_ 35 L_ATCU_SchdldClimateDisplay 1;
+BA_ "Version" SG_ 35 L_ATCU_SchdldClimateDisplay "24.01.00";
+BA_ "GenSigSendType" SG_ 35 L_ATCU_AirClnDis 4;
+BA_ "GenSigStartValue" SG_ 35 L_ATCU_AirClnDis 0;
+BA_ "UserSigValidity" SG_ 35 L_ATCU_AirClnDis 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 35 L_ATCU_AirClnDis 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 35 L_ATCU_AirClnDis 0;
+BA_ "RoutingFactor" SG_ 35 L_ATCU_AirClnDis 1;
+BA_ "Version" SG_ 35 L_ATCU_AirClnDis "23.08.13";
+BA_ "GenSigSendType" SG_ 35 L_ATCU_CO2WrngDis 4;
+BA_ "GenSigStartValue" SG_ 35 L_ATCU_CO2WrngDis 0;
+BA_ "UserSigValidity" SG_ 35 L_ATCU_CO2WrngDis 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 35 L_ATCU_CO2WrngDis 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 35 L_ATCU_CO2WrngDis 0;
+BA_ "RoutingFactor" SG_ 35 L_ATCU_CO2WrngDis 1;
+BA_ "Version" SG_ 35 L_ATCU_CO2WrngDis "23.08.13";
+BA_ "GenMsgSendType" BO_ 36 0;
+BA_ "GenMsgCycleTime" BO_ 36 200;
+BA_ "GenMsgStartDelayTime" BO_ 36 0;
+BA_ "GenSigSendType" SG_ 36 L_ATCU_ArClnIntroEvt 4;
+BA_ "GenSigStartValue" SG_ 36 L_ATCU_ArClnIntroEvt 0;
+BA_ "UserSigValidity" SG_ 36 L_ATCU_ArClnIntroEvt 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 36 L_ATCU_ArClnIntroEvt 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 36 L_ATCU_ArClnIntroEvt 0;
+BA_ "RoutingFactor" SG_ 36 L_ATCU_ArClnIntroEvt 1;
+BA_ "Version" SG_ 36 L_ATCU_ArClnIntroEvt "23.08.13";
+BA_ "Description" SG_ 36 L_ATCU_ArClnSmblClr "This signal indicates the information about Color of AirCleaning Symbol displaying in the AVN";
+BA_ "GenSigSendType" SG_ 36 L_ATCU_ArClnSmblClr 4;
+BA_ "GenSigStartValue" SG_ 36 L_ATCU_ArClnSmblClr 0;
+BA_ "UserSigValidity" SG_ 36 L_ATCU_ArClnSmblClr 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 36 L_ATCU_ArClnSmblClr 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 36 L_ATCU_ArClnSmblClr 0;
+BA_ "RoutingFactor" SG_ 36 L_ATCU_ArClnSmblClr 1;
+BA_ "Version" SG_ 36 L_ATCU_ArClnSmblClr "23.08.13";
+BA_ "GenSigSendType" SG_ 36 L_ATCU_DustLevelDis 4;
+BA_ "GenSigStartValue" SG_ 36 L_ATCU_DustLevelDis 0;
+BA_ "UserSigValidity" SG_ 36 L_ATCU_DustLevelDis 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 36 L_ATCU_DustLevelDis 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 36 L_ATCU_DustLevelDis 0;
+BA_ "RoutingFactor" SG_ 36 L_ATCU_DustLevelDis 1;
+BA_ "Version" SG_ 36 L_ATCU_DustLevelDis "23.08.13";
+BA_ "GenSigSendType" SG_ 36 L_ATCU_DustBarDisOff 4;
+BA_ "GenSigStartValue" SG_ 36 L_ATCU_DustBarDisOff 0;
+BA_ "UserSigValidity" SG_ 36 L_ATCU_DustBarDisOff 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 36 L_ATCU_DustBarDisOff 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 36 L_ATCU_DustBarDisOff 0;
+BA_ "RoutingFactor" SG_ 36 L_ATCU_DustBarDisOff 1;
+BA_ "Version" SG_ 36 L_ATCU_DustBarDisOff "23.08.13";
+BA_ "GenSigSendType" SG_ 36 L_ATCU_DustSnrStepDis 4;
+BA_ "GenSigStartValue" SG_ 36 L_ATCU_DustSnrStepDis 0;
+BA_ "UserSigValidity" SG_ 36 L_ATCU_DustSnrStepDis 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 36 L_ATCU_DustSnrStepDis 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 36 L_ATCU_DustSnrStepDis 0;
+BA_ "RoutingFactor" SG_ 36 L_ATCU_DustSnrStepDis 1;
+BA_ "Version" SG_ 36 L_ATCU_DustSnrStepDis "23.08.13";
+BA_ "NmStationAddress" BU_ L_PCM 0;
+BA_ "NmNode" BU_ L_PCM 0;
+BA_ "GenSigSendType" SG_ 36 L_ATCU_FragStrhDis 4;
+BA_ "GenSigStartValue" SG_ 36 L_ATCU_FragStrhDis 0;
+BA_ "UserSigValidity" SG_ 36 L_ATCU_FragStrhDis 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 36 L_ATCU_FragStrhDis 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_PCM SG_ 36 L_ATCU_FragStrhDis 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 36 L_ATCU_FragStrhDis 0;
+BA_ "RoutingFactor" SG_ 36 L_ATCU_FragStrhDis 1;
+BA_ "Version" SG_ 36 L_ATCU_FragStrhDis "23.08.13";
+BA_ "Description" SG_ 36 L_ATCU_FragKindDis "This singal indicates display value of Fragnance kind";
+BA_ "GenSigSendType" SG_ 36 L_ATCU_FragKindDis 4;
+BA_ "GenSigStartValue" SG_ 36 L_ATCU_FragKindDis 0;
+BA_ "UserSigValidity" SG_ 36 L_ATCU_FragKindDis 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 36 L_ATCU_FragKindDis 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_PCM SG_ 36 L_ATCU_FragKindDis 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 36 L_ATCU_FragKindDis 0;
+BA_ "RoutingFactor" SG_ 36 L_ATCU_FragKindDis 1;
+BA_ "Version" SG_ 36 L_ATCU_FragKindDis "24.05.08";
+BA_ "Description" SG_ 36 L_ATCU_Frag1Inform "This signal indicates Information of Fragrance 1";
+BA_ "GenSigSendType" SG_ 36 L_ATCU_Frag1Inform 4;
+BA_ "GenSigStartValue" SG_ 36 L_ATCU_Frag1Inform 0;
+BA_ "UserSigValidity" SG_ 36 L_ATCU_Frag1Inform 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 36 L_ATCU_Frag1Inform 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_PCM SG_ 36 L_ATCU_Frag1Inform 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 36 L_ATCU_Frag1Inform 0;
+BA_ "RoutingFactor" SG_ 36 L_ATCU_Frag1Inform 1;
+BA_ "Version" SG_ 36 L_ATCU_Frag1Inform "23.08.13";
+BA_ "Description" SG_ 36 L_ATCU_Frag2Inform "This signal indicates Information of Fragrance 2";
+BA_ "GenSigSendType" SG_ 36 L_ATCU_Frag2Inform 4;
+BA_ "GenSigStartValue" SG_ 36 L_ATCU_Frag2Inform 0;
+BA_ "UserSigValidity" SG_ 36 L_ATCU_Frag2Inform 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 36 L_ATCU_Frag2Inform 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_PCM SG_ 36 L_ATCU_Frag2Inform 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 36 L_ATCU_Frag2Inform 0;
+BA_ "RoutingFactor" SG_ 36 L_ATCU_Frag2Inform 1;
+BA_ "Version" SG_ 36 L_ATCU_Frag2Inform "23.08.13";
+BA_ "Description" SG_ 36 L_ATCU_Frag1RemainDisp "This signal indicates Remain Display of Ragrnace No.1";
+BA_ "GenSigSendType" SG_ 36 L_ATCU_Frag1RemainDisp 4;
+BA_ "GenSigStartValue" SG_ 36 L_ATCU_Frag1RemainDisp 0;
+BA_ "UserSigValidity" SG_ 36 L_ATCU_Frag1RemainDisp 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 36 L_ATCU_Frag1RemainDisp 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_PCM SG_ 36 L_ATCU_Frag1RemainDisp 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 36 L_ATCU_Frag1RemainDisp 0;
+BA_ "RoutingFactor" SG_ 36 L_ATCU_Frag1RemainDisp 1;
+BA_ "Version" SG_ 36 L_ATCU_Frag1RemainDisp "23.08.13";
+BA_ "Description" SG_ 36 L_ATCU_Frag2RemainDisp "This signal indicates Remain Display of Ragrnace No.2";
+BA_ "GenSigSendType" SG_ 36 L_ATCU_Frag2RemainDisp 4;
+BA_ "GenSigStartValue" SG_ 36 L_ATCU_Frag2RemainDisp 0;
+BA_ "UserSigValidity" SG_ 36 L_ATCU_Frag2RemainDisp 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_2HKBD SG_ 36 L_ATCU_Frag2RemainDisp 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 36 L_ATCU_Frag2RemainDisp 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 36 L_ATCU_Frag2RemainDisp 0;
+BA_ "RoutingFactor" SG_ 36 L_ATCU_Frag2RemainDisp 1;
+BA_ "Version" SG_ 36 L_ATCU_Frag2RemainDisp "23.08.13";
+BA_ "Description" SG_ 36 L_ATCU_ArClnSmblTyp "This signal indicate the feature of Air Cleaning Symbol displaying in the AVN";
+BA_ "GenSigSendType" SG_ 36 L_ATCU_ArClnSmblTyp 4;
+BA_ "GenSigStartValue" SG_ 36 L_ATCU_ArClnSmblTyp 0;
+BA_ "UserSigValidity" SG_ 36 L_ATCU_ArClnSmblTyp 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 36 L_ATCU_ArClnSmblTyp 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 36 L_ATCU_ArClnSmblTyp 0;
+BA_ "RoutingFactor" SG_ 36 L_ATCU_ArClnSmblTyp 1;
+BA_ "Version" SG_ 36 L_ATCU_ArClnSmblTyp "23.08.13";
+BA_ "Description" SG_ 36 L_ATCU_FrtBlwMaxLvlVaild "This signal indicates the maximum step of Front Blower according to multi auto steps.";
+BA_ "GenSigSendType" SG_ 36 L_ATCU_FrtBlwMaxLvlVaild 4;
+BA_ "GenSigStartValue" SG_ 36 L_ATCU_FrtBlwMaxLvlVaild 0;
+BA_ "UserSigValidity" SG_ 36 L_ATCU_FrtBlwMaxLvlVaild 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_2HKBD SG_ 36 L_ATCU_FrtBlwMaxLvlVaild 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 36 L_ATCU_FrtBlwMaxLvlVaild 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 36 L_ATCU_FrtBlwMaxLvlVaild 0;
+BA_ "RoutingFactor" SG_ 36 L_ATCU_FrtBlwMaxLvlVaild 1;
+BA_ "Version" SG_ 36 L_ATCU_FrtBlwMaxLvlVaild "23.08.13";
+BA_ "GenSigSendType" SG_ 36 L_ATCU_OpSta 4;
+BA_ "GenSigStartValue" SG_ 36 L_ATCU_OpSta 0;
+BA_ "UserSigValidity" SG_ 36 L_ATCU_OpSta 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_EVNT SG_ 36 L_ATCU_OpSta 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 36 L_ATCU_OpSta 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 36 L_ATCU_OpSta 0;
+BA_ "RoutingFactor" SG_ 36 L_ATCU_OpSta 1;
+BA_ "Version" SG_ 36 L_ATCU_OpSta "23.08.13";
+BA_ "Description" SG_ 36 L_ATCU_TempDispUnit "This signal is unit of Temperature display";
+BA_ "GenSigSendType" SG_ 36 L_ATCU_TempDispUnit 4;
+BA_ "GenSigStartValue" SG_ 36 L_ATCU_TempDispUnit 0;
+BA_ "UserSigValidity" SG_ 36 L_ATCU_TempDispUnit 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_2HKBD SG_ 36 L_ATCU_TempDispUnit 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 36 L_ATCU_TempDispUnit 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 36 L_ATCU_TempDispUnit 0;
+BA_ "RoutingFactor" SG_ 36 L_ATCU_TempDispUnit 1;
+BA_ "Version" SG_ 36 L_ATCU_TempDispUnit "24.05.08";
+BA_ "GenSigSendType" SG_ 36 L_ATCU_DrvAUTOStep 4;
+BA_ "GenSigStartValue" SG_ 36 L_ATCU_DrvAUTOStep 0;
+BA_ "UserSigValidity" SG_ 36 L_ATCU_DrvAUTOStep 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 36 L_ATCU_DrvAUTOStep 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 36 L_ATCU_DrvAUTOStep 0;
+BA_ "RoutingFactor" SG_ 36 L_ATCU_DrvAUTOStep 1;
+BA_ "Version" SG_ 36 L_ATCU_DrvAUTOStep "23.08.13";
+BA_ "Description" SG_ 36 L_ATCU_DiagCodeDis "0x1~0x3FE:PHY=(HEX*1.0-1.0)";
+BA_ "GenSigSendType" SG_ 36 L_ATCU_DiagCodeDis 4;
+BA_ "GenSigStartValue" SG_ 36 L_ATCU_DiagCodeDis 0;
+BA_ "UserSigValidity" SG_ 36 L_ATCU_DiagCodeDis 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 36 L_ATCU_DiagCodeDis 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 36 L_ATCU_DiagCodeDis 0;
+BA_ "RoutingFactor" SG_ 36 L_ATCU_DiagCodeDis 1;
+BA_ "Version" SG_ 36 L_ATCU_DiagCodeDis "23.08.13";
+BA_ "GenMsgSendType" BO_ 37 0;
+BA_ "GenMsgCycleTime" BO_ 37 200;
+BA_ "GenMsgStartDelayTime" BO_ 37 0;
+BA_ "Description" SG_ 37 L_ATCU_RrOpSta "ATCU_RearOperationStatus";
+BA_ "GenSigSendType" SG_ 37 L_ATCU_RrOpSta 4;
+BA_ "GenSigStartValue" SG_ 37 L_ATCU_RrOpSta 0;
+BA_ "UserSigValidity" SG_ 37 L_ATCU_RrOpSta 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_2HKBD SG_ 37 L_ATCU_RrOpSta 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 37 L_ATCU_RrOpSta 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 37 L_ATCU_RrOpSta 0;
+BA_ "RoutingFactor" SG_ 37 L_ATCU_RrOpSta 1;
+BA_ "Version" SG_ 37 L_ATCU_RrOpSta "24.08.00";
+BA_ "Description" SG_ 37 L_ATCU_RrDrvTempFDis "This signal indicates Outside Temperature (¢µ)
+(Use for display only)";
+BA_ "GenSigSendType" SG_ 37 L_ATCU_RrDrvTempFDis 4;
+BA_ "GenSigStartValue" SG_ 37 L_ATCU_RrDrvTempFDis 0;
+BA_ "UserSigValidity" SG_ 37 L_ATCU_RrDrvTempFDis 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_2HKBD SG_ 37 L_ATCU_RrDrvTempFDis 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 37 L_ATCU_RrDrvTempFDis 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 37 L_ATCU_RrDrvTempFDis 0;
+BA_ "RoutingFactor" SG_ 37 L_ATCU_RrDrvTempFDis 1;
+BA_ "Version" SG_ 37 L_ATCU_RrDrvTempFDis "23.08.13";
+BA_ "Description" SG_ 37 L_ATCU_RrDrvModDis "ATCU_RearDriverModeDisplay";
+BA_ "GenSigSendType" SG_ 37 L_ATCU_RrDrvModDis 4;
+BA_ "GenSigStartValue" SG_ 37 L_ATCU_RrDrvModDis 0;
+BA_ "UserSigValidity" SG_ 37 L_ATCU_RrDrvModDis 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_2HKBD SG_ 37 L_ATCU_RrDrvModDis 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_EVNT SG_ 37 L_ATCU_RrDrvModDis 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 37 L_ATCU_RrDrvModDis 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 37 L_ATCU_RrDrvModDis 0;
+BA_ "RoutingFactor" SG_ 37 L_ATCU_RrDrvModDis 1;
+BA_ "Version" SG_ 37 L_ATCU_RrDrvModDis "24.05.08";
+BA_ "GenSigSendType" SG_ 37 L_ATCU_RrDrvBlwDis 4;
+BA_ "GenSigStartValue" SG_ 37 L_ATCU_RrDrvBlwDis 0;
+BA_ "UserSigValidity" SG_ 37 L_ATCU_RrDrvBlwDis 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_2HKBD SG_ 37 L_ATCU_RrDrvBlwDis 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 37 L_ATCU_RrDrvBlwDis 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 37 L_ATCU_RrDrvBlwDis 0;
+BA_ "RoutingFactor" SG_ 37 L_ATCU_RrDrvBlwDis 1;
+BA_ "Version" SG_ 37 L_ATCU_RrDrvBlwDis "23.08.13";
+BA_ "GenSigSendType" SG_ 37 L_ATCU_RrDrvAutoDis 4;
+BA_ "GenSigStartValue" SG_ 37 L_ATCU_RrDrvAutoDis 0;
+BA_ "UserSigValidity" SG_ 37 L_ATCU_RrDrvAutoDis 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_2HKBD SG_ 37 L_ATCU_RrDrvAutoDis 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 37 L_ATCU_RrDrvAutoDis 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 37 L_ATCU_RrDrvAutoDis 0;
+BA_ "RoutingFactor" SG_ 37 L_ATCU_RrDrvAutoDis 1;
+BA_ "Version" SG_ 37 L_ATCU_RrDrvAutoDis "23.08.13";
+BA_ "GenSigSendType" SG_ 37 L_ATCU_RrDrvMultiAutoBlwDis 4;
+BA_ "GenSigStartValue" SG_ 37 L_ATCU_RrDrvMultiAutoBlwDis 0;
+BA_ "UserSigValidity" SG_ 37 L_ATCU_RrDrvMultiAutoBlwDis 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_2HKBD SG_ 37 L_ATCU_RrDrvMultiAutoBlwDis 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 37 L_ATCU_RrDrvMultiAutoBlwDis 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 37 L_ATCU_RrDrvMultiAutoBlwDis 0;
+BA_ "RoutingFactor" SG_ 37 L_ATCU_RrDrvMultiAutoBlwDis 1;
+BA_ "Version" SG_ 37 L_ATCU_RrDrvMultiAutoBlwDis "23.08.13";
+BA_ "Description" SG_ 37 L_ATCU_RrDrvTempCDis "This signal indicates Outside temperature (¡É).
+(Use for display only)";
+BA_ "GenSigSendType" SG_ 37 L_ATCU_RrDrvTempCDis 4;
+BA_ "GenSigStartValue" SG_ 37 L_ATCU_RrDrvTempCDis 0;
+BA_ "UserSigValidity" SG_ 37 L_ATCU_RrDrvTempCDis 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_2HKBD SG_ 37 L_ATCU_RrDrvTempCDis 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 37 L_ATCU_RrDrvTempCDis 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 37 L_ATCU_RrDrvTempCDis 0;
+BA_ "RoutingFactor" SG_ 37 L_ATCU_RrDrvTempCDis 1;
+BA_ "Version" SG_ 37 L_ATCU_RrDrvTempCDis "23.08.13";
+BA_ "GenSigSendType" SG_ 37 L_ATCU_RrSyncDis 4;
+BA_ "GenSigStartValue" SG_ 37 L_ATCU_RrSyncDis 0;
+BA_ "UserSigValidity" SG_ 37 L_ATCU_RrSyncDis 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_2HKBD SG_ 37 L_ATCU_RrSyncDis 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 37 L_ATCU_RrSyncDis 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 37 L_ATCU_RrSyncDis 0;
+BA_ "RoutingFactor" SG_ 37 L_ATCU_RrSyncDis 1;
+BA_ "Version" SG_ 37 L_ATCU_RrSyncDis "23.08.13";
+BA_ "GenSigSendType" SG_ 37 L_ATCU_RrLcdBckLightSta 4;
+BA_ "GenSigStartValue" SG_ 37 L_ATCU_RrLcdBckLightSta 0;
+BA_ "UserSigValidity" SG_ 37 L_ATCU_RrLcdBckLightSta 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_2HKBD SG_ 37 L_ATCU_RrLcdBckLightSta 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 37 L_ATCU_RrLcdBckLightSta 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 37 L_ATCU_RrLcdBckLightSta 0;
+BA_ "RoutingFactor" SG_ 37 L_ATCU_RrLcdBckLightSta 1;
+BA_ "Version" SG_ 37 L_ATCU_RrLcdBckLightSta "23.08.13";
+BA_ "GenSigSendType" SG_ 37 L_ATCU_RrGUIBlankDis 4;
+BA_ "GenSigStartValue" SG_ 37 L_ATCU_RrGUIBlankDis 0;
+BA_ "UserSigValidity" SG_ 37 L_ATCU_RrGUIBlankDis 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_2HKBD SG_ 37 L_ATCU_RrGUIBlankDis 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 37 L_ATCU_RrGUIBlankDis 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 37 L_ATCU_RrGUIBlankDis 0;
+BA_ "RoutingFactor" SG_ 37 L_ATCU_RrGUIBlankDis 1;
+BA_ "Version" SG_ 37 L_ATCU_RrGUIBlankDis "23.08.13";
+BA_ "GenSigSendType" SG_ 37 L_ATCU_RLStHeatSwHInd 4;
+BA_ "GenSigStartValue" SG_ 37 L_ATCU_RLStHeatSwHInd 0;
+BA_ "UserSigValidity" SG_ 37 L_ATCU_RLStHeatSwHInd 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_2HKBD SG_ 37 L_ATCU_RLStHeatSwHInd 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 37 L_ATCU_RLStHeatSwHInd 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 37 L_ATCU_RLStHeatSwHInd 0;
+BA_ "RoutingFactor" SG_ 37 L_ATCU_RLStHeatSwHInd 1;
+BA_ "Version" SG_ 37 L_ATCU_RLStHeatSwHInd "23.08.13";
+BA_ "GenSigSendType" SG_ 37 L_ATCU_RLStHeatSwMInd 4;
+BA_ "GenSigStartValue" SG_ 37 L_ATCU_RLStHeatSwMInd 0;
+BA_ "UserSigValidity" SG_ 37 L_ATCU_RLStHeatSwMInd 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_2HKBD SG_ 37 L_ATCU_RLStHeatSwMInd 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 37 L_ATCU_RLStHeatSwMInd 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 37 L_ATCU_RLStHeatSwMInd 0;
+BA_ "RoutingFactor" SG_ 37 L_ATCU_RLStHeatSwMInd 1;
+BA_ "Version" SG_ 37 L_ATCU_RLStHeatSwMInd "23.08.13";
+BA_ "GenSigSendType" SG_ 37 L_ATCU_RLStHeatSwLInd 4;
+BA_ "GenSigStartValue" SG_ 37 L_ATCU_RLStHeatSwLInd 0;
+BA_ "UserSigValidity" SG_ 37 L_ATCU_RLStHeatSwLInd 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_2HKBD SG_ 37 L_ATCU_RLStHeatSwLInd 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 37 L_ATCU_RLStHeatSwLInd 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 37 L_ATCU_RLStHeatSwLInd 0;
+BA_ "RoutingFactor" SG_ 37 L_ATCU_RLStHeatSwLInd 1;
+BA_ "Version" SG_ 37 L_ATCU_RLStHeatSwLInd "23.08.13";
+BA_ "GenSigSendType" SG_ 37 L_ATCU_RLStVntSwHInd 4;
+BA_ "GenSigStartValue" SG_ 37 L_ATCU_RLStVntSwHInd 0;
+BA_ "UserSigValidity" SG_ 37 L_ATCU_RLStVntSwHInd 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_2HKBD SG_ 37 L_ATCU_RLStVntSwHInd 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 37 L_ATCU_RLStVntSwHInd 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 37 L_ATCU_RLStVntSwHInd 0;
+BA_ "RoutingFactor" SG_ 37 L_ATCU_RLStVntSwHInd 1;
+BA_ "Version" SG_ 37 L_ATCU_RLStVntSwHInd "23.08.13";
+BA_ "GenSigSendType" SG_ 37 L_ATCU_RLStVntSwMInd 4;
+BA_ "GenSigStartValue" SG_ 37 L_ATCU_RLStVntSwMInd 0;
+BA_ "UserSigValidity" SG_ 37 L_ATCU_RLStVntSwMInd 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_2HKBD SG_ 37 L_ATCU_RLStVntSwMInd 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 37 L_ATCU_RLStVntSwMInd 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 37 L_ATCU_RLStVntSwMInd 0;
+BA_ "RoutingFactor" SG_ 37 L_ATCU_RLStVntSwMInd 1;
+BA_ "Version" SG_ 37 L_ATCU_RLStVntSwMInd "23.08.13";
+BA_ "GenSigSendType" SG_ 37 L_ATCU_RLStVntSwLInd 4;
+BA_ "GenSigStartValue" SG_ 37 L_ATCU_RLStVntSwLInd 0;
+BA_ "UserSigValidity" SG_ 37 L_ATCU_RLStVntSwLInd 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_2HKBD SG_ 37 L_ATCU_RLStVntSwLInd 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 37 L_ATCU_RLStVntSwLInd 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 37 L_ATCU_RLStVntSwLInd 0;
+BA_ "RoutingFactor" SG_ 37 L_ATCU_RLStVntSwLInd 1;
+BA_ "Version" SG_ 37 L_ATCU_RLStVntSwLInd "23.08.13";
+BA_ "GenSigSendType" SG_ 37 L_ATCU_RRStHeatSwHInd 4;
+BA_ "GenSigStartValue" SG_ 37 L_ATCU_RRStHeatSwHInd 0;
+BA_ "UserSigValidity" SG_ 37 L_ATCU_RRStHeatSwHInd 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_2HKBD SG_ 37 L_ATCU_RRStHeatSwHInd 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 37 L_ATCU_RRStHeatSwHInd 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 37 L_ATCU_RRStHeatSwHInd 0;
+BA_ "RoutingFactor" SG_ 37 L_ATCU_RRStHeatSwHInd 1;
+BA_ "Version" SG_ 37 L_ATCU_RRStHeatSwHInd "23.08.13";
+BA_ "GenSigSendType" SG_ 37 L_ATCU_RRStHeatSwMInd 4;
+BA_ "GenSigStartValue" SG_ 37 L_ATCU_RRStHeatSwMInd 0;
+BA_ "UserSigValidity" SG_ 37 L_ATCU_RRStHeatSwMInd 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_2HKBD SG_ 37 L_ATCU_RRStHeatSwMInd 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 37 L_ATCU_RRStHeatSwMInd 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 37 L_ATCU_RRStHeatSwMInd 0;
+BA_ "RoutingFactor" SG_ 37 L_ATCU_RRStHeatSwMInd 1;
+BA_ "Version" SG_ 37 L_ATCU_RRStHeatSwMInd "23.08.13";
+BA_ "GenSigSendType" SG_ 37 L_ATCU_RRStHeatSwLInd 4;
+BA_ "GenSigStartValue" SG_ 37 L_ATCU_RRStHeatSwLInd 0;
+BA_ "UserSigValidity" SG_ 37 L_ATCU_RRStHeatSwLInd 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_2HKBD SG_ 37 L_ATCU_RRStHeatSwLInd 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 37 L_ATCU_RRStHeatSwLInd 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 37 L_ATCU_RRStHeatSwLInd 0;
+BA_ "RoutingFactor" SG_ 37 L_ATCU_RRStHeatSwLInd 1;
+BA_ "Version" SG_ 37 L_ATCU_RRStHeatSwLInd "23.08.13";
+BA_ "GenSigSendType" SG_ 37 L_ATCU_RRStVntSwHInd 4;
+BA_ "GenSigStartValue" SG_ 37 L_ATCU_RRStVntSwHInd 0;
+BA_ "UserSigValidity" SG_ 37 L_ATCU_RRStVntSwHInd 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_2HKBD SG_ 37 L_ATCU_RRStVntSwHInd 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 37 L_ATCU_RRStVntSwHInd 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 37 L_ATCU_RRStVntSwHInd 0;
+BA_ "RoutingFactor" SG_ 37 L_ATCU_RRStVntSwHInd 1;
+BA_ "Version" SG_ 37 L_ATCU_RRStVntSwHInd "23.08.13";
+BA_ "GenSigSendType" SG_ 37 L_ATCU_RRStVntSwMInd 4;
+BA_ "GenSigStartValue" SG_ 37 L_ATCU_RRStVntSwMInd 0;
+BA_ "UserSigValidity" SG_ 37 L_ATCU_RRStVntSwMInd 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_2HKBD SG_ 37 L_ATCU_RRStVntSwMInd 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 37 L_ATCU_RRStVntSwMInd 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 37 L_ATCU_RRStVntSwMInd 0;
+BA_ "RoutingFactor" SG_ 37 L_ATCU_RRStVntSwMInd 1;
+BA_ "Version" SG_ 37 L_ATCU_RRStVntSwMInd "23.08.13";
+BA_ "GenSigSendType" SG_ 37 L_ATCU_RRStVntSwLInd 4;
+BA_ "GenSigStartValue" SG_ 37 L_ATCU_RRStVntSwLInd 0;
+BA_ "UserSigValidity" SG_ 37 L_ATCU_RRStVntSwLInd 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_2HKBD SG_ 37 L_ATCU_RRStVntSwLInd 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 37 L_ATCU_RRStVntSwLInd 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 37 L_ATCU_RRStVntSwLInd 0;
+BA_ "RoutingFactor" SG_ 37 L_ATCU_RRStVntSwLInd 1;
+BA_ "Version" SG_ 37 L_ATCU_RRStVntSwLInd "23.08.13";
+BA_ "GenSigSendType" SG_ 37 L_ATCU_RrMTCOpSta 4;
+BA_ "GenSigStartValue" SG_ 37 L_ATCU_RrMTCOpSta 0;
+BA_ "UserSigValidity" SG_ 37 L_ATCU_RrMTCOpSta 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_2HKBD SG_ 37 L_ATCU_RrMTCOpSta 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 37 L_ATCU_RrMTCOpSta 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 37 L_ATCU_RrMTCOpSta 0;
+BA_ "RoutingFactor" SG_ 37 L_ATCU_RrMTCOpSta 1;
+BA_ "Version" SG_ 37 L_ATCU_RrMTCOpSta "23.08.13";
+BA_ "GenSigSendType" SG_ 37 L_ATCU_RrMTCTempLvl 4;
+BA_ "GenSigStartValue" SG_ 37 L_ATCU_RrMTCTempLvl 0;
+BA_ "UserSigValidity" SG_ 37 L_ATCU_RrMTCTempLvl 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_2HKBD SG_ 37 L_ATCU_RrMTCTempLvl 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 37 L_ATCU_RrMTCTempLvl 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 37 L_ATCU_RrMTCTempLvl 0;
+BA_ "RoutingFactor" SG_ 37 L_ATCU_RrMTCTempLvl 1;
+BA_ "Version" SG_ 37 L_ATCU_RrMTCTempLvl "23.08.13";
+BA_ "Description" SG_ 37 L_ATCU_RrPsModDis "ATCU_RearPassengerModeDisplay";
+BA_ "GenSigSendType" SG_ 37 L_ATCU_RrPsModDis 4;
+BA_ "GenSigStartValue" SG_ 37 L_ATCU_RrPsModDis 0;
+BA_ "UserSigValidity" SG_ 37 L_ATCU_RrPsModDis 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_2HKBD SG_ 37 L_ATCU_RrPsModDis 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_EVNT SG_ 37 L_ATCU_RrPsModDis 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 37 L_ATCU_RrPsModDis 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 37 L_ATCU_RrPsModDis 0;
+BA_ "RoutingFactor" SG_ 37 L_ATCU_RrPsModDis 1;
+BA_ "Version" SG_ 37 L_ATCU_RrPsModDis "24.05.08";
+BA_ "GenSigSendType" SG_ 37 L_ATCU_RrLockDis 4;
+BA_ "GenSigStartValue" SG_ 37 L_ATCU_RrLockDis 0;
+BA_ "UserSigValidity" SG_ 37 L_ATCU_RrLockDis 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_2HKBD SG_ 37 L_ATCU_RrLockDis 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 37 L_ATCU_RrLockDis 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 37 L_ATCU_RrLockDis 0;
+BA_ "RoutingFactor" SG_ 37 L_ATCU_RrLockDis 1;
+BA_ "Version" SG_ 37 L_ATCU_RrLockDis "23.08.13";
+BA_ "GenSigSendType" SG_ 37 L_ATCU_RrDrvAutoStep 4;
+BA_ "GenSigStartValue" SG_ 37 L_ATCU_RrDrvAutoStep 0;
+BA_ "UserSigValidity" SG_ 37 L_ATCU_RrDrvAutoStep 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_2HKBD SG_ 37 L_ATCU_RrDrvAutoStep 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 37 L_ATCU_RrDrvAutoStep 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 37 L_ATCU_RrDrvAutoStep 0;
+BA_ "RoutingFactor" SG_ 37 L_ATCU_RrDrvAutoStep 1;
+BA_ "Version" SG_ 37 L_ATCU_RrDrvAutoStep "23.08.13";
+BA_ "GenMsgSendType" BO_ 38 0;
+BA_ "GenMsgCycleTime" BO_ 38 200;
+BA_ "GenMsgStartDelayTime" BO_ 38 0;
+BA_ "Description" SG_ 38 L_ATCU_3rdRrTempCDis "This signal indicates Outside temperature (¡É).
+(Use for display only)";
+BA_ "GenSigSendType" SG_ 38 L_ATCU_3rdRrTempCDis 4;
+BA_ "GenSigStartValue" SG_ 38 L_ATCU_3rdRrTempCDis 0;
+BA_ "UserSigValidity" SG_ 38 L_ATCU_3rdRrTempCDis 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_3HKBD SG_ 38 L_ATCU_3rdRrTempCDis 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 38 L_ATCU_3rdRrTempCDis 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 38 L_ATCU_3rdRrTempCDis 0;
+BA_ "RoutingFactor" SG_ 38 L_ATCU_3rdRrTempCDis 1;
+BA_ "Version" SG_ 38 L_ATCU_3rdRrTempCDis "23.08.13";
+BA_ "GenSigSendType" SG_ 38 L_ATCU_3rdRrModDis 4;
+BA_ "GenSigStartValue" SG_ 38 L_ATCU_3rdRrModDis 0;
+BA_ "UserSigValidity" SG_ 38 L_ATCU_3rdRrModDis 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_3HKBD SG_ 38 L_ATCU_3rdRrModDis 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 38 L_ATCU_3rdRrModDis 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 38 L_ATCU_3rdRrModDis 0;
+BA_ "RoutingFactor" SG_ 38 L_ATCU_3rdRrModDis 1;
+BA_ "Version" SG_ 38 L_ATCU_3rdRrModDis "23.08.13";
+BA_ "GenSigSendType" SG_ 38 L_ATCU_3rdRrBlwDis 4;
+BA_ "GenSigStartValue" SG_ 38 L_ATCU_3rdRrBlwDis 0;
+BA_ "UserSigValidity" SG_ 38 L_ATCU_3rdRrBlwDis 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_3HKBD SG_ 38 L_ATCU_3rdRrBlwDis 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 38 L_ATCU_3rdRrBlwDis 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 38 L_ATCU_3rdRrBlwDis 0;
+BA_ "RoutingFactor" SG_ 38 L_ATCU_3rdRrBlwDis 1;
+BA_ "Version" SG_ 38 L_ATCU_3rdRrBlwDis "23.08.13";
+BA_ "GenSigSendType" SG_ 38 L_ATCU_3rdRrAutoDis 4;
+BA_ "GenSigStartValue" SG_ 38 L_ATCU_3rdRrAutoDis 0;
+BA_ "UserSigValidity" SG_ 38 L_ATCU_3rdRrAutoDis 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_3HKBD SG_ 38 L_ATCU_3rdRrAutoDis 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 38 L_ATCU_3rdRrAutoDis 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 38 L_ATCU_3rdRrAutoDis 0;
+BA_ "RoutingFactor" SG_ 38 L_ATCU_3rdRrAutoDis 1;
+BA_ "Version" SG_ 38 L_ATCU_3rdRrAutoDis "23.08.13";
+BA_ "GenSigSendType" SG_ 38 L_ATCU_3rdRrMultiAutoBlwDis 4;
+BA_ "GenSigStartValue" SG_ 38 L_ATCU_3rdRrMultiAutoBlwDis 0;
+BA_ "UserSigValidity" SG_ 38 L_ATCU_3rdRrMultiAutoBlwDis 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_3HKBD SG_ 38 L_ATCU_3rdRrMultiAutoBlwDis 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 38 L_ATCU_3rdRrMultiAutoBlwDis 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 38 L_ATCU_3rdRrMultiAutoBlwDis 0;
+BA_ "RoutingFactor" SG_ 38 L_ATCU_3rdRrMultiAutoBlwDis 1;
+BA_ "Version" SG_ 38 L_ATCU_3rdRrMultiAutoBlwDis "23.08.13";
+BA_ "GenSigSendType" SG_ 38 L_ATCU_3rdRrSyncDis 4;
+BA_ "GenSigStartValue" SG_ 38 L_ATCU_3rdRrSyncDis 0;
+BA_ "UserSigValidity" SG_ 38 L_ATCU_3rdRrSyncDis 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_3HKBD SG_ 38 L_ATCU_3rdRrSyncDis 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 38 L_ATCU_3rdRrSyncDis 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 38 L_ATCU_3rdRrSyncDis 0;
+BA_ "RoutingFactor" SG_ 38 L_ATCU_3rdRrSyncDis 1;
+BA_ "Version" SG_ 38 L_ATCU_3rdRrSyncDis "23.08.13";
+BA_ "GenSigSendType" SG_ 38 L_ATCU_3rdRrOnInd 4;
+BA_ "GenSigStartValue" SG_ 38 L_ATCU_3rdRrOnInd 0;
+BA_ "UserSigValidity" SG_ 38 L_ATCU_3rdRrOnInd 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_3HKBD SG_ 38 L_ATCU_3rdRrOnInd 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 38 L_ATCU_3rdRrOnInd 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 38 L_ATCU_3rdRrOnInd 0;
+BA_ "RoutingFactor" SG_ 38 L_ATCU_3rdRrOnInd 1;
+BA_ "Version" SG_ 38 L_ATCU_3rdRrOnInd "23.08.13";
+BA_ "GenSigSendType" SG_ 38 L_ATCU_3rdRrLockDis 4;
+BA_ "GenSigStartValue" SG_ 38 L_ATCU_3rdRrLockDis 0;
+BA_ "UserSigValidity" SG_ 38 L_ATCU_3rdRrLockDis 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_3HKBD SG_ 38 L_ATCU_3rdRrLockDis 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 38 L_ATCU_3rdRrLockDis 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 38 L_ATCU_3rdRrLockDis 0;
+BA_ "RoutingFactor" SG_ 38 L_ATCU_3rdRrLockDis 1;
+BA_ "Version" SG_ 38 L_ATCU_3rdRrLockDis "23.08.13";
+BA_ "GenSigSendType" SG_ 38 L_ATCU_3rdRrLcdBckLightSta 4;
+BA_ "GenSigStartValue" SG_ 38 L_ATCU_3rdRrLcdBckLightSta 0;
+BA_ "UserSigValidity" SG_ 38 L_ATCU_3rdRrLcdBckLightSta 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_3HKBD SG_ 38 L_ATCU_3rdRrLcdBckLightSta 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 38 L_ATCU_3rdRrLcdBckLightSta 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 38 L_ATCU_3rdRrLcdBckLightSta 0;
+BA_ "RoutingFactor" SG_ 38 L_ATCU_3rdRrLcdBckLightSta 1;
+BA_ "Version" SG_ 38 L_ATCU_3rdRrLcdBckLightSta "23.08.13";
+BA_ "GenSigSendType" SG_ 38 L_ATCU_3rdRrGUIBlankDis 4;
+BA_ "GenSigStartValue" SG_ 38 L_ATCU_3rdRrGUIBlankDis 0;
+BA_ "UserSigValidity" SG_ 38 L_ATCU_3rdRrGUIBlankDis 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_3HKBD SG_ 38 L_ATCU_3rdRrGUIBlankDis 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 38 L_ATCU_3rdRrGUIBlankDis 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 38 L_ATCU_3rdRrGUIBlankDis 0;
+BA_ "RoutingFactor" SG_ 38 L_ATCU_3rdRrGUIBlankDis 1;
+BA_ "Version" SG_ 38 L_ATCU_3rdRrGUIBlankDis "23.08.13";
+BA_ "GenSigSendType" SG_ 38 L_ATCU_3rdRLStHeatSwHInd 4;
+BA_ "GenSigStartValue" SG_ 38 L_ATCU_3rdRLStHeatSwHInd 0;
+BA_ "UserSigValidity" SG_ 38 L_ATCU_3rdRLStHeatSwHInd 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_3HKBD SG_ 38 L_ATCU_3rdRLStHeatSwHInd 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 38 L_ATCU_3rdRLStHeatSwHInd 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 38 L_ATCU_3rdRLStHeatSwHInd 0;
+BA_ "RoutingFactor" SG_ 38 L_ATCU_3rdRLStHeatSwHInd 1;
+BA_ "Version" SG_ 38 L_ATCU_3rdRLStHeatSwHInd "23.08.13";
+BA_ "GenSigSendType" SG_ 38 L_ATCU_3rdRLStHeatSwMInd 4;
+BA_ "GenSigStartValue" SG_ 38 L_ATCU_3rdRLStHeatSwMInd 0;
+BA_ "UserSigValidity" SG_ 38 L_ATCU_3rdRLStHeatSwMInd 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_3HKBD SG_ 38 L_ATCU_3rdRLStHeatSwMInd 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 38 L_ATCU_3rdRLStHeatSwMInd 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 38 L_ATCU_3rdRLStHeatSwMInd 0;
+BA_ "RoutingFactor" SG_ 38 L_ATCU_3rdRLStHeatSwMInd 1;
+BA_ "Version" SG_ 38 L_ATCU_3rdRLStHeatSwMInd "23.08.13";
+BA_ "GenSigSendType" SG_ 38 L_ATCU_3rdRLStHeatSwLInd 4;
+BA_ "GenSigStartValue" SG_ 38 L_ATCU_3rdRLStHeatSwLInd 0;
+BA_ "UserSigValidity" SG_ 38 L_ATCU_3rdRLStHeatSwLInd 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_3HKBD SG_ 38 L_ATCU_3rdRLStHeatSwLInd 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 38 L_ATCU_3rdRLStHeatSwLInd 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 38 L_ATCU_3rdRLStHeatSwLInd 0;
+BA_ "RoutingFactor" SG_ 38 L_ATCU_3rdRLStHeatSwLInd 1;
+BA_ "Version" SG_ 38 L_ATCU_3rdRLStHeatSwLInd "23.08.13";
+BA_ "GenSigSendType" SG_ 38 L_ATCU_3rdRLStVntSwHInd 4;
+BA_ "GenSigStartValue" SG_ 38 L_ATCU_3rdRLStVntSwHInd 0;
+BA_ "UserSigValidity" SG_ 38 L_ATCU_3rdRLStVntSwHInd 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_3HKBD SG_ 38 L_ATCU_3rdRLStVntSwHInd 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 38 L_ATCU_3rdRLStVntSwHInd 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 38 L_ATCU_3rdRLStVntSwHInd 0;
+BA_ "RoutingFactor" SG_ 38 L_ATCU_3rdRLStVntSwHInd 1;
+BA_ "Version" SG_ 38 L_ATCU_3rdRLStVntSwHInd "23.08.13";
+BA_ "GenSigSendType" SG_ 38 L_ATCU_3rdRLStVntSwMInd 4;
+BA_ "GenSigStartValue" SG_ 38 L_ATCU_3rdRLStVntSwMInd 0;
+BA_ "UserSigValidity" SG_ 38 L_ATCU_3rdRLStVntSwMInd 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_3HKBD SG_ 38 L_ATCU_3rdRLStVntSwMInd 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 38 L_ATCU_3rdRLStVntSwMInd 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 38 L_ATCU_3rdRLStVntSwMInd 0;
+BA_ "RoutingFactor" SG_ 38 L_ATCU_3rdRLStVntSwMInd 1;
+BA_ "Version" SG_ 38 L_ATCU_3rdRLStVntSwMInd "23.08.13";
+BA_ "GenSigSendType" SG_ 38 L_ATCU_3rdRLStVntSwLInd 4;
+BA_ "GenSigStartValue" SG_ 38 L_ATCU_3rdRLStVntSwLInd 0;
+BA_ "UserSigValidity" SG_ 38 L_ATCU_3rdRLStVntSwLInd 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_3HKBD SG_ 38 L_ATCU_3rdRLStVntSwLInd 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 38 L_ATCU_3rdRLStVntSwLInd 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 38 L_ATCU_3rdRLStVntSwLInd 0;
+BA_ "RoutingFactor" SG_ 38 L_ATCU_3rdRLStVntSwLInd 1;
+BA_ "Version" SG_ 38 L_ATCU_3rdRLStVntSwLInd "23.08.13";
+BA_ "GenSigSendType" SG_ 38 L_ATCU_3rdRRStHeatSwHInd 4;
+BA_ "GenSigStartValue" SG_ 38 L_ATCU_3rdRRStHeatSwHInd 0;
+BA_ "UserSigValidity" SG_ 38 L_ATCU_3rdRRStHeatSwHInd 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_3HKBD SG_ 38 L_ATCU_3rdRRStHeatSwHInd 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 38 L_ATCU_3rdRRStHeatSwHInd 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 38 L_ATCU_3rdRRStHeatSwHInd 0;
+BA_ "RoutingFactor" SG_ 38 L_ATCU_3rdRRStHeatSwHInd 1;
+BA_ "Version" SG_ 38 L_ATCU_3rdRRStHeatSwHInd "23.08.13";
+BA_ "GenSigSendType" SG_ 38 L_ATCU_3rdRRStHeatSwMInd 4;
+BA_ "GenSigStartValue" SG_ 38 L_ATCU_3rdRRStHeatSwMInd 0;
+BA_ "UserSigValidity" SG_ 38 L_ATCU_3rdRRStHeatSwMInd 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_3HKBD SG_ 38 L_ATCU_3rdRRStHeatSwMInd 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 38 L_ATCU_3rdRRStHeatSwMInd 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 38 L_ATCU_3rdRRStHeatSwMInd 0;
+BA_ "RoutingFactor" SG_ 38 L_ATCU_3rdRRStHeatSwMInd 1;
+BA_ "Version" SG_ 38 L_ATCU_3rdRRStHeatSwMInd "23.08.13";
+BA_ "GenSigSendType" SG_ 38 L_ATCU_3rdRRStHeatSwLInd 4;
+BA_ "GenSigStartValue" SG_ 38 L_ATCU_3rdRRStHeatSwLInd 0;
+BA_ "UserSigValidity" SG_ 38 L_ATCU_3rdRRStHeatSwLInd 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_3HKBD SG_ 38 L_ATCU_3rdRRStHeatSwLInd 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 38 L_ATCU_3rdRRStHeatSwLInd 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 38 L_ATCU_3rdRRStHeatSwLInd 0;
+BA_ "RoutingFactor" SG_ 38 L_ATCU_3rdRRStHeatSwLInd 1;
+BA_ "Version" SG_ 38 L_ATCU_3rdRRStHeatSwLInd "23.08.13";
+BA_ "GenSigSendType" SG_ 38 L_ATCU_3rdRRStVntSwHInd 4;
+BA_ "GenSigStartValue" SG_ 38 L_ATCU_3rdRRStVntSwHInd 0;
+BA_ "UserSigValidity" SG_ 38 L_ATCU_3rdRRStVntSwHInd 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_3HKBD SG_ 38 L_ATCU_3rdRRStVntSwHInd 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 38 L_ATCU_3rdRRStVntSwHInd 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 38 L_ATCU_3rdRRStVntSwHInd 0;
+BA_ "RoutingFactor" SG_ 38 L_ATCU_3rdRRStVntSwHInd 1;
+BA_ "Version" SG_ 38 L_ATCU_3rdRRStVntSwHInd "23.08.13";
+BA_ "GenSigSendType" SG_ 38 L_ATCU_3rdRRStVntSwMInd 4;
+BA_ "GenSigStartValue" SG_ 38 L_ATCU_3rdRRStVntSwMInd 0;
+BA_ "UserSigValidity" SG_ 38 L_ATCU_3rdRRStVntSwMInd 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_3HKBD SG_ 38 L_ATCU_3rdRRStVntSwMInd 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 38 L_ATCU_3rdRRStVntSwMInd 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 38 L_ATCU_3rdRRStVntSwMInd 0;
+BA_ "RoutingFactor" SG_ 38 L_ATCU_3rdRRStVntSwMInd 1;
+BA_ "Version" SG_ 38 L_ATCU_3rdRRStVntSwMInd "23.08.13";
+BA_ "GenSigSendType" SG_ 38 L_ATCU_3rdRRStVntSwLInd 4;
+BA_ "GenSigStartValue" SG_ 38 L_ATCU_3rdRRStVntSwLInd 0;
+BA_ "UserSigValidity" SG_ 38 L_ATCU_3rdRRStVntSwLInd 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_3HKBD SG_ 38 L_ATCU_3rdRRStVntSwLInd 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 38 L_ATCU_3rdRRStVntSwLInd 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 38 L_ATCU_3rdRRStVntSwLInd 0;
+BA_ "RoutingFactor" SG_ 38 L_ATCU_3rdRRStVntSwLInd 1;
+BA_ "Version" SG_ 38 L_ATCU_3rdRRStVntSwLInd "23.08.13";
+BA_ "GenSigSendType" SG_ 38 L_ATCU_3rdRrMTCOpSta 4;
+BA_ "GenSigStartValue" SG_ 38 L_ATCU_3rdRrMTCOpSta 0;
+BA_ "UserSigValidity" SG_ 38 L_ATCU_3rdRrMTCOpSta 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_3HKBD SG_ 38 L_ATCU_3rdRrMTCOpSta 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 38 L_ATCU_3rdRrMTCOpSta 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 38 L_ATCU_3rdRrMTCOpSta 0;
+BA_ "RoutingFactor" SG_ 38 L_ATCU_3rdRrMTCOpSta 1;
+BA_ "Version" SG_ 38 L_ATCU_3rdRrMTCOpSta "23.08.13";
+BA_ "GenSigSendType" SG_ 38 L_ATCU_3rdRrMtcTempLvl 4;
+BA_ "GenSigStartValue" SG_ 38 L_ATCU_3rdRrMtcTempLvl 0;
+BA_ "UserSigValidity" SG_ 38 L_ATCU_3rdRrMtcTempLvl 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_3HKBD SG_ 38 L_ATCU_3rdRrMtcTempLvl 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 38 L_ATCU_3rdRrMtcTempLvl 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 38 L_ATCU_3rdRrMtcTempLvl 0;
+BA_ "RoutingFactor" SG_ 38 L_ATCU_3rdRrMtcTempLvl 1;
+BA_ "Version" SG_ 38 L_ATCU_3rdRrMtcTempLvl "23.08.13";
+BA_ "GenSigSendType" SG_ 38 L_ATCU_3rdAUTOStep 4;
+BA_ "GenSigStartValue" SG_ 38 L_ATCU_3rdAUTOStep 0;
+BA_ "UserSigValidity" SG_ 38 L_ATCU_3rdAUTOStep 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_3HKBD SG_ 38 L_ATCU_3rdAUTOStep 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 38 L_ATCU_3rdAUTOStep 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 38 L_ATCU_3rdAUTOStep 0;
+BA_ "RoutingFactor" SG_ 38 L_ATCU_3rdAUTOStep 1;
+BA_ "Version" SG_ 38 L_ATCU_3rdAUTOStep "23.08.13";
+BA_ "GenSigSendType" SG_ 38 L_ATCU_RrPassMultiAutoBlwDis 4;
+BA_ "GenSigStartValue" SG_ 38 L_ATCU_RrPassMultiAutoBlwDis 0;
+BA_ "UserSigValidity" SG_ 38 L_ATCU_RrPassMultiAutoBlwDis 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_2HKBD SG_ 38 L_ATCU_RrPassMultiAutoBlwDis 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 38 L_ATCU_RrPassMultiAutoBlwDis 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 38 L_ATCU_RrPassMultiAutoBlwDis 0;
+BA_ "RoutingFactor" SG_ 38 L_ATCU_RrPassMultiAutoBlwDis 1;
+BA_ "Version" SG_ 38 L_ATCU_RrPassMultiAutoBlwDis "23.08.13";
+BA_ "GenSigSendType" SG_ 38 L_ATCU_DisPnlState 4;
+BA_ "GenSigStartValue" SG_ 38 L_ATCU_DisPnlState 0;
+BA_ "UserSigValidity" SG_ 38 L_ATCU_DisPnlState 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 38 L_ATCU_DisPnlState 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 38 L_ATCU_DisPnlState 0;
+BA_ "RoutingFactor" SG_ 38 L_ATCU_DisPnlState 1;
+BA_ "Version" SG_ 38 L_ATCU_DisPnlState "24.02.08";
+BA_ "Description" SG_ 38 L_ATCU_3rdRrTempFDis "This signal indicates Outside Temperature (¢µ)
+(Use for display only)";
+BA_ "GenSigSendType" SG_ 38 L_ATCU_3rdRrTempFDis 4;
+BA_ "GenSigStartValue" SG_ 38 L_ATCU_3rdRrTempFDis 0;
+BA_ "UserSigValidity" SG_ 38 L_ATCU_3rdRrTempFDis 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_3HKBD SG_ 38 L_ATCU_3rdRrTempFDis 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 38 L_ATCU_3rdRrTempFDis 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 38 L_ATCU_3rdRrTempFDis 0;
+BA_ "RoutingFactor" SG_ 38 L_ATCU_3rdRrTempFDis 1;
+BA_ "Version" SG_ 38 L_ATCU_3rdRrTempFDis "23.08.13";
+BA_ "GenMsgSendType" BO_ 39 0;
+BA_ "GenMsgCycleTime" BO_ 39 20;
+BA_ "GenMsgCycleTimeFast" BO_ 39 0;
+BA_ "GenMsgNrOfRepetition" BO_ 39 0;
+BA_ "GenMsgDelayTime" BO_ 39 0;
+BA_ "GenMsgStartDelayTime" BO_ 39 0;
+BA_ "GenSigStartValue" SG_ 39 L_ATCU_RrHVACTempActrTgt 0;
+BA_ "UserSigValidity" SG_ 39 L_ATCU_RrHVACTempActrTgt 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_2HKBD SG_ 39 L_ATCU_RrHVACTempActrTgt 500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_3HKBD SG_ 39 L_ATCU_RrHVACTempActrTgt 500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 39 L_ATCU_RrHVACTempActrTgt 500;
+BA_ "NetworkRequestHoldingTime" SG_ 39 L_ATCU_RrHVACTempActrTgt 0;
+BA_ "RoutingFactor" SG_ 39 L_ATCU_RrHVACTempActrTgt 1;
+BA_ "Version" SG_ 39 L_ATCU_RrHVACTempActrTgt "23.08.13";
+BA_ "GenSigStartValue" SG_ 39 L_ATCU_RrHVACTempAsstActrTgt 0;
+BA_ "UserSigValidity" SG_ 39 L_ATCU_RrHVACTempAsstActrTgt 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_2HKBD SG_ 39 L_ATCU_RrHVACTempAsstActrTgt 500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_3HKBD SG_ 39 L_ATCU_RrHVACTempAsstActrTgt 500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 39 L_ATCU_RrHVACTempAsstActrTgt 500;
+BA_ "NetworkRequestHoldingTime" SG_ 39 L_ATCU_RrHVACTempAsstActrTgt 0;
+BA_ "RoutingFactor" SG_ 39 L_ATCU_RrHVACTempAsstActrTgt 1;
+BA_ "Version" SG_ 39 L_ATCU_RrHVACTempAsstActrTgt "23.08.13";
+BA_ "GenSigStartValue" SG_ 39 L_ATCU_RrDrHVACModeActrTgt 0;
+BA_ "UserSigValidity" SG_ 39 L_ATCU_RrDrHVACModeActrTgt 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_2HKBD SG_ 39 L_ATCU_RrDrHVACModeActrTgt 500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_3HKBD SG_ 39 L_ATCU_RrDrHVACModeActrTgt 500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 39 L_ATCU_RrDrHVACModeActrTgt 500;
+BA_ "NetworkRequestHoldingTime" SG_ 39 L_ATCU_RrDrHVACModeActrTgt 0;
+BA_ "RoutingFactor" SG_ 39 L_ATCU_RrDrHVACModeActrTgt 1;
+BA_ "Version" SG_ 39 L_ATCU_RrDrHVACModeActrTgt "24.02.01";
+BA_ "GenSigStartValue" SG_ 39 L_ATCU_RrHVACBlowerTgtV 0;
+BA_ "UserSigValidity" SG_ 39 L_ATCU_RrHVACBlowerTgtV 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_2HKBD SG_ 39 L_ATCU_RrHVACBlowerTgtV 500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_3HKBD SG_ 39 L_ATCU_RrHVACBlowerTgtV 500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 39 L_ATCU_RrHVACBlowerTgtV 500;
+BA_ "NetworkRequestHoldingTime" SG_ 39 L_ATCU_RrHVACBlowerTgtV 0;
+BA_ "RoutingFactor" SG_ 39 L_ATCU_RrHVACBlowerTgtV 1;
+BA_ "Version" SG_ 39 L_ATCU_RrHVACBlowerTgtV "23.08.13";
+BA_ "GenSigStartValue" SG_ 39 L_ATCU_RrHVACBLDCRpmVal 0;
+BA_ "UserSigValidity" SG_ 39 L_ATCU_RrHVACBLDCRpmVal 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_2HKBD SG_ 39 L_ATCU_RrHVACBLDCRpmVal 500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_3HKBD SG_ 39 L_ATCU_RrHVACBLDCRpmVal 500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 39 L_ATCU_RrHVACBLDCRpmVal 500;
+BA_ "NetworkRequestHoldingTime" SG_ 39 L_ATCU_RrHVACBLDCRpmVal 0;
+BA_ "RoutingFactor" SG_ 39 L_ATCU_RrHVACBLDCRpmVal 1;
+BA_ "Version" SG_ 39 L_ATCU_RrHVACBLDCRpmVal "24.02.01";
+BA_ "GenSigStartValue" SG_ 39 L_ATCU_RrPsHVACModeActrTgt 0;
+BA_ "UserSigValidity" SG_ 39 L_ATCU_RrPsHVACModeActrTgt 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_2HKBD SG_ 39 L_ATCU_RrPsHVACModeActrTgt 500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_3HKBD SG_ 39 L_ATCU_RrPsHVACModeActrTgt 500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 39 L_ATCU_RrPsHVACModeActrTgt 500;
+BA_ "NetworkRequestHoldingTime" SG_ 39 L_ATCU_RrPsHVACModeActrTgt 0;
+BA_ "RoutingFactor" SG_ 39 L_ATCU_RrPsHVACModeActrTgt 1;
+BA_ "Version" SG_ 39 L_ATCU_RrPsHVACModeActrTgt "24.02.01";
+BA_ "GenMsgSendType" BO_ 40 0;
+BA_ "GenMsgCycleTime" BO_ 40 200;
+BA_ "GenMsgStartDelayTime" BO_ 40 0;
+BA_ "GenSigSendType" SG_ 40 L_ATCU_PassAUTOStep 4;
+BA_ "GenSigStartValue" SG_ 40 L_ATCU_PassAUTOStep 0;
+BA_ "UserSigValidity" SG_ 40 L_ATCU_PassAUTOStep 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_2HKBD SG_ 40 L_ATCU_PassAUTOStep 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 40 L_ATCU_PassAUTOStep 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 40 L_ATCU_PassAUTOStep 0;
+BA_ "RoutingFactor" SG_ 40 L_ATCU_PassAUTOStep 1;
+BA_ "Version" SG_ 40 L_ATCU_PassAUTOStep "23.08.13";
+BA_ "GenSigSendType" SG_ 40 L_ATCU_RrPassTempFDis 4;
+BA_ "GenSigStartValue" SG_ 40 L_ATCU_RrPassTempFDis 0;
+BA_ "UserSigValidity" SG_ 40 L_ATCU_RrPassTempFDis 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_2HKBD SG_ 40 L_ATCU_RrPassTempFDis 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 40 L_ATCU_RrPassTempFDis 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 40 L_ATCU_RrPassTempFDis 0;
+BA_ "RoutingFactor" SG_ 40 L_ATCU_RrPassTempFDis 1;
+BA_ "Version" SG_ 40 L_ATCU_RrPassTempFDis "23.08.13";
+BA_ "GenSigSendType" SG_ 40 L_ATCU_RrPassBlwDis 4;
+BA_ "GenSigStartValue" SG_ 40 L_ATCU_RrPassBlwDis 0;
+BA_ "UserSigValidity" SG_ 40 L_ATCU_RrPassBlwDis 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_2HKBD SG_ 40 L_ATCU_RrPassBlwDis 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 40 L_ATCU_RrPassBlwDis 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 40 L_ATCU_RrPassBlwDis 0;
+BA_ "RoutingFactor" SG_ 40 L_ATCU_RrPassBlwDis 1;
+BA_ "Version" SG_ 40 L_ATCU_RrPassBlwDis "23.08.13";
+BA_ "GenSigSendType" SG_ 40 L_ATCU_RrPassAUTODis 4;
+BA_ "GenSigStartValue" SG_ 40 L_ATCU_RrPassAUTODis 0;
+BA_ "UserSigValidity" SG_ 40 L_ATCU_RrPassAUTODis 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_2HKBD SG_ 40 L_ATCU_RrPassAUTODis 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 40 L_ATCU_RrPassAUTODis 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 40 L_ATCU_RrPassAUTODis 0;
+BA_ "RoutingFactor" SG_ 40 L_ATCU_RrPassAUTODis 1;
+BA_ "Version" SG_ 40 L_ATCU_RrPassAUTODis "23.08.13";
+BA_ "GenSigSendType" SG_ 40 L_ATCU_RrPassAUTOStep 4;
+BA_ "GenSigStartValue" SG_ 40 L_ATCU_RrPassAUTOStep 0;
+BA_ "UserSigValidity" SG_ 40 L_ATCU_RrPassAUTOStep 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_2HKBD SG_ 40 L_ATCU_RrPassAUTOStep 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 40 L_ATCU_RrPassAUTOStep 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 40 L_ATCU_RrPassAUTOStep 0;
+BA_ "RoutingFactor" SG_ 40 L_ATCU_RrPassAUTOStep 1;
+BA_ "Version" SG_ 40 L_ATCU_RrPassAUTOStep "23.08.13";
+BA_ "Description" SG_ 40 L_ATCU_CampModeSta "Define the status of Camp Mode in EV";
+BA_ "GenSigSendType" SG_ 40 L_ATCU_CampModeSta 4;
+BA_ "GenSigStartValue" SG_ 40 L_ATCU_CampModeSta 0;
+BA_ "UserSigValidity" SG_ 40 L_ATCU_CampModeSta 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_2HKBD SG_ 40 L_ATCU_CampModeSta 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_3HKBD SG_ 40 L_ATCU_CampModeSta 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_EVNT SG_ 40 L_ATCU_CampModeSta 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 40 L_ATCU_CampModeSta 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 40 L_ATCU_CampModeSta 0;
+BA_ "RoutingFactor" SG_ 40 L_ATCU_CampModeSta 1;
+BA_ "Version" SG_ 40 L_ATCU_CampModeSta "23.08.13";
+BA_ "GenSigSendType" SG_ 40 L_ATCU_RrPassTempCDis 4;
+BA_ "GenSigStartValue" SG_ 40 L_ATCU_RrPassTempCDis 0;
+BA_ "UserSigValidity" SG_ 40 L_ATCU_RrPassTempCDis 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_2HKBD SG_ 40 L_ATCU_RrPassTempCDis 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 40 L_ATCU_RrPassTempCDis 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 40 L_ATCU_RrPassTempCDis 0;
+BA_ "RoutingFactor" SG_ 40 L_ATCU_RrPassTempCDis 1;
+BA_ "Version" SG_ 40 L_ATCU_RrPassTempCDis "23.08.13";
+BA_ "Description" SG_ 40 L_ATCU_UtilModeUsmSta "Timeout : Utility Mode OFF(Rest Mode OFF)";
+BA_ "GenSigSendType" SG_ 40 L_ATCU_UtilModeUsmSta 4;
+BA_ "GenSigStartValue" SG_ 40 L_ATCU_UtilModeUsmSta 0;
+BA_ "UserSigValidity" SG_ 40 L_ATCU_UtilModeUsmSta 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_2HKBD SG_ 40 L_ATCU_UtilModeUsmSta 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_3HKBD SG_ 40 L_ATCU_UtilModeUsmSta 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_EVNT SG_ 40 L_ATCU_UtilModeUsmSta 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 40 L_ATCU_UtilModeUsmSta 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 40 L_ATCU_UtilModeUsmSta 0;
+BA_ "RoutingFactor" SG_ 40 L_ATCU_UtilModeUsmSta 1;
+BA_ "Version" SG_ 40 L_ATCU_UtilModeUsmSta "23.08.13";
+BA_ "GenSigSendType" SG_ 40 L_ATCU_RrAcDis 4;
+BA_ "GenSigStartValue" SG_ 40 L_ATCU_RrAcDis 0;
+BA_ "UserSigValidity" SG_ 40 L_ATCU_RrAcDis 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_2HKBD SG_ 40 L_ATCU_RrAcDis 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_3HKBD SG_ 40 L_ATCU_RrAcDis 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 40 L_ATCU_RrAcDis 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 40 L_ATCU_RrAcDis 0;
+BA_ "RoutingFactor" SG_ 40 L_ATCU_RrAcDis 1;
+BA_ "Version" SG_ 40 L_ATCU_RrAcDis "24.02.01";
+BA_ "GenSigSendType" SG_ 40 L_ATCU_3rdAcDis 4;
+BA_ "GenSigStartValue" SG_ 40 L_ATCU_3rdAcDis 0;
+BA_ "UserSigValidity" SG_ 40 L_ATCU_3rdAcDis 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_2HKBD SG_ 40 L_ATCU_3rdAcDis 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_3HKBD SG_ 40 L_ATCU_3rdAcDis 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 40 L_ATCU_3rdAcDis 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 40 L_ATCU_3rdAcDis 0;
+BA_ "RoutingFactor" SG_ 40 L_ATCU_3rdAcDis 1;
+BA_ "Version" SG_ 40 L_ATCU_3rdAcDis "24.02.01";
+BA_ "GenMsgSendType" BO_ 41 0;
+BA_ "GenMsgCycleTime" BO_ 41 20;
+BA_ "GenMsgCycleTimeFast" BO_ 41 0;
+BA_ "GenMsgNrOfRepetition" BO_ 41 0;
+BA_ "GenMsgDelayTime" BO_ 41 0;
+BA_ "GenMsgStartDelayTime" BO_ 41 0;
+BA_ "NmStationAddress" BU_ L_FHPTC 0;
+BA_ "NmNode" BU_ L_FHPTC 0;
+BA_ "NmStationAddress" BU_ L_RHPTC 0;
+BA_ "NmNode" BU_ L_RHPTC 0;
+BA_ "Description" SG_ 41 L_ATCU_OutTempDispC "This signal indicates Outside temperature (¡É).
+(Use for display only)";
+BA_ "GenSigStartValue" SG_ 41 L_ATCU_OutTempDispC 0;
+BA_ "UserSigValidity" SG_ 41 L_ATCU_OutTempDispC 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_FHPTC SG_ 41 L_ATCU_OutTempDispC 500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 41 L_ATCU_OutTempDispC 500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_RHPTC SG_ 41 L_ATCU_OutTempDispC 500;
+BA_ "NetworkRequestHoldingTime" SG_ 41 L_ATCU_OutTempDispC 0;
+BA_ "RoutingFactor" SG_ 41 L_ATCU_OutTempDispC 1;
+BA_ "Version" SG_ 41 L_ATCU_OutTempDispC "23.08.13";
+BA_ "GenSigStartValue" SG_ 41 L_ATCU_DtntOutSta 0;
+BA_ "UserSigValidity" SG_ 41 L_ATCU_DtntOutSta 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_2HKBD SG_ 41 L_ATCU_DtntOutSta 500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_EVNT SG_ 41 L_ATCU_DtntOutSta 500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 41 L_ATCU_DtntOutSta 500;
+BA_ "NetworkRequestHoldingTime" SG_ 41 L_ATCU_DtntOutSta 0;
+BA_ "RoutingFactor" SG_ 41 L_ATCU_DtntOutSta 1;
+BA_ "Version" SG_ 41 L_ATCU_DtntOutSta "23.08.13";
+BA_ "GenSigStartValue" SG_ 41 L_ATCU_AutoBrightSta 0;
+BA_ "UserSigValidity" SG_ 41 L_ATCU_AutoBrightSta 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_2HKBD SG_ 41 L_ATCU_AutoBrightSta 500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_EVNT SG_ 41 L_ATCU_AutoBrightSta 500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 41 L_ATCU_AutoBrightSta 500;
+BA_ "NetworkRequestHoldingTime" SG_ 41 L_ATCU_AutoBrightSta 0;
+BA_ "RoutingFactor" SG_ 41 L_ATCU_AutoBrightSta 1;
+BA_ "Version" SG_ 41 L_ATCU_AutoBrightSta "23.08.13";
+BA_ "GenSigStartValue" SG_ 41 L_ATCU_DustSnrVal 0;
+BA_ "UserSigValidity" SG_ 41 L_ATCU_DustSnrVal 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 41 L_ATCU_DustSnrVal 500;
+BA_ "NetworkRequestHoldingTime" SG_ 41 L_ATCU_DustSnrVal 0;
+BA_ "RoutingFactor" SG_ 41 L_ATCU_DustSnrVal 1;
+BA_ "Version" SG_ 41 L_ATCU_DustSnrVal "23.08.13";
+BA_ "Description" SG_ 41 L_ATCU_NotMinModeBrightSta "This signal indicates the bright level of original state. Original state means the previous state of Camp Mode.";
+BA_ "GenSigStartValue" SG_ 41 L_ATCU_NotMinModeBrightSta 0;
+BA_ "UserSigValidity" SG_ 41 L_ATCU_NotMinModeBrightSta 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_2HKBD SG_ 41 L_ATCU_NotMinModeBrightSta 500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_3HKBD SG_ 41 L_ATCU_NotMinModeBrightSta 500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_EVNT SG_ 41 L_ATCU_NotMinModeBrightSta 500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 41 L_ATCU_NotMinModeBrightSta 500;
+BA_ "NetworkRequestHoldingTime" SG_ 41 L_ATCU_NotMinModeBrightSta 0;
+BA_ "RoutingFactor" SG_ 41 L_ATCU_NotMinModeBrightSta 1;
+BA_ "Version" SG_ 41 L_ATCU_NotMinModeBrightSta "23.08.13";
+BA_ "Description" SG_ 41 L_ATCU_IAUPrfleVal "This signal Indicate the Current detected Profile ID by IAU.
+This signal is a signal that forwards profile signals from IAU to L_ATCU, and L_ATCU then forwards them as is to L_EVNT.(NOTICE : MAIN CAN's original validity is B+)";
+BA_ "GenSigStartValue" SG_ 41 L_ATCU_IAUPrfleVal 0;
+BA_ "UserSigValidity" SG_ 41 L_ATCU_IAUPrfleVal 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_EVNT SG_ 41 L_ATCU_IAUPrfleVal 500;
+BA_ "NetworkRequestHoldingTime" SG_ 41 L_ATCU_IAUPrfleVal 0;
+BA_ "RoutingFactor" SG_ 41 L_ATCU_IAUPrfleVal 1;
+BA_ "Version" SG_ 41 L_ATCU_IAUPrfleVal "24.03.06";
+BA_ "Description" SG_ 41 L_ATCU_AVNPrfleVal "This signal is a signal that forwards profile signals from HU to L_ATCU, and L_ATCU then forwards them as is to L_EVNT.(NOTICE : MAIN CAN's original validity is B+) 
+Profile 3~Profile9 value is only used from Vehicle Architecture 2.0 (STD_DB_CAR_R2, SV 24.6~) vehicle models Vehicle Architecture 1.0 (STD_DB_CAR) vehicle models can us";
+BA_ "GenSigStartValue" SG_ 41 L_ATCU_AVNPrfleVal 15;
+BA_ "UserSigValidity" SG_ 41 L_ATCU_AVNPrfleVal 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_EVNT SG_ 41 L_ATCU_AVNPrfleVal 500;
+BA_ "NetworkRequestHoldingTime" SG_ 41 L_ATCU_AVNPrfleVal 0;
+BA_ "RoutingFactor" SG_ 41 L_ATCU_AVNPrfleVal 1;
+BA_ "Version" SG_ 41 L_ATCU_AVNPrfleVal "24.03.06";
+BA_ "Description" SG_ 41 L_ATCU_SchdldClimateSta "Operation of the air conditioning system(NOT ROUTING)";
+BA_ "GenSigStartValue" SG_ 41 L_ATCU_SchdldClimateSta 0;
+BA_ "UserSigValidity" SG_ 41 L_ATCU_SchdldClimateSta 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_EVNT SG_ 41 L_ATCU_SchdldClimateSta 500;
+BA_ "NetworkRequestHoldingTime" SG_ 41 L_ATCU_SchdldClimateSta 0;
+BA_ "RoutingFactor" SG_ 41 L_ATCU_SchdldClimateSta 1;
+BA_ "Version" SG_ 41 L_ATCU_SchdldClimateSta "24.08.08";
+BA_ "Description" SG_ 41 L_ATCU_OutTempDispF "This signal indicates Outside Temperature (¢µ)
+(Use for display only)";
+BA_ "GenSigStartValue" SG_ 41 L_ATCU_OutTempDispF 0;
+BA_ "UserSigValidity" SG_ 41 L_ATCU_OutTempDispF 7;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_FHPTC SG_ 41 L_ATCU_OutTempDispF 500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 41 L_ATCU_OutTempDispF 500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_RHPTC SG_ 41 L_ATCU_OutTempDispF 500;
+BA_ "NetworkRequestHoldingTime" SG_ 41 L_ATCU_OutTempDispF 0;
+BA_ "RoutingFactor" SG_ 41 L_ATCU_OutTempDispF 1;
+BA_ "Version" SG_ 41 L_ATCU_OutTempDispF "23.08.13";
+BA_ "GenMsgSendType" BO_ 49 0;
+BA_ "GenMsgCycleTime" BO_ 49 200;
+BA_ "GenMsgStartDelayTime" BO_ 49 0;
+BA_ "Description" SG_ 49 L_ATCU_ResetPreWrngForOthers "This is a PDC routing signal for reset preparing sideeffect of reset";
+BA_ "GenSigSendType" SG_ 49 L_ATCU_ResetPreWrngForOthers 4;
+BA_ "GenSigStartValue" SG_ 49 L_ATCU_ResetPreWrngForOthers 0;
+BA_ "UserSigValidity" SG_ 49 L_ATCU_ResetPreWrngForOthers 0;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_2HKBD SG_ 49 L_ATCU_ResetPreWrngForOthers 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_3HKBD SG_ 49 L_ATCU_ResetPreWrngForOthers 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_EVNT SG_ 49 L_ATCU_ResetPreWrngForOthers 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 49 L_ATCU_ResetPreWrngForOthers 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_PCM SG_ 49 L_ATCU_ResetPreWrngForOthers 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 49 L_ATCU_ResetPreWrngForOthers 0;
+BA_ "RoutingFactor" SG_ 49 L_ATCU_ResetPreWrngForOthers 1;
+BA_ "Version" SG_ 49 L_ATCU_ResetPreWrngForOthers "24.07.02";
+BA_ "Description" SG_ 49 L_ATCU_ResetReqForOthers "This is a PDC routing signal for SW reset except for Gateway";
+BA_ "GenSigSendType" SG_ 49 L_ATCU_ResetReqForOthers 4;
+BA_ "GenSigStartValue" SG_ 49 L_ATCU_ResetReqForOthers 0;
+BA_ "UserSigValidity" SG_ 49 L_ATCU_ResetReqForOthers 0;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_2HKBD SG_ 49 L_ATCU_ResetReqForOthers 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_3HKBD SG_ 49 L_ATCU_ResetReqForOthers 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_EVNT SG_ 49 L_ATCU_ResetReqForOthers 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_HKBD SG_ 49 L_ATCU_ResetReqForOthers 1500;
+BA_REL_ "GenSigTimeoutTime" BU_SG_REL_ L_PCM SG_ 49 L_ATCU_ResetReqForOthers 1500;
+BA_ "NetworkRequestHoldingTime" SG_ 49 L_ATCU_ResetReqForOthers 0;
+BA_ "RoutingFactor" SG_ 49 L_ATCU_ResetReqForOthers 1;
+BA_ "Version" SG_ 49 L_ATCU_ResetReqForOthers "24.07.02";
+VAL_ 98 L_2HKBD_Rr_EvapVolVal 0 "0x0x0~0xFA:0~5V" 250 "0x0x0~0xFA:0~5V" 255 "Error Indicator" ;
+VAL_ 98 L_2HKBD_Rr_TempActrSt 0 "Normal" 1 "Open" 2 "Short" 3 "Stuck" ;
+VAL_ 98 L_2HKBD_Rr_TempAsstActrFB 1023 "Error Indicator" ;
+VAL_ 98 L_2HKBD_Rr_TempAsstActrSt 0 "Normal" 1 "Open" 2 "Short" 3 "Stuck" ;
+VAL_ 98 L_2HKBD_Rr_ModeActrFB 1023 "Error Indicator" ;
+VAL_ 98 L_2HKBD_Rr_ModeActrSt 0 "Normal" 1 "Open" 2 "Short" 3 "Stuck" ;
+VAL_ 98 L_2HKBD_Rr_BLDCError 0 "No error" 1 "Over Current" 2 "Under Voltage" 3 "Over Voltage" 4 "Stall" 5 "Over Temperature" 6 "Controller Shutdown (Internal Error)" 7 "Current Limit" 8 "Limp mode" 9 "LIN Fail" 10 "RESERVED" 11 "RESERVED" 12 "RESERVED" 13 "RESERVED" 14 "RESERVED" 15 "RESERVED" ;
+VAL_ 98 L_2HKBD_Rr_TempActrFB 1023 "Error Indicator" ;
+VAL_ 99 L_2HKBD_ResetOpSta 0 "Normal" 1 "Reset Complete" 2 "Reset Fail" 3 "RESERVED" ;
+VAL_ 100 L_2HKBD_RrDrModeDnSw 0 "Off" 1 "On" ;
+VAL_ 100 L_2HKBD_RrDrModeUpSw 0 "Off" 1 "On" ;
+VAL_ 100 L_2HKBD_RrDrAutoSw 0 "Off" 1 "On" ;
+VAL_ 100 L_2HKBD_Rr_OffSw 0 "Off" 1 "On" ;
+VAL_ 100 L_2HKBD_RrSyncSw 0 "Off" 1 "On" ;
+VAL_ 100 L_2HKBD_RrAcSw 0 "Off" 1 "On" ;
+VAL_ 100 L_2HKBD_RLStHtrSwReq 0 "Off" 1 "On" ;
+VAL_ 100 L_2HKBD_RLStVentSwReq 0 "Off" 1 "On" ;
+VAL_ 100 L_2HKBD_RRStHtrSwReq 0 "Off" 1 "On" ;
+VAL_ 100 L_2HKBD_RRStVentSwReq 0 "Off" 1 "On" ;
+VAL_ 100 L_2HKBD_RrDrMultiAutoSw 0 "RESERVED" 1 "Low" 2 "Medium" 3 "High" 4 "RESERVED" 5 "RESERVED" 6 "RESERVED" 7 "Invalid" ;
+VAL_ 100 L_2HKBD_RrDrModeSw 0 "Off" 1 "On" ;
+VAL_ 100 L_2HKBD_RrPsModeSw 0 "Off" 1 "On" ;
+VAL_ 100 L_2HKBD_RrPsModeDnSw 0 "Off" 1 "On" ;
+VAL_ 100 L_2HKBD_RrPsModeUpSw 0 "Off" 1 "On" ;
+VAL_ 100 L_2HKBD_RrPsModeVentSw 0 "Off" 1 "On" ;
+VAL_ 100 L_2HKBD_RrPsModeFloorSw 0 "Off" 1 "On" ;
+VAL_ 100 L_2HKBD_RrPsModeBiLvlSw 0 "Off" 1 "On" ;
+VAL_ 100 L_2HKBD_RrPsTempDnSw 0 "Off" 1 "On" ;
+VAL_ 100 L_2HKBD_RrPsTempUpSw 0 "Off" 1 "On" ;
+VAL_ 100 L_2HKBD_RrPsBlwUpSw 0 "Off" 1 "On" ;
+VAL_ 100 L_2HKBD_RrDRModeVentSw 0 "Off" 1 "On" ;
+VAL_ 100 L_2HKBD_RrPsBlwDnSw 0 "Off" 1 "On" ;
+VAL_ 100 L_2HKBD_RrPsAutoSw 0 "Off" 1 "On" ;
+VAL_ 100 L_2HKBD_RrPsMultiAutoSw 0 "RESERVED" 1 "Low" 2 "Medium" 3 "High" 4 "RESERVED" 5 "RESERVED" 6 "RESERVED" 7 "Invalid" ;
+VAL_ 100 L_2HKBD_RrDrBlwDnOffSw 0 "Off" 1 "On" ;
+VAL_ 100 L_2HKBD_RrPsBlwDnOffSw 0 "Off" 1 "On" ;
+VAL_ 100 L_2HKBD_RrOnOffSet 0 "Default" 1 "On" 2 "Off" 3 "Invalid" ;
+VAL_ 100 L_2HKBD_RrDrModeFloorSw 0 "Off" 1 "On" ;
+VAL_ 100 L_2HKBD_RrDrModeBiLvlSw 0 "Off" 1 "On" ;
+VAL_ 100 L_2HKBD_RrDrTempDnSw 0 "Off" 1 "On" ;
+VAL_ 100 L_2HKBD_RrDrTempUpSw 0 "Off" 1 "On" ;
+VAL_ 100 L_2HKBD_RrDrBlwDnSw 0 "Off" 1 "On" ;
+VAL_ 100 L_2HKBD_RrDrBlwUpSw 0 "Off" 1 "On" ;
+VAL_ 101 L_2HKBD_RrFlrDuctSnsr 0 "0x0x0~0xFA:0~5V" 250 "0x0x0~0xFA:0~5V" 255 "Error Indicator" ;
+VAL_ 101 L_2HKBD_RrVntDuctSnsr 0 "0x0x0~0xFA:0~5V" 250 "0x0x0~0xFA:0~5V" 255 "Error Indicator" ;
+VAL_ 102 L_2HKBD_RrDrTempClickCnt 0 "RESERVED" 1 "0x01~0x7F:Clockwise" 127 "0x01~0x7F:Clockwise" 128 "0x80~0xFE:Counter Clockwise" 254 "0x80~0xFE:Counter Clockwise" 255 "Invalid" ;
+VAL_ 102 L_2HKBD_RrPsTempClickCnt 0 "RESERVED" 1 "0x01~0x7F:Clockwise" 127 "0x01~0x7F:Clockwise" 128 "0x80~0xFE:Counter Clockwise" 254 "0x80~0xFE:Counter Clockwise" 255 "Invalid" ;
+VAL_ 102 L_2HKBD_RrPsBlwrClickCnt 0 "RESERVED" 1 "0x01~0x7F:Clockwise" 127 "0x01~0x7F:Clockwise" 128 "0x80~0xFE:Counter Clockwise" 254 "0x80~0xFE:Counter Clockwise" 255 "Invalid" ;
+VAL_ 102 L_2HKBD_RrTempKnobCnt 0 "0" 1 "1" 2 "2" 3 "invlaid" ;
+VAL_ 102 L_2HKBD_RrBlwKnobCnt 0 "0" 1 "1" 2 "2" 3 "invlaid" ;
+VAL_ 102 L_2HKBD_RrDrBlwrClickCnt 0 "RESERVED" 1 "0x01~0x7F:Clockwise" 127 "0x01~0x7F:Clockwise" 128 "0x80~0xFE:Counter Clockwise" 254 "0x80~0xFE:Counter Clockwise" 255 "Invalid" ;
+VAL_ 33 L_ATCU_Typ1 0 "Defualt" 1 "Domestic" 2 "General or MiddleEast or Australia" 3 "Europe or Russia" 4 "America" 5 "Canada" 6 "China" 7 "India" 8 "Invalid" 9 "Invalid" 10 "Invalid" 11 "Invalid" 12 "Invalid" 13 "Invalid" 14 "Invalid" 15 "Invalid" ;
+VAL_ 33 L_ATCU_TempDispSta 0 "OLD Set Temp Display range" 1 "NEW Set Temp Display Range(Default)" 2 "None Heater Set Temp Display Range" 3 "Error Indicator" ;
+VAL_ 33 L_ATCU_StrgWhlHeatingOpt 0 "Not Applied" 1 "Applied(steering wheel applied)" 2 "RESERVED" 3 "Invalid" ;
+VAL_ 33 L_ATCU_Drv_SeatOptSta 0 "Init" 1 "Heater only 2step" 2 "Heater only 3step" 3 "Vent only 2step" 4 "Vent only 3step" 5 "Heater and Vent 2step" 6 "Heater and Vent 3step" 7 "Invalid" ;
+VAL_ 33 L_ATCU_Ast_SeatOptSta 0 "Init" 1 "Heater only 2step" 2 "Heater only 3step" 3 "Vent only 2step" 4 "Vent only 3step" 5 "Heater and Vent 2step" 6 "Heater and Vent 3step" 7 "Invalid" ;
+VAL_ 33 L_ATCU_RL_SeatOptSta 0 "Init" 1 "Heater only 2step" 2 "Heater only 3step" 3 "Vent only 2step" 4 "Vent only 3step" 5 "Heater and Vent 2step" 6 "Heater and Vent 3step" 7 "Invalid" ;
+VAL_ 33 L_ATCU_RR_SeatOptSta 0 "Init" 1 "Heater only 2step" 2 "Heater only 3step" 3 "Vent only 2step" 4 "Vent only 3step" 5 "Heater and Vent 2step" 6 "Heater and Vent 3step" 7 "Invalid" ;
+VAL_ 33 L_ATCU_SmartZoneDis 0 "Default" 1 "On" 2 "Off" 3 "Invalid" ;
+VAL_ 35 L_ATCU_DrOnlyDis 0 "Initial (Dual Temp Display)" 1 "Driver Only Status (Only Display Driver Temp)" 2 "Not used" 3 "Error Indicator" ;
+VAL_ 35 L_ATCU_SmrtVntDis 0 "Off" 1 "Smart Ventilation" 2 "Smart CO2" 3 "Error Indicator" ;
+VAL_ 35 L_ATCU_FrWndShldHtInd 0 "Off" 1 "On" 2 "RESERVED" ;
+VAL_ 35 L_ATCU_IncarMtrOnReq 0 "OFF" 1 "ON" ;
+VAL_ 35 L_ATCU_LanguageInfo 0 "Off" 1 "Korea" 2 "English(US)" 3 "English(UK)" 4 "Simplified chinese" 5 "Traditional chinese" 6 "French(EU)" 7 "Spanish(EU)" 8 "Arabic" 9 "Czech" 10 "Danish" 11 "German" 12 "Italian" 13 "Dutch" 14 "Polish" 15 "Portuguese" 16 "Russain" 17 "Slovak" 18 "Swedish" 19 "Turkish" 20 "French(US)" 21 "Spanish(US)" 22 "English(India)" 23 "Norwegian" 24 "Finnish" 25 "Indonesian" 26 "Brazilian Portuguese" 27 "Malay" 28 "Hungarian" 29 "English (Australia)" 30 "Japanese" 31 "Hindi" 32 "Hebrew" 33 "Greek" 34 "Ukrainian" 35 "Slovenian" 36 "Bulgarian" 37 "Croatian" 38 "Romanian" 39 "Bengali" 40 "Marathi" 41 "Telugu" 42 "Tamil" 43 "Gujarati" 44 "Kannada" 45 "Odia" 46 "Malayalam" 47 "Punjabi" 48 "Thai" 49 "Tagalog" 50 "Vietnamese" 51 "0x33~0xFE:RESERVED" 254 "0x33~0xFE:RESERVED" 255 "Invalid" ;
+VAL_ 35 L_ATCU_RrDefInd 0 "OFF" 1 "ON" ;
+VAL_ 35 L_ATCU_AfterBlowDisplay 0 "Default" 1 "AfterBlower Waiting" 2 "AfterBlower Operating(Symbol Off)" 3 "AfterBlower Operating(Symbol On)" ;
+VAL_ 35 L_ATCU_SchdldVentDisplay 0 "Default" 1 "SchdldVent Waiting" 2 "SchdldVent Operating(Symbol Off)" 3 "SchdldVent Operating(Symbol On)" ;
+VAL_ 35 L_ATCU_FLStHeatSwHInd 0 "OFF" 1 "ON" ;
+VAL_ 35 L_ATCU_FLStHeatSwMInd 0 "OFF" 1 "ON" ;
+VAL_ 35 L_ATCU_ADSBlinkDis 0 "AutoDefogBlink Non Request" 1 "AutoDefogBlink Request" 2 "Not used" 3 "Error Indicator" ;
+VAL_ 35 L_ATCU_FLStHeatSwLInd 0 "OFF" 1 "ON" ;
+VAL_ 35 L_ATCU_FLStVntSwHInd 0 "OFF" 1 "ON" ;
+VAL_ 35 L_ATCU_FLStVntSwMInd 0 "OFF" 1 "ON" ;
+VAL_ 35 L_ATCU_FLStVntSwLInd 0 "OFF" 1 "ON" ;
+VAL_ 35 L_ATCU_FRStHeatSwHInd 0 "OFF" 1 "ON" ;
+VAL_ 35 L_ATCU_FRStHeatSwMInd 0 "OFF" 1 "ON" ;
+VAL_ 35 L_ATCU_FRStHeatSwLInd 0 "OFF" 1 "ON" ;
+VAL_ 35 L_ATCU_FRStVntSwHInd 0 "OFF" 1 "ON" ;
+VAL_ 35 L_ATCU_FRStVntSwMInd 0 "OFF" 1 "ON" ;
+VAL_ 35 L_ATCU_FRStVntSwLInd 0 "OFF" 1 "ON" ;
+VAL_ 35 L_ATCU_StrWhlHeatInd 0 "OFF" 1 "Step1" 2 "Step2" 3 "RESERVED" ;
+VAL_ 35 L_ATCU_RhstaLvlSta 0 "RESERVED" 1 "Step1" 2 "Step2" 3 "Step 3" 4 "Step 4" 5 "Step5" 6 "Step 6" 7 "Step 7" 8 "Step8" 9 "Step 9" 10 "Step 10" 11 "Step11" 12 "Step 12" 13 "Step 13" 14 "Step14" 15 "Step 15" 16 "Step 16" 17 "Step17" 18 "Step 18" 19 "Step 19" 20 "Step 20 (Reset Value)" 21 "Step 21(Detent)" ;
+VAL_ 35 L_ATCU_IntTailOnOff 0 "OFF" 1 "ON" ;
+VAL_ 35 L_ATCU_AutoLightSta 0 "Off (not Night)" 1 "Night" ;
+VAL_ 35 L_ATCU_FrBckLightSta 0 "OFF" 1 "ON" ;
+VAL_ 35 L_ATCU_DisplayTheme 0 "Default" 1 "White Theme" 2 "Black Theme" 3 "Invalid" ;
+VAL_ 35 L_ATCU_GUIBlankDis 0 "Default" 1 "GUI Blank Display" ;
+VAL_ 35 L_ATCU_HptIntnstySet 0 "Default" 1 "Haptic OFF" 2 "Haptic Intensity Level 1" 3 "Haptic Intensity Level 2" 4 "Haptic Intensity Level 3" 5 "Haptic Intensity Level 4" 6 "Haptic Intensity Level 5" 7 "RESERVED" 8 "RESERVED" 9 "RESERVED" 10 "RESERVED" 11 "RESERVED" 12 "RESERVED" 13 "RESERVED" 14 "RESERVED" 15 "Invalid" ;
+VAL_ 35 L_ATCU_TlltLmpDis 0 "ON Lamp off OFF Lamp off" 1 "ON Lamp off OFF Lamp on" 2 "ON Lamp on Off Lamp off" 3 "ON Lamp on OFF Lamp on" 4 "RESERVED" 5 "RESERVED" 6 "RESERVED" 7 "Error Indicator" ;
+VAL_ 35 L_ATCU_AvTailOnOff 0 "OFF" 1 "ON" ;
+VAL_ 35 L_ATCU_SchdldClimateDisplay 0 "Reservation Not Set" 1 "Reservation Set" 2 "Not used" 3 "Error Indicator" ;
+VAL_ 35 L_ATCU_AirClnDis 0 "AirClean Off" 1 "AirClean On" 2 "Not used" 3 "Error Indicator" ;
+VAL_ 35 L_ATCU_CO2WrngDis 0 "Co2 Warning Off" 1 "Co2 Warning On" 2 "Not used" 3 "Error Indicator" ;
+VAL_ 36 L_ATCU_ArClnIntroEvt 0 "OFF" 1 "ON" ;
+VAL_ 36 L_ATCU_ArClnSmblClr 0 "Default (Initial Value)" 1 "Mono Color" 2 "Blue Color" 3 "Green Color" 4 "Orange Color" 5 "Red Color" 6 "Yellow Color" 7 "RESERVED" 8 "RESERVED" 9 "RESERVED" 10 "RESERVED" 11 "RESERVED" 12 "RESERVED" 13 "RESERVED" 14 "Gray Color (Deactivate)" 15 "Invalid" ;
+VAL_ 36 L_ATCU_DustLevelDis 0 "Sensor Fail" 1 "Good" 2 "Normal" 3 "Bad" 4 "Very Bad" 5 "RESERVED" 6 "Loading(Init or StandBy)" 7 "Error Indicator" ;
+VAL_ 36 L_ATCU_DustBarDisOff 0 "False(Symbol ON)" 1 "True(Symbol OFF)" ;
+VAL_ 36 L_ATCU_DustSnrStepDis 0 "default" 1 "0step" 2 "1step" 3 "2step" 4 "3step" 5 "4step" 6 "5step" 7 "6step" 8 "7step" 9 "8step" 10 "9step" 11 "10step" 12 "11step" 13 "12step" 14 "13step" 15 "14step" 16 "15step" 17 "16step" ;
+VAL_ 36 L_ATCU_FragStrhDis 0 "OFF" 1 "1st(Low)" 2 "1st&2nd(Mid)" 3 "1st&2nd&3rd(High)" ;
+VAL_ 36 L_ATCU_FragKindDis 0 "Default" 1 "First" 2 "Second" 3 "RESERVED" 4 "RESERVED" 5 "RESERVED" 6 "None" 7 "Error Indicator" ;
+VAL_ 36 L_ATCU_Frag1Inform 0 "Default" 1 "THE DRIVER'S AWAKENING" 2 "MY FAVORITE PLACE" 3 "THE GREAT OUTDOORS" 4 "RESERVED" 5 "RESERVED" 6 "RESERVED" 7 "RESERVED" 8 "RESERVED" 9 "RESERVED" 10 "RESERVED" 11 "RESERVED" 12 "New Fragrance Mounted" 13 "No Cartridge Mounted" 14 "Unknown Cartridge Monuted" 15 "Error Indicator" ;
+VAL_ 36 L_ATCU_Frag2Inform 0 "Default" 1 "THE DRIVER'S AWAKENING" 2 "MY FAVORITE PLACE" 3 "THE GREAT OUTDOORS" 4 "RESERVED" 5 "RESERVED" 6 "RESERVED" 7 "RESERVED" 8 "RESERVED" 9 "RESERVED" 10 "RESERVED" 11 "RESERVED" 12 "New Fragrance Mounted" 13 "No Cartridge Mounted" 14 "Unknown Cartridge Monuted" 15 "Error Indicator" ;
+VAL_ 36 L_ATCU_Frag1RemainDisp 0 "Default" 1 "Remains 100% (70~100%)" 2 "Remains 70% (30~70%)" 3 "Remains 30% (0~30%)" 4 "Remains 0%" 5 "RESERVED" 6 "Unknown" 7 "Error Indicator" ;
+VAL_ 36 L_ATCU_Frag2RemainDisp 0 "Default" 1 "Remains 100% (70~100%)" 2 "Remains 70% (30~70%)" 3 "Remains 30% (0~30%)" 4 "Remains 0%" 5 "RESERVED" 6 "Unknown" 7 "Error Indicator" ;
+VAL_ 36 L_ATCU_ArClnSmblTyp 0 "Default" 1 "BLANK DISPLAY" 2 "Tree Only" 3 "Tree & Fixed Arrow" 4 "Tree & Rotating Arrow" ;
+VAL_ 36 L_ATCU_FrtBlwMaxLvlVaild 0 "Invalid (Multi AUTO Not Applied)" 1 "Reversed" 2 "1 Level" 3 "2 Level" 4 "3 Level" 5 "4 Level" 6 "5 Level" 7 "6 Level" 8 "7 Level" 9 "8 Level" 10 "Not used" 11 "Not used" 12 "Not used" 13 "Not used" 14 "Not used" 15 "Error Indicator" ;
+VAL_ 36 L_ATCU_OpSta 0 "DATC Off (Power Down)" 1 "DATC Normal" 2 "DATC System Off (Blower Off)" 3 "DATC Self Diagnosis" 4 "Version Display" 5 "Not used" 6 "Not used" 7 "Error Indicator" ;
+VAL_ 36 L_ATCU_TempDispUnit 0 "Centigrade(¡É)" 1 "Fahrenheit(¢µ)" 2 "Not used" 3 "Error Indicator" ;
+VAL_ 36 L_ATCU_DrvAUTOStep 0 "Default" 1 "OFF" 2 "1st & 2nd & 3rd On (3 Step Type)" 3 "1st & 2nd On (3 Step Type)" 4 "1st On (3 Step Type)" 5 "1st & 2nd On (2 Step Type)" 6 "1st On (2 Step Type)" 7 "RESERVED" 8 "RESERVED" 9 "RESERVED" 10 "RESERVED" 11 "RESERVED" 12 "RESERVED" 13 "RESERVED" 14 "RESERVED" 15 "Error Indicator" ;
+VAL_ 36 L_ATCU_DiagCodeDis 0 "Blank Display" 1023 "Error Indicator" ;
+VAL_ 37 L_ATCU_RrOpSta 0 "DATC Off (Power Down)" 1 "DATC Normal" 2 "DATC System Off (Blower Off)" 3 "DATC Self Diagnosis" 4 "Not used" 5 "Not used" 6 "Not used" 7 "Error Indicator" ;
+VAL_ 37 L_ATCU_RrDrvTempFDis 0 "Blank Display (Default)" 1 "'LO' Display" 2 "58¢µ~92¢µ" 3 "58¢µ~92¢µ" 4 "58¢µ~92¢µ" 5 "58¢µ~92¢µ" 6 "58¢µ~92¢µ" 7 "58¢µ~92¢µ" 8 "58¢µ~92¢µ" 9 "58¢µ~92¢µ" 10 "58¢µ~92¢µ" 11 "58¢µ~92¢µ" 12 "58¢µ~92¢µ" 13 "58¢µ~92¢µ" 14 "58¢µ~92¢µ" 15 "58¢µ~92¢µ" 16 "58¢µ~92¢µ" 17 "58¢µ~92¢µ" 18 "58¢µ~92¢µ" 19 "58¢µ~92¢µ" 20 "58¢µ~92¢µ" 21 "58¢µ~92¢µ" 22 "58¢µ~92¢µ" 23 "58¢µ~92¢µ" 24 "58¢µ~92¢µ" 25 "58¢µ~92¢µ" 26 "58¢µ~92¢µ" 27 "58¢µ~92¢µ" 28 "58¢µ~92¢µ" 29 "58¢µ~92¢µ" 30 "58¢µ~92¢µ" 31 "58¢µ~92¢µ" 32 "58¢µ~92¢µ" 33 "58¢µ~92¢µ" 34 "58¢µ~92¢µ" 35 "58¢µ~92¢µ" 36 "58¢µ~92¢µ" 37 "0x25~0xFD:RESERVED" 253 "0x25~0xFD:RESERVED" 254 "'HI' Display" 255 "Error Indicator" ;
+VAL_ 37 L_ATCU_RrDrvModDis 0 "Off(Blank Display, Vent mode not Display ex) Auto" 1 "VENT" 2 "B_L" 3 "FLOOR" 4 "MIX" 5 "DEF(Including Max DEF)" 6 "AUTO DEFOG" 7 "Def (7 mode only)" 8 "DefVent(7 mode only)" 9 "DefFL(7 mode only)" 10 "VentFL(7 mode only)" 11 "DefVentFL(7 mode only)" 12 "Not used" 13 "Not used" 14 "Not used" 15 "Error Indicator" ;
+VAL_ 37 L_ATCU_RrDrvBlwDis 0 "OFF(System Off)" 1 "Blank Display(Blower Level no display, ex)Auto mode)" 2 "1 Level" 3 "2 Level" 4 "3 Level" 5 "4 Level" 6 "5 Level" 7 "6 Level" 8 "7 Level" 9 "8 Level" 10 "Not used" 11 "Not used" 12 "Not used" 13 "Not used" 14 "Not used" 15 "Error Indicator" ;
+VAL_ 37 L_ATCU_RrDrvAutoDis 0 "RrAUTO Off" 1 "RrAUTO On" 2 "Not used" 3 "Error Indicator" ;
+VAL_ 37 L_ATCU_RrDrvMultiAutoBlwDis 0 "MultiAutoBlr Display Off" 1 "Multi Auto Blower Low" 2 "Multi Auto Blower Mid" 3 "Multi Auto Blower High" ;
+VAL_ 37 L_ATCU_RrDrvTempCDis 0 "Blank Display (Default)" 1 "'LO' Display" 2 "15.0¡É~32.0¡É" 3 "15.0¡É~32.0¡É" 4 "15.0¡É~32.0¡É" 5 "15.0¡É~32.0¡É" 6 "15.0¡É~32.0¡É" 7 "15.0¡É~32.0¡É" 8 "15.0¡É~32.0¡É" 9 "15.0¡É~32.0¡É" 10 "15.0¡É~32.0¡É" 11 "15.0¡É~32.0¡É" 12 "15.0¡É~32.0¡É" 13 "15.0¡É~32.0¡É" 14 "15.0¡É~32.0¡É" 15 "15.0¡É~32.0¡É" 16 "15.0¡É~32.0¡É" 17 "15.0¡É~32.0¡É" 18 "15.0¡É~32.0¡É" 19 "15.0¡É~32.0¡É" 20 "15.0¡É~32.0¡É" 21 "15.0¡É~32.0¡É" 22 "15.0¡É~32.0¡É" 23 "15.0¡É~32.0¡É" 24 "15.0¡É~32.0¡É" 25 "15.0¡É~32.0¡É" 26 "15.0¡É~32.0¡É" 27 "15.0¡É~32.0¡É" 28 "15.0¡É~32.0¡É" 29 "15.0¡É~32.0¡É" 30 "15.0¡É~32.0¡É" 31 "15.0¡É~32.0¡É" 32 "15.0¡É~32.0¡É" 33 "15.0¡É~32.0¡É" 34 "15.0¡É~32.0¡É" 35 "15.0¡É~32.0¡É" 36 "15.0¡É~32.0¡É" 37 "0x25~0xFD:RESERVED" 253 "0x25~0xFD:RESERVED" 254 "'HI' Display" 255 "Error Indicator" ;
+VAL_ 37 L_ATCU_RrSyncDis 0 "RrSYNC Off" 1 "RrSYNC On" 2 "Not used" 3 "Error Indicator" ;
+VAL_ 37 L_ATCU_RrLcdBckLightSta 0 "OFF" 1 "ON" ;
+VAL_ 37 L_ATCU_RrGUIBlankDis 0 "OFF" 1 "ON" ;
+VAL_ 37 L_ATCU_RLStHeatSwHInd 0 "OFF" 1 "ON" ;
+VAL_ 37 L_ATCU_RLStHeatSwMInd 0 "OFF" 1 "ON" ;
+VAL_ 37 L_ATCU_RLStHeatSwLInd 0 "OFF" 1 "ON" ;
+VAL_ 37 L_ATCU_RLStVntSwHInd 0 "OFF" 1 "ON" ;
+VAL_ 37 L_ATCU_RLStVntSwMInd 0 "OFF" 1 "ON" ;
+VAL_ 37 L_ATCU_RLStVntSwLInd 0 "OFF" 1 "ON" ;
+VAL_ 37 L_ATCU_RRStHeatSwHInd 0 "OFF" 1 "ON" ;
+VAL_ 37 L_ATCU_RRStHeatSwMInd 0 "OFF" 1 "ON" ;
+VAL_ 37 L_ATCU_RRStHeatSwLInd 0 "OFF" 1 "ON" ;
+VAL_ 37 L_ATCU_RRStVntSwHInd 0 "OFF" 1 "ON" ;
+VAL_ 37 L_ATCU_RRStVntSwMInd 0 "OFF" 1 "ON" ;
+VAL_ 37 L_ATCU_RRStVntSwLInd 0 "OFF" 1 "ON" ;
+VAL_ 37 L_ATCU_RrMTCOpSta 0 "DATC Off (Power Down)" 1 "DATC Normal" 2 "DATC System Off (Blower Off)" 3 "Error Indicator" ;
+VAL_ 37 L_ATCU_RrMTCTempLvl 0 "Off" 1 "Level 1" 2 "Level 2" 3 "Level 3" 4 "Level 4" 5 "Level 5" 6 "Level 6" 7 "Level 7" 8 "Level 8" ;
+VAL_ 37 L_ATCU_RrPsModDis 0 "Off(Blank Display, Vent mode not Display ex) Auto" 1 "VENT" 2 "B_L" 3 "FLOOR" 4 "MIX" 5 "DEF(Including Max DEF)" 6 "AUTO DEFOG" 7 "Def (7 mode only)" 8 "DefVent(7 mode only)" 9 "DefFL(7 mode only)" 10 "VentFL(7 mode only)" 11 "DefVentFL(7 mode only)" 12 "Not used" 13 "Not used" 14 "Not used" 15 "Error Indicator" ;
+VAL_ 37 L_ATCU_RrLockDis 0 "RearLock Off" 1 "RearLock On" 2 "Not Used" 3 "Error Indicator" ;
+VAL_ 37 L_ATCU_RrDrvAutoStep 0 "Default" 1 "OFF" 2 "1st & 2nd & 3rd On (3 Step Type)" 3 "1st & 2nd On (3 Step Type)" 4 "1st On (3 Step Type)" 5 "1st & 2nd On (2 Step Type)" 6 "1st On (2 Step Type)" 7 "RESERVED" 8 "RESERVED" 9 "RESERVED" 10 "RESERVED" 11 "RESERVED" 12 "RESERVED" 13 "RESERVED" 14 "RESERVED" 15 "Error Indicator" ;
+VAL_ 38 L_ATCU_3rdRrTempCDis 0 "Blank Display (Default)" 1 "'LO' Display" 2 "15.0¡É~32.0¡É" 3 "15.0¡É~32.0¡É" 4 "15.0¡É~32.0¡É" 5 "15.0¡É~32.0¡É" 6 "15.0¡É~32.0¡É" 7 "15.0¡É~32.0¡É" 8 "15.0¡É~32.0¡É" 9 "15.0¡É~32.0¡É" 10 "15.0¡É~32.0¡É" 11 "15.0¡É~32.0¡É" 12 "15.0¡É~32.0¡É" 13 "15.0¡É~32.0¡É" 14 "15.0¡É~32.0¡É" 15 "15.0¡É~32.0¡É" 16 "15.0¡É~32.0¡É" 17 "15.0¡É~32.0¡É" 18 "15.0¡É~32.0¡É" 19 "15.0¡É~32.0¡É" 20 "15.0¡É~32.0¡É" 21 "15.0¡É~32.0¡É" 22 "15.0¡É~32.0¡É" 23 "15.0¡É~32.0¡É" 24 "15.0¡É~32.0¡É" 25 "15.0¡É~32.0¡É" 26 "15.0¡É~32.0¡É" 27 "15.0¡É~32.0¡É" 28 "15.0¡É~32.0¡É" 29 "15.0¡É~32.0¡É" 30 "15.0¡É~32.0¡É" 31 "15.0¡É~32.0¡É" 32 "15.0¡É~32.0¡É" 33 "15.0¡É~32.0¡É" 34 "15.0¡É~32.0¡É" 35 "15.0¡É~32.0¡É" 36 "15.0¡É~32.0¡É" 37 "0x25~0xFD:RESERVED" 253 "0x25~0xFD:RESERVED" 254 "'HI' Display" 255 "Error Indicator" ;
+VAL_ 38 L_ATCU_3rdRrModDis 0 "Off(Blank Display, Vent mode not Display ex) Auto" 1 "VENT" 2 "B_L" 3 "FLOOR" 4 "MIX" 5 "DEF(Including Max DEF)" 6 "AUTO DEFOG" 7 "Def (7 mode only)" 8 "DefVent(7 mode only)" 9 "DefFL(7 mode only)" 10 "VentFL(7 mode only)" 11 "DefVentFL(7 mode only)" 12 "Not used" 13 "Not used" 14 "Not used" 15 "Error Indicator" ;
+VAL_ 38 L_ATCU_3rdRrBlwDis 0 "OFF(System Off)" 1 "Blank Display(Blower Level no display, ex)Auto mode)" 2 "1 Level" 3 "2 Level" 4 "3 Level" 5 "4 Level" 6 "5 Level" 7 "6 Level" 8 "7 Level" 9 "8 Level" 10 "Not used" 11 "Not used" 12 "Not used" 13 "Not used" 14 "Not used" 15 "Error Indicator" ;
+VAL_ 38 L_ATCU_3rdRrAutoDis 0 "3rdRrAUTO Off" 1 "3rdRrAUTO On" 2 "Not used" 3 "Error Indicator" ;
+VAL_ 38 L_ATCU_3rdRrMultiAutoBlwDis 0 "MultiAutoBlr Display Off" 1 "Multi Auto Blower Low" 2 "Multi Auto Blower Mid" 3 "Multi Auto Blower High" 4 "RESERVED" 5 "RESERVED" 6 "RESERVED" 7 "Error Indicator" ;
+VAL_ 38 L_ATCU_3rdRrSyncDis 0 "RearAc Off" 1 "RearAc On" 2 "Not Used" 3 "Error Indicator" ;
+VAL_ 38 L_ATCU_3rdRrOnInd 0 "Off" 1 "On" 2 "RESERVED" ;
+VAL_ 38 L_ATCU_3rdRrLockDis 0 "RearLock Off" 1 "RearLock On" 2 "Not Used" 3 "Error Indicator" ;
+VAL_ 38 L_ATCU_3rdRrLcdBckLightSta 0 "OFF" 1 "ON" ;
+VAL_ 38 L_ATCU_3rdRrGUIBlankDis 0 "OFF" 1 "ON" ;
+VAL_ 38 L_ATCU_3rdRLStHeatSwHInd 0 "OFF" 1 "ON" ;
+VAL_ 38 L_ATCU_3rdRLStHeatSwMInd 0 "OFF" 1 "ON" ;
+VAL_ 38 L_ATCU_3rdRLStHeatSwLInd 0 "OFF" 1 "ON" ;
+VAL_ 38 L_ATCU_3rdRLStVntSwHInd 0 "OFF" 1 "ON" ;
+VAL_ 38 L_ATCU_3rdRLStVntSwMInd 0 "OFF" 1 "ON" ;
+VAL_ 38 L_ATCU_3rdRLStVntSwLInd 0 "OFF" 1 "ON" ;
+VAL_ 38 L_ATCU_3rdRRStHeatSwHInd 0 "OFF" 1 "ON" ;
+VAL_ 38 L_ATCU_3rdRRStHeatSwMInd 0 "OFF" 1 "ON" ;
+VAL_ 38 L_ATCU_3rdRRStHeatSwLInd 0 "OFF" 1 "ON" ;
+VAL_ 38 L_ATCU_3rdRRStVntSwHInd 0 "OFF" 1 "ON" ;
+VAL_ 38 L_ATCU_3rdRRStVntSwMInd 0 "OFF" 1 "ON" ;
+VAL_ 38 L_ATCU_3rdRRStVntSwLInd 0 "OFF" 1 "ON" ;
+VAL_ 38 L_ATCU_3rdRrMTCOpSta 0 "DATC Off (Power Down)" 1 "DATC Normal" 2 "DATC System Off (Blower Off)" 3 "Error Indicator" ;
+VAL_ 38 L_ATCU_3rdRrMtcTempLvl 0 "Off" 1 "Level 1" 2 "Level 2" 3 "Level 3" 4 "Level 4" 5 "Level 5" 6 "Level 6" 7 "Level 7" 8 "Level 8" ;
+VAL_ 38 L_ATCU_3rdAUTOStep 0 "Default" 1 "OFF" 2 "1st & 2nd & 3rd On (3 Step Type)" 3 "1st & 2nd On (3 Step Type)" 4 "1st On (3 Step Type)" 5 "1st & 2nd On (2 Step Type)" 6 "1st On (2 Step Type)" 7 "Error Indicator" ;
+VAL_ 38 L_ATCU_RrPassMultiAutoBlwDis 0 "MultiAutoBlr Display Off" 1 "Multi Auto Blower Low" 2 "Multi Auto Blower Mid" 3 "Multi Auto Blower High" 4 "RESERVED" 5 "RESERVED" 6 "RESERVED" 7 "Error Indicator" ;
+VAL_ 38 L_ATCU_DisPnlState 0 "Front Display State(Default)" 1 "Rear Display State" 2 "RESERVED" 3 "Error Indicator" ;
+VAL_ 38 L_ATCU_3rdRrTempFDis 0 "Blank Display(Default)" 1 "'LO' Display" 2 "58¢µ~92¢µ" 3 "58¢µ~92¢µ" 4 "58¢µ~92¢µ" 5 "58¢µ~92¢µ" 6 "58¢µ~92¢µ" 7 "58¢µ~92¢µ" 8 "58¢µ~92¢µ" 9 "58¢µ~92¢µ" 10 "58¢µ~92¢µ" 11 "58¢µ~92¢µ" 12 "58¢µ~92¢µ" 13 "58¢µ~92¢µ" 14 "58¢µ~92¢µ" 15 "58¢µ~92¢µ" 16 "58¢µ~92¢µ" 17 "58¢µ~92¢µ" 18 "58¢µ~92¢µ" 19 "58¢µ~92¢µ" 20 "58¢µ~92¢µ" 21 "58¢µ~92¢µ" 22 "58¢µ~92¢µ" 23 "58¢µ~92¢µ" 24 "58¢µ~92¢µ" 25 "58¢µ~92¢µ" 26 "58¢µ~92¢µ" 27 "58¢µ~92¢µ" 28 "58¢µ~92¢µ" 29 "58¢µ~92¢µ" 30 "58¢µ~92¢µ" 31 "58¢µ~92¢µ" 32 "58¢µ~92¢µ" 33 "58¢µ~92¢µ" 34 "58¢µ~92¢µ" 35 "58¢µ~92¢µ" 36 "58¢µ~92¢µ" 37 "0x25~0xFD:RESERVED" 253 "0x25~0xFD:RESERVED" 254 "'HI' Display" 255 "Error Indicator" ;
+VAL_ 39 L_ATCU_RrHVACTempActrTgt 0 "0x0x0~0x3FF:AD = Factor*Hex + Offset" 1023 "0x0x0~0x3FF:AD = Factor*Hex + Offset" ;
+VAL_ 39 L_ATCU_RrHVACTempAsstActrTgt 0 "0x0x0~0x3FF:AD = Factor*Hex + Offset" 1023 "0x0x0~0x3FF:AD = Factor*Hex + Offset" ;
+VAL_ 39 L_ATCU_RrDrHVACModeActrTgt 0 "0x0x0~0x3FF:AD = Factor*Hex + Offset" 1023 "0x0x0~0x3FF:AD = Factor*Hex + Offset" ;
+VAL_ 39 L_ATCU_RrHVACBlowerTgtV 0 "0x0x0~0xFF:V = Factor*Hex + Offset" 255 "0x0x0~0xFF:V = Factor*Hex + Offset" ;
+VAL_ 39 L_ATCU_RrHVACBLDCRpmVal 0 "0x0x0~0x1388:Factor * Hex + Offset" 5000 "0x0x0~0x1388:Factor * Hex + Offset" 5001 "0x1389~0x7FFF:RESERVED" 32767 "0x1389~0x7FFF:RESERVED" ;
+VAL_ 39 L_ATCU_RrPsHVACModeActrTgt 0 "0x0x0~0x3FF:AD=Factor*Hex + Offset" 1023 "0x0x0~0x3FF:AD=Factor*Hex + Offset" ;
+VAL_ 40 L_ATCU_PassAUTOStep 0 "Default" 1 "OFF" 2 "1st & 2nd & 3rd On (3 Step Type)" 3 "1st & 2nd On (3 Step Type)" 4 "1st On (3 Step Type)" 5 "1st & 2nd On (2 Step Type)" 6 "1st On (2 Step Type)" 7 "Error Indicator" ;
+VAL_ 40 L_ATCU_RrPassTempFDis 0 "Blank Display(Default)" 1 "'LO' Display" 2 "58¢µ~32¢µ" 3 "58¢µ~32¢µ" 4 "58¢µ~32¢µ" 5 "58¢µ~32¢µ" 6 "58¢µ~32¢µ" 7 "58¢µ~32¢µ" 8 "58¢µ~32¢µ" 9 "58¢µ~32¢µ" 10 "58¢µ~32¢µ" 11 "58¢µ~32¢µ" 12 "58¢µ~32¢µ" 13 "58¢µ~32¢µ" 14 "58¢µ~32¢µ" 15 "58¢µ~32¢µ" 16 "58¢µ~32¢µ" 17 "58¢µ~32¢µ" 18 "58¢µ~32¢µ" 19 "58¢µ~32¢µ" 20 "58¢µ~32¢µ" 21 "58¢µ~32¢µ" 22 "58¢µ~32¢µ" 23 "58¢µ~32¢µ" 24 "58¢µ~32¢µ" 25 "58¢µ~32¢µ" 26 "58¢µ~32¢µ" 27 "58¢µ~32¢µ" 28 "58¢µ~32¢µ" 29 "58¢µ~32¢µ" 30 "58¢µ~32¢µ" 31 "58¢µ~32¢µ" 32 "58¢µ~32¢µ" 33 "58¢µ~32¢µ" 34 "58¢µ~32¢µ" 35 "58¢µ~32¢µ" 36 "58¢µ~32¢µ" 37 "0x25~0xFD:RESERVED" 253 "0x25~0xFD:RESERVED" 254 "'HI' Display" 255 "Error Indicator" ;
+VAL_ 40 L_ATCU_RrPassBlwDis 0 "OFF(Default)" 1 "Blank Display(Blower level not display, ex)Auto mode)" 2 "1 Step" 3 "2 Step" 4 "3 Step" 5 "4 Step" 6 "5 Step" 7 "6 Step" 8 "7 Step" 9 "8 Step" 10 "BLOWER AUTO" 11 "RESERVED" 12 "RESERVED" 13 "RESERVED" 14 "RESERVED" 15 "Error Indicator" ;
+VAL_ 40 L_ATCU_RrPassAUTODis 0 "PsAUTO Off" 1 "PsAUTO On" 2 "Not used" 3 "Error Indicator" ;
+VAL_ 40 L_ATCU_RrPassAUTOStep 0 "Default" 1 "OFF" 2 "1st & 2nd & 3rd On (3 Step Type)" 3 "1st & 2nd On (3 Step Type)" 4 "1st On (3 Step Type)" 5 "1st & 2nd On (2 Step Type)" 6 "1st On (2 Step Type)" 7 "Error Indicator" ;
+VAL_ 40 L_ATCU_CampModeSta 0 "Default" 1 "Off" 2 "On" 3 "Invalid" ;
+VAL_ 40 L_ATCU_RrPassTempCDis 0 "Blank Display(Default)" 1 "'LO' Display" 2 "15.0¡É~32.0¡É" 3 "15.0¡É~32.0¡É" 4 "15.0¡É~32.0¡É" 5 "15.0¡É~32.0¡É" 6 "15.0¡É~32.0¡É" 7 "15.0¡É~32.0¡É" 8 "15.0¡É~32.0¡É" 9 "15.0¡É~32.0¡É" 10 "15.0¡É~32.0¡É" 11 "15.0¡É~32.0¡É" 12 "15.0¡É~32.0¡É" 13 "15.0¡É~32.0¡É" 14 "15.0¡É~32.0¡É" 15 "15.0¡É~32.0¡É" 16 "15.0¡É~32.0¡É" 17 "15.0¡É~32.0¡É" 18 "15.0¡É~32.0¡É" 19 "15.0¡É~32.0¡É" 20 "15.0¡É~32.0¡É" 21 "15.0¡É~32.0¡É" 22 "15.0¡É~32.0¡É" 23 "15.0¡É~32.0¡É" 24 "15.0¡É~32.0¡É" 25 "15.0¡É~32.0¡É" 26 "15.0¡É~32.0¡É" 27 "15.0¡É~32.0¡É" 28 "15.0¡É~32.0¡É" 29 "15.0¡É~32.0¡É" 30 "15.0¡É~32.0¡É" 31 "15.0¡É~32.0¡É" 32 "15.0¡É~32.0¡É" 33 "15.0¡É~32.0¡É" 34 "15.0¡É~32.0¡É" 35 "15.0¡É~32.0¡É" 36 "15.0¡É~32.0¡É" 37 "0x25~0xFD:RESERVED" 253 "0x25~0xFD:RESERVED" 254 "'HI' Display" 255 "Error Indicator" ;
+VAL_ 40 L_ATCU_UtilModeUsmSta 0 "Disable" 1 "Rest Mode Off" 2 "Rest Mode On" 3 "Invalid" ;
+VAL_ 40 L_ATCU_RrAcDis 0 "AC OFF" 1 "AC ON" 2 "Not used" 3 "Error Indicator" ;
+VAL_ 40 L_ATCU_3rdAcDis 0 "AC Off" 1 "AC ON" 2 "Not used" 3 "Error Indicator" ;
+VAL_ 41 L_ATCU_OutTempDispC 0 "Default" 1 "Not Used" 2 "0x02~0xCA:-40¡É~60¡É" 202 "0x02~0xCA:-40¡É~60¡É" 203 "RESERVED" 204 "RESERVED" 205 "RESERVED" 206 "RESERVED" 207 "RESERVED" 208 "RESERVED" 209 "RESERVED" 210 "RESERVED" 211 "RESERVED" 212 "RESERVED" 213 "RESERVED" 214 "RESERVED" 215 "RESERVED" 216 "RESERVED" 217 "RESERVED" 218 "RESERVED" 219 "RESERVED" 220 "RESERVED" 221 "RESERVED" 222 "RESERVED" 223 "RESERVED" 224 "RESERVED" 225 "RESERVED" 226 "RESERVED" 227 "RESERVED" 228 "RESERVED" 229 "RESERVED" 230 "RESERVED" 231 "RESERVED" 232 "RESERVED" 233 "RESERVED" 234 "RESERVED" 235 "RESERVED" 236 "RESERVED" 237 "RESERVED" 238 "RESERVED" 239 "RESERVED" 240 "RESERVED" 241 "RESERVED" 242 "RESERVED" 243 "RESERVED" 244 "RESERVED" 245 "RESERVED" 246 "RESERVED" 247 "RESERVED" 248 "RESERVED" 249 "RESERVED" 250 "RESERVED" 251 "RESERVED" 252 "RESERVED" 253 "RESERVED" 254 "Sensor Fail (--Display)" 255 "Invalid" ;
+VAL_ 41 L_ATCU_DtntOutSta 0 "Detent Off" 1 "Detent On" ;
+VAL_ 41 L_ATCU_AutoBrightSta 0 "RESERVED" 1 "0x01~0xC8:Bright State (1~200 Step)" 200 "0x01~0xC8:Bright State (1~200 Step)" 201 "RESERVED" 202 "RESERVED" 203 "RESERVED" 204 "RESERVED" 205 "RESERVED" 206 "RESERVED" 207 "RESERVED" 208 "RESERVED" 209 "RESERVED" 210 "RESERVED" 211 "RESERVED" 212 "RESERVED" 213 "RESERVED" 214 "RESERVED" 215 "RESERVED" 216 "RESERVED" 217 "RESERVED" 218 "RESERVED" 219 "RESERVED" 220 "RESERVED" 221 "RESERVED" 222 "RESERVED" 223 "RESERVED" 224 "RESERVED" 225 "RESERVED" 226 "RESERVED" 227 "RESERVED" 228 "RESERVED" 229 "RESERVED" 230 "RESERVED" 231 "RESERVED" 232 "RESERVED" 233 "RESERVED" 234 "RESERVED" 235 "RESERVED" 236 "RESERVED" 237 "RESERVED" 238 "RESERVED" 239 "RESERVED" 240 "RESERVED" 241 "RESERVED" 242 "RESERVED" 243 "RESERVED" 244 "RESERVED" 245 "RESERVED" 246 "RESERVED" 247 "RESERVED" 248 "RESERVED" 249 "RESERVED" 250 "RESERVED" 251 "RESERVED" 252 "RESERVED" 253 "RESERVED" 254 "RESERVED" 255 "RESERVED" ;
+VAL_ 41 L_ATCU_DustSnrVal 1021 "Standby" 1022 "Init" 1023 "RESERVED" ;
+VAL_ 41 L_ATCU_NotMinModeBrightSta 0 "RESERVED (Not Used)" 1 "0x01~0xC8:Bright State(1~200 Step)" 200 "0x01~0xC8:Bright State(1~200 Step)" ;
+VAL_ 41 L_ATCU_IAUPrfleVal 0 "Default" 1 "Guest" 2 "Profile 1" 3 "Profile 2" 4 "Profile 3" 5 "Profile 4" 6 "Profile 5" 7 "Proflie 6" 8 "Profile 7" 9 "Profile 8" 10 "Profile 9" 11 "RESERVED" 12 "RESERVED" 13 "RESERVED" 14 "RESERVED" 15 "Invalid" ;
+VAL_ 41 L_ATCU_AVNPrfleVal 0 "Default" 1 "Guest" 2 "Profile 1" 3 "Profile 2" 4 "Profile 3" 5 "Profile 4" 6 "Profile 5" 7 "Profile 6" 8 "Profile 7" 9 "Profile 8" 10 "Profile 9" 11 "RESERVED" 12 "RESERVED" 13 "RESERVED" 14 "RESERVED" 15 "Invalid" ;
+VAL_ 41 L_ATCU_SchdldClimateSta 0 "Default" 1 "Deactivated" 2 "Activated" 3 "Invalid" ;
+VAL_ 41 L_ATCU_OutTempDispF 0 "Default" 1 "Not Used" 2 "0x02~0xCA:-40¢µ~160¢µ" 202 "0x02~0xCA:-40¢µ~160¢µ" 203 "RESERVED" 204 "RESERVED" 205 "RESERVED" 206 "RESERVED" 207 "RESERVED" 208 "RESERVED" 209 "RESERVED" 210 "RESERVED" 211 "RESERVED" 212 "RESERVED" 213 "RESERVED" 214 "RESERVED" 215 "RESERVED" 216 "RESERVED" 217 "RESERVED" 218 "RESERVED" 219 "RESERVED" 220 "RESERVED" 221 "RESERVED" 222 "RESERVED" 223 "RESERVED" 224 "RESERVED" 225 "RESERVED" 226 "RESERVED" 227 "RESERVED" 228 "RESERVED" 229 "RESERVED" 230 "RESERVED" 231 "RESERVED" 232 "RESERVED" 233 "RESERVED" 234 "RESERVED" 235 "RESERVED" 236 "RESERVED" 237 "RESERVED" 238 "RESERVED" 239 "RESERVED" 240 "RESERVED" 241 "RESERVED" 242 "RESERVED" 243 "RESERVED" 244 "RESERVED" 245 "RESERVED" 246 "RESERVED" 247 "RESERVED" 248 "RESERVED" 249 "RESERVED" 250 "RESERVED" 251 "RESERVED" 252 "RESERVED" 253 "RESERVED" 254 "Sensor Fail (--Display)" 255 "Invalid" ;
+VAL_ 49 L_ATCU_ResetPreWrngForOthers 0 "No Warning" 1 "Warning" 2 "RESERVED" 3 "Invalid" ;
+VAL_ 49 L_ATCU_ResetReqForOthers 0 "No Request" 1 "Reset Request" 2 "RESERVED" 3 "Invalid" ;
+

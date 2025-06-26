@@ -1,0 +1,46 @@
+/*@!Encoding:949*/
+includes
+{
+
+}
+
+variables
+{
+  message Version_Request vr; 
+  //model is 0 -> MVA, NEA, MEA, CVA
+  //model is 1 -> QV, SU2I ¿Ü
+  int model = 0;
+}
+
+on preStart
+{
+  write("preStart");
+}
+
+on preStop
+{
+  write("preStop");
+}
+
+on message Version_Response {
+    
+  if (model == 0) {  
+    write("Version_Response : %c%c%c%c%c", this.byte(3), this.byte(4), this.byte(5), this.byte(6), this.byte(7));
+  } else {
+    write("Version_Response : %c%c%c%c%c", this.byte(2), this.byte(3), this.byte(4), this.byte(5), this.byte(6));
+  }
+}
+
+on key 's'
+{
+  write("measure start");
+  vr.Version_Request1 = 0x02;
+  vr.Version_Request2 = 0x1a;
+  vr.Version_Request3 = 0x93;
+  output(vr);
+}
+
+on key 'e'
+{
+  write("measure end");
+}

@@ -1,0 +1,144 @@
+<mxfile host="Electron" modified="2024-06-18T02:28:58.382Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.2 Chrome/114.0.5735.289 Electron/25.9.4 Safari/537.36" etag="17RP4zGx1TI3NnS4-tD1" version="22.1.2" type="device">
+  <diagram name="페이지-1" id="zLzheXXx0xL-TvJy2uC3">
+    <mxGraphModel dx="1007" dy="1790" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lj89-NlOicOcMFcTgLLm-1" value="Pre Check 로직 진입" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="-960" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lj89-NlOicOcMFcTgLLm-46" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="lj89-NlOicOcMFcTgLLm-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="-580" as="sourcePoint" />
+            <mxPoint x="680" y="-880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lj89-NlOicOcMFcTgLLm-55" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="-840.0000000000001" as="sourcePoint" />
+            <mxPoint x="679.9999999999998" y="-800.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lj89-NlOicOcMFcTgLLm-57" value="Low IGBT Check" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="-640" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lj89-NlOicOcMFcTgLLm-71" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="lj89-NlOicOcMFcTgLLm-57" target="lj89-NlOicOcMFcTgLLm-101">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="700" y="-500" as="sourcePoint" />
+            <mxPoint x="680" y="-560" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="680" y="-560" />
+              <mxPoint x="1080" y="-560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lj89-NlOicOcMFcTgLLm-77" value="Stabilization Time 1s" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="-880" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lj89-NlOicOcMFcTgLLm-79" value="High IGBT Check" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="-800" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lj89-NlOicOcMFcTgLLm-82" value="T &amp;lt; 100ms" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="568" y="-779" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lj89-NlOicOcMFcTgLLm-84" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lj89-NlOicOcMFcTgLLm-79" target="lj89-NlOicOcMFcTgLLm-79">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="-810" as="sourcePoint" />
+            <mxPoint x="680" y="-820" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="560" y="-780" />
+              <mxPoint x="560" y="-800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lj89-NlOicOcMFcTgLLm-86" value="IGBT Short" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="717" y="-779" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lj89-NlOicOcMFcTgLLm-90" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lj89-NlOicOcMFcTgLLm-79" target="lj89-NlOicOcMFcTgLLm-94">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="-810" as="sourcePoint" />
+            <mxPoint x="800" y="-780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lj89-NlOicOcMFcTgLLm-91" value="Normal" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="670" y="-760" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lj89-NlOicOcMFcTgLLm-92" value="작동 로직 진입" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="801" y="-640" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lj89-NlOicOcMFcTgLLm-94" value="High IGBT ReCheck" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="801" y="-800" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lj89-NlOicOcMFcTgLLm-95" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lj89-NlOicOcMFcTgLLm-94" target="lj89-NlOicOcMFcTgLLm-94">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="-810" as="sourcePoint" />
+            <mxPoint x="880" y="-830" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1000" y="-780" />
+              <mxPoint x="1000" y="-800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lj89-NlOicOcMFcTgLLm-96" value="T &amp;lt; 300ms" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="950" y="-779" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lj89-NlOicOcMFcTgLLm-97" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lj89-NlOicOcMFcTgLLm-94" target="lj89-NlOicOcMFcTgLLm-102">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="-810" as="sourcePoint" />
+            <mxPoint x="710" y="-860" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="881" y="-701" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lj89-NlOicOcMFcTgLLm-98" value="IGBT Short" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="922" y="-749" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lj89-NlOicOcMFcTgLLm-99" value="Normal" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="806" y="-764" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lj89-NlOicOcMFcTgLLm-101" value="IGBT Fault" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="-640" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lj89-NlOicOcMFcTgLLm-102" value="Stabilization Time 200ms" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="-720" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lj89-NlOicOcMFcTgLLm-103" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lj89-NlOicOcMFcTgLLm-79" target="lj89-NlOicOcMFcTgLLm-102">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="860" y="-600" as="sourcePoint" />
+            <mxPoint x="910" y="-650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lj89-NlOicOcMFcTgLLm-104" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lj89-NlOicOcMFcTgLLm-102" target="lj89-NlOicOcMFcTgLLm-57">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="860" y="-600" as="sourcePoint" />
+            <mxPoint x="910" y="-650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lj89-NlOicOcMFcTgLLm-105" value="IGBT Short" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="602" y="-603" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lj89-NlOicOcMFcTgLLm-106" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="lj89-NlOicOcMFcTgLLm-57">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="761" y="-622" as="sourcePoint" />
+            <mxPoint x="800" y="-620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lj89-NlOicOcMFcTgLLm-107" value="Normal" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="717" y="-619" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lj89-NlOicOcMFcTgLLm-108" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="lj89-NlOicOcMFcTgLLm-94">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="860" y="-670" as="sourcePoint" />
+            <mxPoint x="1079" y="-639" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="921" y="-720" />
+              <mxPoint x="1000" y="-720" />
+              <mxPoint x="1080" y="-720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

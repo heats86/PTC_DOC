@@ -1,0 +1,85 @@
+<mxfile host="Electron" modified="2024-06-18T05:18:44.498Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.2 Chrome/114.0.5735.289 Electron/25.9.4 Safari/537.36" etag="iHXs2hvU1veQd4yYZmN7" version="22.1.2" type="device">
+  <diagram name="페이지-1" id="zLzheXXx0xL-TvJy2uC3">
+    <mxGraphModel dx="628" dy="1833" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lj89-NlOicOcMFcTgLLm-1" value="Can 통신 초기화" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="680" y="-800" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lj89-NlOicOcMFcTgLLm-14" value="Can 통신 수신" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="680" y="-720" width="160" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="lj89-NlOicOcMFcTgLLm-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="lj89-NlOicOcMFcTgLLm-14" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="-580" as="sourcePoint" />
+            <mxPoint x="760" y="-641" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lj89-NlOicOcMFcTgLLm-16" value="T &amp;gt;= 500ms ~ 1s" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="630" y="-690" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lj89-NlOicOcMFcTgLLm-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="lj89-NlOicOcMFcTgLLm-1" target="lj89-NlOicOcMFcTgLLm-14" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="-580" as="sourcePoint" />
+            <mxPoint x="690" y="-630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lj89-NlOicOcMFcTgLLm-31" value="Can 통신 송신" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="920" y="-720" width="160" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="lj89-NlOicOcMFcTgLLm-32" value="T == 10ms" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="763" y="-680" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lj89-NlOicOcMFcTgLLm-35" value="T == 10ms" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="-677" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lj89-NlOicOcMFcTgLLm-36" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="lj89-NlOicOcMFcTgLLm-35" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="740" y="-410" as="sourcePoint" />
+            <mxPoint x="1000" y="-641" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lj89-NlOicOcMFcTgLLm-37" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="lj89-NlOicOcMFcTgLLm-38" target="lj89-NlOicOcMFcTgLLm-31" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="920" y="-621" as="sourcePoint" />
+            <mxPoint x="790" y="-460" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="880" y="-621" />
+              <mxPoint x="880" y="-650" />
+              <mxPoint x="880" y="-700" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lj89-NlOicOcMFcTgLLm-38" value="데이터 송신" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="920" y="-641" width="160" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="lj89-NlOicOcMFcTgLLm-40" value="데이터 분석 및 저장" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="680" y="-641" width="160" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="8MWr6v-9rM33zSHrD7R7-2" value="TIme Out Fault" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="-558" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8MWr6v-9rM33zSHrD7R7-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lj89-NlOicOcMFcTgLLm-14" target="8MWr6v-9rM33zSHrD7R7-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="820" y="-360" as="sourcePoint" />
+            <mxPoint x="870" y="-410" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="640" y="-698" />
+              <mxPoint x="640" y="-540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8MWr6v-9rM33zSHrD7R7-4" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="lj89-NlOicOcMFcTgLLm-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="760" y="-740" as="sourcePoint" />
+            <mxPoint x="1040" y="-830" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1000" y="-740" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

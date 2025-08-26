@@ -1,0 +1,5 @@
+Su2i 0℃
+CVa 0℃
+CVa -30℃
+MVa Front -30℃
+MVa Front 0℃
